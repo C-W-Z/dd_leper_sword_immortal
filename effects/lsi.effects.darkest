@@ -35,7 +35,7 @@ effect: .name "lsi_withstand_lv5" .target "performer" .curio_result_type "positi
 
 // (養劍吐納)自身：清除標記/腐蝕/流血/恐懼/疾病/猩紅詛咒/減益，重置技能使用次數，癒合5(1回合)=延遲治療5
 // 注意：有.queue true所以回合數不用多寫1，因為會在回合結束後才apply
-effect: .name "lsi_solemnity" .target "performer" .curio_result_type "positive" .chance 100% .untag 1 .dotHpHeal 5 .cure 1 .clearDotStress 1 .cure_disease 1 .remove_vampire 1 .clear_debuff 1 .refreshes_skill_uses true .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "lsi_solemnity" .target "performer" .curio_result_type "positive" .chance 100% .untag 1 .dotHpHeal 5 .cure_bleed 1 .cure_poison 1 .clearDotStress 1 .cure_disease 1 .remove_vampire 1 .clear_debuff 1 .refreshes_skill_uses true .duration 1 .on_hit true .on_miss false .queue true .apply_once true
 
 // (養劍吐納)自身：壓力治療
 effect: .name "lsi_heal_stress_lv1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true

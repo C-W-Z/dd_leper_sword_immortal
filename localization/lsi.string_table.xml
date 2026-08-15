@@ -8,8 +8,36 @@
 
 	<language id="schinese">
 
-		<entry id="effect_tooltip_cure_disease"><![CDATA[治愈{colour_start|disease}疾病{colour_end}]]></entry>
+		<entry id="str_skill_mode_info_sheathed"><![CDATA[藏鋒：]]></entry>
+		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘：]]></entry>
+		<entry id="actor_mode_name_sheathed"><![CDATA[藏鋒]]></entry>
+		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
 
+		<entry id="buff_rule_data_tooltip_focus"><![CDATA[萬劍歸宗]]></entry>
+		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
+
+		<entry id="effect_tooltip_steal_bsrc_crit"><![CDATA[清除萬劍歸宗{colour_start|buff}增益{colour_end}]]></entry>
+
+		<entry id="effect_tooltip_cure_disease"><![CDATA[治愈{colour_start|disease}疾病{colour_end}]]></entry>
+		<entry id="effect_tooltip_cure_debuff"><![CDATA[清除{colour_start|debuff}減益{colour_end}]]></entry>
+		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐懼{colour_end}]]></entry>
+		<entry id="effect_refresh_skill_uses"><![CDATA[重置所有技能使用次數]]></entry>
+
+		<entry id="combat_skill_name_leper_chop"><![CDATA[誅仙劍]]></entry>
+		<entry id="combat_skill_name_leper_hew"><![CDATA[盪魔劍]]></entry>
+		<entry id="combat_skill_name_leper_focus"><![CDATA[萬劍歸宗]]></entry>
+		<entry id="combat_skill_name_leper_revenge"><![CDATA[姿態轉換]]></entry>
+		<entry id="combat_skill_name_leper_solemnity"><![CDATA[養劍吐納]]></entry>
+		<entry id="combat_skill_name_leper_withstand"><![CDATA[反擊劍陣]]></entry>
+		<entry id="combat_skill_name_leper_intimidate"><![CDATA[仙威壓制]]></entry>
+		<entry id="combat_skill_name_leper_move"><![CDATA[移动]]></entry>
+		<entry id="upgrade_tree_name_leper.chop"><![CDATA[誅仙劍]]></entry>
+		<entry id="upgrade_tree_name_leper.hew"><![CDATA[盪魔劍]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[萬劍歸宗]]></entry>
+		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[姿態轉換]]></entry>
+		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[養劍吐納]]></entry>
+		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[反擊劍陣]]></entry>
+		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[仙威壓制]]></entry>
 	</language>
 
 </root>
