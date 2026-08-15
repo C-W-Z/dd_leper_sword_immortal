@@ -14,7 +14,20 @@ Allies: {colour_start|stress}Stress{colour_end} +2
 Switch to Sheathed Stance
 {colour_start|stealth}Stealth{colour_end} (2 rds)]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}Guard{colour_end} All Allies]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}Guard{colour_end} All Allies
+Self:
+2 Blocks]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte{colour_end}: -40%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte{colour_end}: -35%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte{colour_end}: -30%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte{colour_end}: -25%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte{colour_end}: -20%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}Heal {colour_end}5 (next turn)
 Clear {colour_start|mark}Mark{colour_end} / {colour_start|stress}Horror{colour_end} / {colour_start|debuff}Debuff{colour_end}]]></entry>
@@ -92,11 +105,16 @@ Stance Switch]]></entry>
 自身：
 2次格挡]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-40%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-35%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-30%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-25%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-20%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-40%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-35%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-30%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-25%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-20%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}治疗{colour_end}5(下回合)
 清除{colour_start|mark}标记{colour_end}/{colour_start|stress}恐惧{colour_end}/{colour_start|debuff}减益{colour_end}]]></entry>
@@ -119,11 +137,11 @@ Stance Switch]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
 -5速度/-10闪避/-10精准/-10%%暴击{colour_start|skill_unselectable}(150%%){colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蚀{colour_end}1/{colour_start|bleed}流血{colour_end}1{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蚀{colour_end}2/{colour_start|bleed}流血{colour_end}2{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}腐蚀{colour_end}3/{colour_start|bleed}流血{colour_end}3{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}腐蚀{colour_end}4/{colour_start|bleed}流血{colour_end}4{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}腐蚀{colour_end}5/{colour_start|bleed}流血{colour_end}5{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蚀{colour_end}1/{colour_start|bleed}流血{colour_end}1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蚀{colour_end}2/{colour_start|bleed}流血{colour_end}2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}腐蚀{colour_end}3/{colour_start|bleed}流血{colour_end}3 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}腐蚀{colour_end}4/{colour_start|bleed}流血{colour_end}4 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}腐蚀{colour_end}5/{colour_start|bleed}流血{colour_end}5 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
