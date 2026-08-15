@@ -18,24 +18,30 @@ Switch to Sheathed Stance
 Self:
 2 Blocks]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte{colour_end}: -40%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte{colour_end}: -35%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte{colour_end}: -30%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte{colour_end}: -25%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte{colour_end}: -20%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}Heal {colour_end}5 (next turn)
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}Heal{colour_end} 1]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}Heal{colour_end} 3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}Heal{colour_end} 4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}Heal{colour_end} 5]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 (next turn)
 Clear {colour_start|mark}Mark{colour_end} / {colour_start|stress}Horror{colour_end} / {colour_start|debuff}Debuff{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[Cure {colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} / {colour_start|disease}Disease{colour_end} / {colour_start|bleed}Crimson Curse{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[Cure {colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} / {colour_start|disease}Disease{colour_end} / {colour_start|bleed}Crimson Curse{colour_end}
 Reset skill limit]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[Remove {colour_start|guard}Guard{colour_end} / {colour_start|stealth}De-Stealth{colour_end} / Remove {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[Breaks {colour_start|guard}Guard{colour_end} / {colour_start|stealth}De-stealth{colour_end} / Remove {colour_start|riposte}Riposte{colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[Allies: Clear {colour_start|stress}Horror{colour_end} / {colour_start|stress}Stress{colour_end} +5]]></entry>
 
@@ -70,18 +76,18 @@ Switch to Sheathed Stance]]></entry>
 
 		<entry id="combat_skill_name_leper_revenge"><![CDATA[Uses per Round: 1
 Stance Switch]]></entry>
-		<entry id="combat_skill_name_leper_solemnity"><![CDATA[Immortal Meditation]]></entry>
-		<entry id="combat_skill_name_leper_withstand"><![CDATA[Sword Aegis]]></entry>
-		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Immortal Aura]]></entry>
+		<entry id="combat_skill_name_leper_solemnity"><![CDATA[Blade Respiration]]></entry>
+		<entry id="combat_skill_name_leper_withstand"><![CDATA[Riposte Array]]></entry>
+		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Celestial Suppression]]></entry>
 		<entry id="combat_skill_name_leper_chop"><![CDATA[Immortal Slay]]></entry>
 		<entry id="combat_skill_name_leper_hew"><![CDATA[Demon Purge]]></entry>
 		<entry id="combat_skill_name_leper_focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[Move]]></entry>
 		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[Uses per Round: 1
 Stance Switch]]></entry>
-		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[Immortal Meditation]]></entry>
-		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[Sword Aegis]]></entry>
-		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Immortal Aura]]></entry>
+		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[Blade Respiration]]></entry>
+		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[Riposte Array]]></entry>
+		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Celestial Suppression]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[Immortal Slay]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[Demon Purge]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
@@ -116,10 +122,16 @@ Stance Switch]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end}
 {colour_start|riposte}反击{colour_end}：-20%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}治疗{colour_end}5(下回合)
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}治疗{colour_end}1]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}治疗{colour_end}2]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}治疗{colour_end}3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}治疗{colour_end}4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}治疗{colour_end}5]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
 清除{colour_start|mark}标记{colour_end}/{colour_start|stress}恐惧{colour_end}/{colour_start|debuff}减益{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end}/{colour_start|bleed}流血{colour_end}/{colour_start|disease}疾病{colour_end}/{colour_start|bleed}猩红诅咒{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end}/{colour_start|bleed}流血{colour_end}/{colour_start|disease}疾病{colour_end}/{colour_start|bleed}猩红诅咒{colour_end}
 重置所有技能使用次数]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
@@ -127,15 +139,15 @@ Stance Switch]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[队友：清除{colour_start|stress}恐惧{colour_end} / {colour_start|stress}压力{colour_end}+5]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--1速度/-6闪避/-6精准/-6%%暴击{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+-1速度/-6闪避/-6精准/-6%%暴击 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--2速度/-7闪避/-7精准/-7%%暴击{colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+-2速度/-7闪避/-7精准/-7%%暴击 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--3速度/-8闪避/-8精准/-8%%暴击{colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+-3速度/-8闪避/-8精准/-8%%暴击 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--4速度/-9闪避/-9精准/-9%%暴击{colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
+-4速度/-9闪避/-9精准/-9%%暴击 {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--5速度/-10闪避/-10精准/-10%%暴击{colour_start|skill_unselectable}(150%%){colour_end}]]></entry>
+-5速度/-10闪避/-10精准/-10%%暴击 {colour_start|skill_unselectable}(150%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蚀{colour_end}1/{colour_start|bleed}流血{colour_end}1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蚀{colour_end}2/{colour_start|bleed}流血{colour_end}2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>

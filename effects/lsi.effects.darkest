@@ -15,19 +15,19 @@ effect: .name "lsi_others_stress+2" .target "performer_group_other" .curio_resul
 effect: .name "lsi_stealth_self" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2 .apply_once true .has_description false
 
 // 萬劍歸宗增益
-effect: .name "lsi_finale_buffs" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale_dmgL" "lsi_finale_dmgH" "lsi_finale_crit" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type quest_end .buff_source_type bsrc_crit .has_description true
-effect: .name "lsi_finale_buffs_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale2_dmgL" "lsi_finale2_dmgH" "lsi_finale2_crit" "lsi_finale2_ignore_prot" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type quest_end .buff_source_type bsrc_crit .has_description true
+effect: .name "lsi_finale_buffs" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale_dmgL" "lsi_finale_dmgH" "lsi_finale_crit" .on_hit true .on_miss false .apply_once true .queue true .duration -1 .buff_source_type bsrc_crit .has_description true
+effect: .name "lsi_finale_buffs_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale2_dmgL" "lsi_finale2_dmgH" "lsi_finale2_crit" "lsi_finale2_ignore_prot" .on_hit true .on_miss false .apply_once true .queue true .duration -1 .buff_source_type bsrc_crit .has_description true
 
 // (養劍吐納)自身：清除標記/腐蝕/流血/恐懼/疾病/猩紅詛咒/減益，重置技能使用次數，癒合5(1回合)=延遲治療5
 // 注意：有.queue true所以回合數不用多寫1，因為會在回合結束後才apply
 effect: .name "lsi_solemnity" .target "performer" .curio_result_type "positive" .chance 100% .untag 1 .dotHpHeal 5 .cure_bleed 1 .cure_poison 1 .clearDotStress 1 .cure_disease 1 .remove_vampire 1 .clear_debuff 1 .refreshes_skill_uses true .duration 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 // (養劍吐納)壓力治療
-effect: .name "lsi_heal_stress_lv1" .target "target" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv2" .target "target" .curio_result_type "positive" .chance 100% .healstress 7 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv3" .target "target" .curio_result_type "positive" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv4" .target "target" .curio_result_type "positive" .chance 100% .healstress 9 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv5" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv1" .target "target" .curio_result_type "positive" .chance 100% .heal 1 .healstress 6 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv2" .target "target" .curio_result_type "positive" .chance 100% .heal 2 .healstress 7 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv3" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .healstress 8 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv4" .target "target" .curio_result_type "positive" .chance 100% .heal 4.healstress 9 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv5" .target "target" .curio_result_type "positive" .chance 100% .heal 5 .healstress 10 .on_hit true .on_miss false .queue true .apply_once true .has_description true
 
 // (反擊劍陣)啟動反擊+反擊暈眩目標
 effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .riposte_effect "Stun 1" .apply_once true .has_description false
@@ -102,8 +102,13 @@ effect: .name "lsi_effect_withstand_tip2_lv3" .chance 100% .target "performer" .
 effect: .name "lsi_effect_withstand_tip2_lv4" .chance 100% .target "performer" .buff_ids "lsi_buff_withstand_tip2_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_withstand_tip2_lv5" .chance 100% .target "performer" .buff_ids "lsi_buff_withstand_tip2_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 
-effect: .name "lsi_effect_solemnity_tip1" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip1_lv1" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1_lv1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip1_lv2" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1_lv2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip1_lv3" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1_lv3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip1_lv4" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip1_lv5" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_solemnity_tip2" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip3" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 
 effect: .name "lsi_effect_intimidate_tip1" .chance 100% .target "performer" .buff_ids "lsi_buff_intimidate_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_intimidate_tip2" .chance 100% .target "performer" .buff_ids "lsi_buff_intimidate_tip2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
