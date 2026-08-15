@@ -1,0 +1,66 @@
+{
+  "version": 513,
+  "data": {
+    "nextGuid": 5,
+    "heroes": {
+      "1": {
+        "roster.status": 1,
+        "roster.missing_duration": 0,
+        "roster.story_variation": 0,
+        "roster.missing_from": 0,
+        "roster.building_name": "",
+        "actor": {
+          "name_id": "hero_name_reynauld",
+          "current_hp": 24,
+          "stunned": 0,
+          "ranks": 1,
+          "combat_ready": false,
+          "damage_source": "",
+          "damage_source_type": 0,
+          "damage_type": 0,
+          "buff_group": {}
+        },
+        "heroClass": "leper",
+        "resolveXp": 0,
+        "stress": 10,
+        "weapon_rank": 0,
+        "armour_rank": 0,
+        "affliction_severity": 0,
+        "affliction_type_id": "",
+        "quirks": {
+          "warrior_of_light": {
+            "is_new": false,
+            "is_locked": false,
+            "mission_count": 0
+          },
+          "kleptomaniac": {
+            "is_new": false,
+            "is_locked": false,
+            "mission_count": 0
+          },
+          "god_fearing": {
+            "is_new": false,
+            "is_locked": false,
+            "mission_count": 0
+          }
+        },
+        "skills": {
+          "selected_combat_skills": {
+          },
+          "selected_camping_skills": {
+            "encourage": 0,
+            "stand_tall": 0,
+            "zealous_speech": 0
+          }
+        },
+        "trinkets": {
+          "system_config_type": "hero_equipped_trinkets",
+          "items": {}
+        }
+      }
+    },
+    "last_party": {
+      "last_party_guids": [-1, -1, -1, 1]
+    }
+  }
+}

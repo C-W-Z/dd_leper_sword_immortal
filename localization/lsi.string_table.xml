@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+
+		<entry id="effect_tooltip_cure_disease"><![CDATA[Cure {colour_start|disease}Disease{colour_end}]]></entry>
+
+	</language>
+
+	<language id="schinese">
+
+		<entry id="effect_tooltip_cure_disease"><![CDATA[治愈{colour_start|disease}疾病{colour_end}]]></entry>
+
+	</language>
+
+</root>
