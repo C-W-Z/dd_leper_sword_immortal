@@ -15,7 +15,7 @@ effect: .name "lsi_others_stress+2" .target "performer_group_other" .curio_resul
 effect: .name "lsi_stealth_self" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2 .apply_once true .has_description false
 
 // 萬劍歸宗增益
-effect: .name "lsi_finale_buffs" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale_dmgL" "lsi_finale_dmgH" "lsi_finale_crit" .on_hit true .on_miss false .apply_once true .queue true .duration -1 .buff_source_type bsrc_crit .has_description true
+effect: .name "lsi_finale_buffs" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale_dmgL" "lsi_finale_dmgH" "lsi_finale_crit" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_crit .has_description true
 effect: .name "lsi_finale_buffs_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale2_dmgL" "lsi_finale2_dmgH" "lsi_finale2_crit" "lsi_finale2_ignore_prot" .on_hit true .on_miss false .apply_once true .queue true .duration -1 .buff_source_type bsrc_crit .has_description true
 
 // (養劍吐納)自身：清除標記/腐蝕/流血/恐懼/疾病/猩紅詛咒/減益，重置技能使用次數，癒合5(1回合)=延遲治療5
@@ -67,14 +67,14 @@ effect: .name "lsi_others_stress" .target "performer_group_other" .curio_result_
 effect: .name "lsi_vampire_killer+25" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false .has_description true
 
 // (盪魔劍)流血/腐蝕
-effect: .name "lsi_dot_lv1" .target "target" .curio_result_type "negative" .chance 110% .dotBleed 1 .dotPoison 1 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "lsi_dot_lv2" .target "target" .curio_result_type "negative" .chance 120% .dotBleed 2 .dotPoison 2 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "lsi_dot_lv3" .target "target" .curio_result_type "negative" .chance 130% .dotBleed 3 .dotPoison 3 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "lsi_dot_lv4" .target "target" .curio_result_type "negative" .chance 140% .dotBleed 4 .dotPoison 4 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "lsi_dot_lv5" .target "target" .curio_result_type "negative" .chance 150% .dotBleed 5 .dotPoison 5 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv1" .target "target" .curio_result_type "negative" .chance 110% .dotBleed 1 .dotPoison 1 .duration -1 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv2" .target "target" .curio_result_type "negative" .chance 120% .dotBleed 2 .dotPoison 2 .duration -1 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv3" .target "target" .curio_result_type "negative" .chance 130% .dotBleed 3 .dotPoison 3 .duration -1 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv4" .target "target" .curio_result_type "negative" .chance 140% .dotBleed 4 .dotPoison 4 .duration -1 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv5" .target "target" .curio_result_type "negative" .chance 150% .dotBleed 5 .dotPoison 5 .duration -1 .on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 // (萬劍歸宗)清除萬劍歸宗增益
-effect: .name "lsi_clear_finale_buffs" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "lsi_clear_finale_buffs" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit .on_hit true .on_miss true .queue true .apply_once true .has_description false
 
 // (萬劍歸宗)切換模式為：藏鋒
 effect: .name "lsi_switch_mode_sheathed_queue" .target "performer" .set_mode sheathed .chance 100% .on_hit true .on_miss false .queue true .apply_once true .has_description false

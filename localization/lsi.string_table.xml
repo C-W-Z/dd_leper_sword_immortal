@@ -91,6 +91,9 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[Immortal Slay]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[Demon Purge]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+
+		<entry id="hero_name_lsi"><![CDATA[Nameless]]></entry>
+
 	</language>
 
 	<language id="schinese">
@@ -185,6 +188,9 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[诛仙剑]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[荡魔剑]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+
+		<entry id="hero_name_lsi"><![CDATA[无名]]></entry>
+
 	</language>
 
 </root>

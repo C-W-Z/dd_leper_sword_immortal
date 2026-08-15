@@ -86,5 +86,7 @@ skill_selection: .can_select_combat_skills false .number_of_selected_combat_skil
 mode: .id sheathed .is_raid_default true
 mode: .id unsheathed .battle_complete_combat_skill_id revenge
 
+quirk_modifier: .incompatible_class_ids god_fearing flagellant enlightened corvids_appetite sitiomania stress_eater
+
 // 生成時特質/技能可能性
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0

@@ -51,7 +51,7 @@
       "torchlight": 100,
       "IsMovingLeft()": false,
       "retreat_room": "rooA",
-      "heroes": [1],
+      "heroes": [3],
       "start_heroes_size": 4,
       "scoutChance_all": 0.33,
       "scoutModifier_all": 0,
