@@ -45,7 +45,7 @@ Reset skill limit]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[Cannot Miss
 Bypass {colour_start|riposte}Riposte{colour_end}
-Clear {colour_start|myriad_blades}Myriad Blades{colour_end} Buffs
+Clear {colour_start|myriad_blades}Myriad Blades{colour_end} {colour_start|buff}Buffs{colour_end}
 Switch to Sheathed Stance]]></entry>
 
 		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
@@ -119,7 +119,7 @@ Stance Switch]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
-清除{colour_start|myriad_blades}万剑归宗{colour_end}增益
+清除{colour_start|myriad_blades}万剑归宗{colour_end}{colour_start|buff}增益{colour_end}
 转变为藏锋姿态]]></entry>
 
 		<!-- 原为%d%%基础概率，为了省字数所以简短 -->
