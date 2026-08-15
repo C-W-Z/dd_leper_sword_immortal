@@ -40,6 +40,71 @@
       }
     },
     {
+      "id": "lsi_buff_withstand_tip2_lv1",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "lsi_buff_withstand_tip2_lv1",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_buff_withstand_tip2_lv2",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "lsi_buff_withstand_tip2_lv2",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_buff_withstand_tip2_lv3",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "lsi_buff_withstand_tip2_lv3",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_buff_withstand_tip2_lv4",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "lsi_buff_withstand_tip2_lv4",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_buff_withstand_tip2_lv5",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "lsi_buff_withstand_tip2_lv5",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
       "id": "lsi_buff_solemnity_tip1",
       "stat_type": "upgrade_discount",
       "stat_sub_type": "lsi_buff_solemnity_tip1",

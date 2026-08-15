@@ -88,7 +88,15 @@ Stance Switch]]></entry>
 转变为藏锋姿态
 {colour_start|stealth}潜行{colour_end}(2回合)]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴
+自身：
+2次格挡]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-40%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-35%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-30%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-25%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end} / {colour_start|riposte}反击{colour_end}：-20%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}目标{colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}治疗{colour_end}5(下回合)
 清除{colour_start|mark}标记{colour_end}/{colour_start|stress}恐惧{colour_end}/{colour_start|debuff}减益{colour_end}]]></entry>
