@@ -3,78 +3,109 @@
 effect: .name "lsi_on_crit_extra_round" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .apply_once true .queue true .crit_doesnt_apply_to_roll true .has_description false
 
 // (姿態轉換)切換模式為：出鞘
-effect: .name "lsi_switch_mode_unsheathed" .target "performer" .set_mode unsheathed .chance 100% .on_hit true .on_miss false .queue false .apply_once true
+effect: .name "lsi_switch_mode_unsheathed" .target "performer" .set_mode unsheathed .chance 100% .on_hit true .on_miss false .queue false .apply_once true .has_description false
 
 // (姿態轉換)切換模式為：藏鋒
-effect: .name "lsi_switch_mode_sheathed" .target "performer" .set_mode sheathed .chance 100% .on_hit true .on_miss false .queue false .apply_once true
+effect: .name "lsi_switch_mode_sheathed" .target "performer" .set_mode sheathed .chance 100% .on_hit true .on_miss false .queue false .apply_once true .has_description false
 
 // (姿態轉換)所有同伴+2壓力
-effect: .name "lsi_others_stress+2" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "lsi_others_stress+2" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 2 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+
+// (姿態轉換)自身潛行(2回合)
+effect: .name "lsi_stealth_self" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2 .apply_once true .has_description false
 
 // 萬劍歸宗增益
-effect: .name "lsi_finale_buffs" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale_dmgL" "lsi_finale_dmgH" "lsi_finale_crit" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type quest_end .buff_source_type bsrc_crit
-
-effect: .name "lsi_finale_buffs_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale2_dmgL" "lsi_finale2_dmgH" "lsi_finale2_crit" "lsi_finale2_ignore_prot" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type quest_end .buff_source_type bsrc_crit
-
-// (反擊劍陣)啟動反擊+反擊暈眩目標
-effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .riposte_effect "Stun 1" .apply_once true
-effect: .name "lsi_riposte_lv2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .riposte_effect "Stun 2" .apply_once true
-effect: .name "lsi_riposte_lv3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .riposte_effect "Stun 3" .apply_once true
-effect: .name "lsi_riposte_lv4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .riposte_effect "Stun 4" .apply_once true
-effect: .name "lsi_riposte_lv5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 5 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .riposte_effect "Stun 5" .apply_once true
-
-// (反擊劍陣)守護所有同伴(3回合)
-effect: .name "lsi_guard_all" .target "target_group" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true
-
-// (反擊劍陣)自身：2次格擋，+防禦/-受到的壓力傷害
-effect: .name "lsi_withstand_lv1" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 3 .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "lsi_withstand_lv2" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+9" "lsi_STRESSRECEIVED-9" .duration 3 .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "lsi_withstand_lv3" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+11" "lsi_STRESSRECEIVED-11" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "lsi_withstand_lv4" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+13" "lsi_STRESSRECEIVED-13" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "lsi_withstand_lv5" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+15" "lsi_STRESSRECEIVED-15" .duration 5 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "lsi_finale_buffs" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale_dmgL" "lsi_finale_dmgH" "lsi_finale_crit" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type quest_end .buff_source_type bsrc_crit .has_description true
+effect: .name "lsi_finale_buffs_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_finale2_dmgL" "lsi_finale2_dmgH" "lsi_finale2_crit" "lsi_finale2_ignore_prot" .on_hit true .on_miss false .apply_once true .queue true .duration 1 .buff_duration_type quest_end .buff_source_type bsrc_crit .has_description true
 
 // (養劍吐納)自身：清除標記/腐蝕/流血/恐懼/疾病/猩紅詛咒/減益，重置技能使用次數，癒合5(1回合)=延遲治療5
 // 注意：有.queue true所以回合數不用多寫1，因為會在回合結束後才apply
-effect: .name "lsi_solemnity" .target "performer" .curio_result_type "positive" .chance 100% .untag 1 .dotHpHeal 5 .cure_bleed 1 .cure_poison 1 .clearDotStress 1 .cure_disease 1 .remove_vampire 1 .clear_debuff 1 .refreshes_skill_uses true .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "lsi_solemnity" .target "performer" .curio_result_type "positive" .chance 100% .untag 1 .dotHpHeal 5 .cure_bleed 1 .cure_poison 1 .clearDotStress 1 .cure_disease 1 .remove_vampire 1 .clear_debuff 1 .refreshes_skill_uses true .duration 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
-// (養劍吐納)自身：壓力治療
-effect: .name "lsi_heal_stress_lv1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "lsi_heal_stress_lv2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 7 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "lsi_heal_stress_lv3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "lsi_heal_stress_lv4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 9 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "lsi_heal_stress_lv5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true .apply_once true
+// (養劍吐納)壓力治療
+effect: .name "lsi_heal_stress_lv1" .target "target" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv2" .target "target" .curio_result_type "positive" .chance 100% .healstress 7 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv3" .target "target" .curio_result_type "positive" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv4" .target "target" .curio_result_type "positive" .chance 100% .healstress 9 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv5" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+
+// (反擊劍陣)啟動反擊+反擊暈眩目標
+effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .riposte_effect "Stun 1" .apply_once true .has_description true
+effect: .name "lsi_riposte_lv2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .riposte_effect "Stun 2" .apply_once true .has_description true
+effect: .name "lsi_riposte_lv3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .riposte_effect "Stun 3" .apply_once true .has_description true
+effect: .name "lsi_riposte_lv4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .riposte_effect "Stun 4" .apply_once true .has_description true
+effect: .name "lsi_riposte_lv5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 5 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .riposte_effect "Stun 5" .apply_once true .has_description true
+
+// (反擊劍陣)守護所有同伴(3回合)
+effect: .name "lsi_guard_all" .target "target_group" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true .has_description false
+
+// (反擊劍陣)自身：2次格擋，+防禦/-受到的壓力傷害
+effect: .name "lsi_withstand_lv1" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 3 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv2" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+9" "lsi_STRESSRECEIVED-9" .duration 3 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv3" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+11" "lsi_STRESSRECEIVED-11" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv4" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+13" "lsi_STRESSRECEIVED-13" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv5" .target "performer" .curio_result_type "positive" .chance 100% .health_damage_blocks 2 .buff_ids "lsi_PROT+15" "lsi_STRESSRECEIVED-15" .duration 5 .on_hit true .on_miss true .queue true .apply_once true .has_description true
 
 // (仙威壓制)破除潛行/移除守護/移除反擊
-effect: .name "lsi_intimidate" .target "target" .chance 100% .unstealth 1 .clearguarded 1 .clear_riposte 1 .on_hit true .on_miss false .apply_once true
+effect: .name "lsi_intimidate" .target "target" .chance 100% .unstealth 1 .clearguarded 1 .clear_riposte 1 .duration 3 .on_hit true .on_miss false .apply_once true .has_description false
 
 // (仙威壓制)無法被守護(2回合)
-effect: .name "lsi_disable_guarded" .target target .chance 500% .buff_ids "lsi_block_guard" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "lsi_disable_guarded" .target target .chance 500% .buff_ids "lsi_block_guard" .duration 2 .on_hit true .on_miss false .queue true .apply_once true .has_description true
 
 // (仙威壓制)目標-速度/-閃避/-精準/-暴擊
-effect: .name "lsi_debuff_target_lv1" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .speed_rating_add -1 .defense_rating_add -6% .attack_rating_add -6% .crit_chance_add -6% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_debuff_target_lv2" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .speed_rating_add -2 .defense_rating_add -7% .attack_rating_add -7% .crit_chance_add -7% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_debuff_target_lv3" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .speed_rating_add -3 .defense_rating_add -8% .attack_rating_add -8% .crit_chance_add -8% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_debuff_target_lv4" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .speed_rating_add -4 .defense_rating_add -9% .attack_rating_add -9% .crit_chance_add -9% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_debuff_target_lv5" .target "target" .curio_result_type "negative" .chance 150% .duration 3 .combat_stat_buff 1 .speed_rating_add -5 .defense_rating_add -10% .attack_rating_add -10% .crit_chance_add -10% .on_hit true .on_miss false .apply_once true
+effect: .name "lsi_debuff_target_lv1" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .speed_rating_add -1 .defense_rating_add -6% .attack_rating_add -6% .crit_chance_add -6% .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "lsi_debuff_target_lv2" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .speed_rating_add -2 .defense_rating_add -7% .attack_rating_add -7% .crit_chance_add -7% .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "lsi_debuff_target_lv3" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .speed_rating_add -3 .defense_rating_add -8% .attack_rating_add -8% .crit_chance_add -8% .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "lsi_debuff_target_lv4" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .speed_rating_add -4 .defense_rating_add -9% .attack_rating_add -9% .crit_chance_add -9% .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "lsi_debuff_target_lv5" .target "target" .curio_result_type "negative" .chance 150% .duration 3 .combat_stat_buff 1 .speed_rating_add -5 .defense_rating_add -10% .attack_rating_add -10% .crit_chance_add -10% .on_hit true .on_miss false .apply_once true .has_description true
 
 // (仙威壓制)所有同伴+壓力/清除恐懼
-effect: .name "lsi_others_stress" .target "performer_group_other" .curio_result_type "negative" .chance 100% .clearDotStress 1 .stress 5 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "lsi_others_stress" .target "performer_group_other" .curio_result_type "negative" .chance 100% .clearDotStress 1 .stress 5 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 // (盪魔劍)對血族+25%傷害
-effect: .name "lsi_vampire_killer+25" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false .apply_once true
+effect: .name "lsi_vampire_killer+25" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false .apply_once true .has_description true
 
-// (盪魔劍)流血/腐蝕/-受到的生命治療
-effect: .name "lsi_dot_lv1" .target "target" .curio_result_type "negative" .chance 110% .dotBleed 1 .dotPoison 1 .buff_ids "lsi_heal_received-20" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "lsi_dot_lv2" .target "target" .curio_result_type "negative" .chance 120% .dotBleed 2 .dotPoison 2 .buff_ids "lsi_heal_received-20" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "lsi_dot_lv3" .target "target" .curio_result_type "negative" .chance 130% .dotBleed 3 .dotPoison 3 .buff_ids "lsi_heal_received-20" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "lsi_dot_lv4" .target "target" .curio_result_type "negative" .chance 140% .dotBleed 4 .dotPoison 4 .buff_ids "lsi_heal_received-20" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "lsi_dot_lv5" .target "target" .curio_result_type "negative" .chance 150% .dotBleed 5 .dotPoison 5 .buff_ids "lsi_heal_received-20" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true
+// (盪魔劍)流血/腐蝕
+effect: .name "lsi_dot_lv1" .target "target" .curio_result_type "negative" .chance 110% .dotBleed 1 .dotPoison 1 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv2" .target "target" .curio_result_type "negative" .chance 120% .dotBleed 2 .dotPoison 2 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv3" .target "target" .curio_result_type "negative" .chance 130% .dotBleed 3 .dotPoison 3 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv4" .target "target" .curio_result_type "negative" .chance 140% .dotBleed 4 .dotPoison 4 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "lsi_dot_lv5" .target "target" .curio_result_type "negative" .chance 150% .dotBleed 5 .dotPoison 5 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 // (萬劍歸宗)清除萬劍歸宗增益
-effect: .name "lsi_clear_finale_buffs" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit on_hit true .on_miss true .queue true .apply_once true
+effect: .name "lsi_clear_finale_buffs" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit on_hit true .on_miss true .queue true .apply_once true .has_description false
 
 // (萬劍歸宗)切換模式為：藏鋒
-effect: .name "lsi_switch_mode_sheathed_queue" .target "performer" .set_mode sheathed .chance 100% .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "lsi_switch_mode_sheathed_queue" .target "performer" .set_mode sheathed .chance 100% .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 // (萬劍歸宗)減益自身速度/受到的壓力傷害
-effect: .name "lsi_finale_debuffs" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+50" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "lsi_finale_debuffs_lv1" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+100" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+// (萬劍歸宗)減益自身速度/受到的壓力傷害
+effect: .name "lsi_finale_debuffs_lv2" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+95" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+// (萬劍歸宗)減益自身速度/受到的壓力傷害
+effect: .name "lsi_finale_debuffs_lv3" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+90" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+// (萬劍歸宗)減益自身速度/受到的壓力傷害
+effect: .name "lsi_finale_debuffs_lv4" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+85" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+// (萬劍歸宗)減益自身速度/受到的壓力傷害
+effect: .name "lsi_finale_debuffs_lv5" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+80" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+
+// ---------- tooltips ----------
+
+effect: .name "lsi_effect_revenge_tip_sheathed" .chance 100% .target "performer" .buff_ids "lsi_buff_revenge_tip_sheathed" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_revenge_tip_unsheathed" .chance 100% .target "performer" .buff_ids "lsi_buff_revenge_tip_unsheathed" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+
+effect: .name "lsi_effect_withstand_tip1" .chance 100% .target "performer" .buff_ids "lsi_buff_withstand_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+
+effect: .name "lsi_effect_solemnity_tip1" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_solemnity_tip2" .chance 100% .target "performer" .buff_ids "lsi_buff_solemnity_tip2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+
+effect: .name "lsi_effect_intimidate_tip1" .chance 100% .target "performer" .buff_ids "lsi_buff_intimidate_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_intimidate_tip2" .chance 100% .target "performer" .buff_ids "lsi_buff_intimidate_tip2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+
+effect: .name "lsi_effect_hew_tip1_lv1" .chance 100% .target "performer" .buff_ids "lsi_buff_hew_tip1_lv1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_hew_tip1_lv2" .chance 100% .target "performer" .buff_ids "lsi_buff_hew_tip1_lv2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_hew_tip1_lv3" .chance 100% .target "performer" .buff_ids "lsi_buff_hew_tip1_lv3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_hew_tip1_lv4" .chance 100% .target "performer" .buff_ids "lsi_buff_hew_tip1_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+effect: .name "lsi_effect_hew_tip1_lv5" .chance 100% .target "performer" .buff_ids "lsi_buff_hew_tip1_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
+
+effect: .name "lsi_effect_focus_tip1" .chance 100% .target "performer" .buff_ids "lsi_buff_focus_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true

@@ -244,10 +244,70 @@
       }
     },
     {
-      "id": "lsi_finale_stress_received+50",
+      "id": "lsi_finale_stress_received+80",
       "stat_type": "stress_dmg_received_percent",
       "stat_sub_type": "",
-      "amount": 0.5,
+      "amount": 0.8,
+      "remove_if_not_active": false,
+      "remove_on_battle_complete": true,
+      "is_clear_debuff_valid": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_finale_stress_received+85",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.85,
+      "remove_if_not_active": false,
+      "remove_on_battle_complete": true,
+      "is_clear_debuff_valid": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_finale_stress_received+90",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.9,
+      "remove_if_not_active": false,
+      "remove_on_battle_complete": true,
+      "is_clear_debuff_valid": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_finale_stress_received+95",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.95,
+      "remove_if_not_active": false,
+      "remove_on_battle_complete": true,
+      "is_clear_debuff_valid": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_finale_stress_received+100",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 1,
       "remove_if_not_active": false,
       "remove_on_battle_complete": true,
       "is_clear_debuff_valid": false,
@@ -276,6 +336,58 @@
       "stat_type": "hp_heal_received_percent",
       "stat_sub_type": "",
       "amount": -0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_deathsdoor_dot_heal",
+      "stat_type": "hp_dot_heal",
+      "stat_sub_type": "",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_deathsdoor_DEF",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "defense_rating",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_deathsdoor_CRIT",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_deathsdoor_SRD",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.33,
       "remove_if_not_active": false,
       "rule_type": "always",
       "is_false_rule": false,

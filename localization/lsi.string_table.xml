@@ -2,42 +2,125 @@
 <root>
 	<language id="english">
 
-		<entry id="effect_tooltip_cure_disease"><![CDATA[Cure {colour_start|disease}Disease{colour_end}]]></entry>
+        <entry id="str_skill_mode_info_sheathed"><![CDATA[Sheathed Stance:]]></entry>
+        <entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
+        <entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
+        <entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
 
-	</language>
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_sheathed"><![CDATA[Self: Switch to Unsheathed Stance
+Allies: {colour_start|stress}Stress{colour_end} +2
+]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_unsheathed"><![CDATA[Self:
+Switch to Sheathed Stance
+{colour_start|stealth}Stealth{colour_end} (2 rds)]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}Guard{colour_end} All Allies]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}Heal {colour_end}5 (next turn)
+Clear {colour_start|mark}Mark{colour_end} / {colour_start|stress}Horror{colour_end} / {colour_start|debuff}Debuff{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[Cure {colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} / {colour_start|disease}Disease{colour_end} / {colour_start|bleed}Crimson Curse{colour_end}
+Reset skill limit]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[Remove {colour_start|guard}Guard{colour_end} / {colour_start|stealth}De-Stealth{colour_end} / Remove {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[Allies: Clear {colour_start|stress}Horror{colour_end} / {colour_start|stress}Stress{colour_end} +5]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}Blight{colour_end} 1 / {colour_start|bleed}Bleed{colour_end} 1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}Blight{colour_end} 2 / {colour_start|bleed}Bleed{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}Blight{colour_end} 3 / {colour_start|bleed}Bleed{colour_end} 3 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}Blight{colour_end} 4 / {colour_start|bleed}Bleed{colour_end} 4 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}Blight{colour_end} 5 / {colour_start|bleed}Bleed{colour_end} 5 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[Cannot Miss
+Bypass {colour_start|riposte}Riposte{colour_end}
+Clear Myriad Blades Buffs
+Switch to Sheathed Stance]]></entry>
+
+        <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+
+        <entry id="buff_rule_data_tooltip_focus"><![CDATA[Myriad Blades]]></entry>
+        <entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
+
+        <entry id="combat_skill_name_leper_revenge"><![CDATA[Uses per Round: 1
+Stance Switch]]></entry>
+        <entry id="combat_skill_name_leper_solemnity"><![CDATA[Immortal Meditation]]></entry>
+        <entry id="combat_skill_name_leper_withstand"><![CDATA[Sword Aegis]]></entry>
+        <entry id="combat_skill_name_leper_intimidate"><![CDATA[Immortal Aura]]></entry>
+        <entry id="combat_skill_name_leper_chop"><![CDATA[Immortal Slay]]></entry>
+        <entry id="combat_skill_name_leper_hew"><![CDATA[Demon Purge]]></entry>
+        <entry id="combat_skill_name_leper_focus"><![CDATA[Myriad Blades]]></entry>
+        <entry id="combat_skill_name_leper_move"><![CDATA[Move]]></entry>
+        <entry id="upgrade_tree_name_leper.revenge"><![CDATA[Uses per Round: 1
+Stance Switch]]></entry>
+        <entry id="upgrade_tree_name_leper.solemnity"><![CDATA[Immortal Meditation]]></entry>
+        <entry id="upgrade_tree_name_leper.withstand"><![CDATA[Sword Aegis]]></entry>
+        <entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Immortal Aura]]></entry>
+        <entry id="upgrade_tree_name_leper.chop"><![CDATA[Immortal Slay]]></entry>
+        <entry id="upgrade_tree_name_leper.hew"><![CDATA[Demon Purge]]></entry>
+        <entry id="upgrade_tree_name_leper.focus"><![CDATA[Myriad Blades]]></entry>
+    </language>
 
 	<language id="schinese">
 
-		<entry id="str_skill_mode_info_sheathed"><![CDATA[藏鋒：]]></entry>
-		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘：]]></entry>
+		<entry id="str_skill_mode_info_sheathed"><![CDATA[藏鋒姿態時：]]></entry>
+		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿態時：]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏鋒]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_sheathed"><![CDATA[自身：轉變為出鞘姿態
+隊友：{colour_start|stress}壓力{colour_end}+2
+]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_unsheathed"><![CDATA[自身：
+轉變為藏鋒姿態
+{colour_start|stealth}潛行{colour_end}(2回合)]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守護{colour_end}所有同伴]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1"><![CDATA[{colour_start|healhp}治療{colour_end}5(下回合)
+清除{colour_start|mark}標記{colour_end}/{colour_start|stress}恐懼{colour_end}/{colour_start|debuff}減益{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[治癒{colour_start|blight}腐蝕{colour_end}/{colour_start|bleed}流血{colour_end}/{colour_start|disease}疾病{colour_end}/{colour_start|bleed}猩紅詛咒{colour_end}
+重置所有技能使用次數]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守護{colour_end} / {colour_start|stealth}顯蹤{colour_end} / 移除{colour_start|riposte}反擊{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[隊友：清除{colour_start|stress}恐懼{colour_end} / {colour_start|stress}壓力{colour_end}+5]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蝕{colour_end}1/{colour_start|bleed}流血{colour_end}1{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蝕{colour_end}2/{colour_start|bleed}流血{colour_end}2{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}腐蝕{colour_end}3/{colour_start|bleed}流血{colour_end}3{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}腐蝕{colour_end}4/{colour_start|bleed}流血{colour_end}4{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}腐蝕{colour_end}5/{colour_start|bleed}流血{colour_end}5{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[必中
+無法被{colour_start|riposte}反擊{colour_end}
+清除萬劍歸宗增益
+轉變為藏鋒姿態]]></entry>
+
+		<!-- 原為%d%%基础概率，為了省字數所以簡短 -->
+		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
 
 		<entry id="buff_rule_data_tooltip_focus"><![CDATA[萬劍歸宗]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 
-		<entry id="effect_tooltip_steal_bsrc_crit"><![CDATA[清除萬劍歸宗{colour_start|buff}增益{colour_end}]]></entry>
-
-		<entry id="effect_tooltip_cure_disease"><![CDATA[治愈{colour_start|disease}疾病{colour_end}]]></entry>
-		<entry id="effect_tooltip_cure_debuff"><![CDATA[清除{colour_start|debuff}減益{colour_end}]]></entry>
-		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐懼{colour_end}]]></entry>
-		<entry id="effect_refresh_skill_uses"><![CDATA[重置所有技能使用次數]]></entry>
-
-		<entry id="combat_skill_name_leper_chop"><![CDATA[誅仙劍]]></entry>
-		<entry id="combat_skill_name_leper_hew"><![CDATA[盪魔劍]]></entry>
-		<entry id="combat_skill_name_leper_focus"><![CDATA[萬劍歸宗]]></entry>
-		<entry id="combat_skill_name_leper_revenge"><![CDATA[姿態轉換]]></entry>
+		<entry id="combat_skill_name_leper_revenge"><![CDATA[每回合使用：1
+姿態轉換]]></entry>
 		<entry id="combat_skill_name_leper_solemnity"><![CDATA[養劍吐納]]></entry>
 		<entry id="combat_skill_name_leper_withstand"><![CDATA[反擊劍陣]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[仙威壓制]]></entry>
+		<entry id="combat_skill_name_leper_chop"><![CDATA[誅仙劍]]></entry>
+		<entry id="combat_skill_name_leper_hew"><![CDATA[盪魔劍]]></entry>
+		<entry id="combat_skill_name_leper_focus"><![CDATA[萬劍歸宗]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[移动]]></entry>
-		<entry id="upgrade_tree_name_leper.chop"><![CDATA[誅仙劍]]></entry>
-		<entry id="upgrade_tree_name_leper.hew"><![CDATA[盪魔劍]]></entry>
-		<entry id="upgrade_tree_name_leper.focus"><![CDATA[萬劍歸宗]]></entry>
-		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[姿態轉換]]></entry>
+		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[每回合使用：1
+姿態轉換]]></entry>
 		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[養劍吐納]]></entry>
 		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[反擊劍陣]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[仙威壓制]]></entry>
+		<entry id="upgrade_tree_name_leper.chop"><![CDATA[誅仙劍]]></entry>
+		<entry id="upgrade_tree_name_leper.hew"><![CDATA[盪魔劍]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[萬劍歸宗]]></entry>
 	</language>
 
 </root>
