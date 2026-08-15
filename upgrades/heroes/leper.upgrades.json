@@ -7,7 +7,7 @@
       "requirements": [
         {
           "code": "0",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "blacksmith.weapon", "requirement_code": "a" }
           ],
@@ -15,7 +15,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 1750 }],
+          "currency_cost": [{ "type": "gold", "amount": 3500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.weapon", "requirement_code": "0" },
             { "tree_id": "blacksmith.weapon", "requirement_code": "b" }
@@ -24,7 +24,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 3000 }],
+          "currency_cost": [{ "type": "gold", "amount": 6000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.weapon", "requirement_code": "1" },
             { "tree_id": "blacksmith.weapon", "requirement_code": "c" }
@@ -33,7 +33,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 6000 }],
+          "currency_cost": [{ "type": "gold", "amount": 12000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.weapon", "requirement_code": "2" },
             { "tree_id": "blacksmith.weapon", "requirement_code": "d" }
@@ -49,7 +49,7 @@
       "requirements": [
         {
           "code": "0",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "blacksmith.armour", "requirement_code": "a" }
           ],
@@ -57,7 +57,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 1750 }],
+          "currency_cost": [{ "type": "gold", "amount": 3500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.armour", "requirement_code": "0" },
             { "tree_id": "blacksmith.armour", "requirement_code": "b" }
@@ -66,7 +66,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 3000 }],
+          "currency_cost": [{ "type": "gold", "amount": 6000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.armour", "requirement_code": "1" },
             { "tree_id": "blacksmith.armour", "requirement_code": "c" }
@@ -75,7 +75,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 6000 }],
+          "currency_cost": [{ "type": "gold", "amount": 12000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.armour", "requirement_code": "2" },
             { "tree_id": "blacksmith.armour", "requirement_code": "d" }
@@ -97,7 +97,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 250 }],
+          "currency_cost": [{ "type": "gold", "amount": 500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.chop", "requirement_code": "0" },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -106,7 +106,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.chop", "requirement_code": "1" },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -115,7 +115,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 1250 }],
+          "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.chop", "requirement_code": "2" },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -124,7 +124,7 @@
         },
         {
           "code": "4",
-          "currency_cost": [{ "type": "gold", "amount": 2500 }],
+          "currency_cost": [{ "type": "gold", "amount": 5000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.chop", "requirement_code": "3" },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
@@ -146,7 +146,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 250 }],
+          "currency_cost": [{ "type": "gold", "amount": 500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.hew", "requirement_code": "0" },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -155,7 +155,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.hew", "requirement_code": "1" },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -164,7 +164,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 1250 }],
+          "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.hew", "requirement_code": "2" },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -173,7 +173,7 @@
         },
         {
           "code": "4",
-          "currency_cost": [{ "type": "gold", "amount": 2500 }],
+          "currency_cost": [{ "type": "gold", "amount": 5000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.hew", "requirement_code": "3" },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
@@ -195,7 +195,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 250 }],
+          "currency_cost": [{ "type": "gold", "amount": 500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.focus", "requirement_code": "0" },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -204,7 +204,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.focus", "requirement_code": "1" },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -213,7 +213,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 1250 }],
+          "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.focus", "requirement_code": "2" },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -222,7 +222,7 @@
         },
         {
           "code": "4",
-          "currency_cost": [{ "type": "gold", "amount": 2500 }],
+          "currency_cost": [{ "type": "gold", "amount": 5000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.focus", "requirement_code": "3" },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
@@ -257,7 +257,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 250 }],
+          "currency_cost": [{ "type": "gold", "amount": 500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.withstand", "requirement_code": "0" },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -266,7 +266,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.withstand", "requirement_code": "1" },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -275,7 +275,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 1250 }],
+          "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.withstand", "requirement_code": "2" },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -284,7 +284,7 @@
         },
         {
           "code": "4",
-          "currency_cost": [{ "type": "gold", "amount": 2500 }],
+          "currency_cost": [{ "type": "gold", "amount": 5000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.withstand", "requirement_code": "3" },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
@@ -306,7 +306,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 250 }],
+          "currency_cost": [{ "type": "gold", "amount": 500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.solemnity", "requirement_code": "0" },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -315,7 +315,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.solemnity", "requirement_code": "1" },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -324,7 +324,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 1250 }],
+          "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.solemnity", "requirement_code": "2" },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -333,7 +333,7 @@
         },
         {
           "code": "4",
-          "currency_cost": [{ "type": "gold", "amount": 2500 }],
+          "currency_cost": [{ "type": "gold", "amount": 5000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.solemnity", "requirement_code": "3" },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
@@ -355,7 +355,7 @@
         },
         {
           "code": "1",
-          "currency_cost": [{ "type": "gold", "amount": 250 }],
+          "currency_cost": [{ "type": "gold", "amount": 500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.intimidate", "requirement_code": "0" },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -364,7 +364,7 @@
         },
         {
           "code": "2",
-          "currency_cost": [{ "type": "gold", "amount": 750 }],
+          "currency_cost": [{ "type": "gold", "amount": 1500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.intimidate", "requirement_code": "1" },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -373,7 +373,7 @@
         },
         {
           "code": "3",
-          "currency_cost": [{ "type": "gold", "amount": 1250 }],
+          "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.intimidate", "requirement_code": "2" },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -382,7 +382,7 @@
         },
         {
           "code": "4",
-          "currency_cost": [{ "type": "gold", "amount": 2500 }],
+          "currency_cost": [{ "type": "gold", "amount": 5000 }],
           "prerequisite_requirements": [
             { "tree_id": "leper.intimidate", "requirement_code": "3" },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
