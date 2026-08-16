@@ -92,6 +92,14 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[Demon Purge]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
 
+		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[Divine Sense Recon]]></entry>
+		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[Miraculous Touch]]></entry>
+		<entry id="camping_skill_name_lsi_secluded_cultivation"><![CDATA[Secluded Cultivation]]></entry>
+		<entry id="camping_skill_name_lsi_imparting_the_dao"><![CDATA[Imparting the Dao]]></entry>
+		<entry id="camping_skill_name_lsi_midas_touch"><![CDATA[Midas Touch]]></entry>
+
+		<entry id="camping_skill_effect_loot_LSI_G"><![CDATA[Produces a random gem]]></entry>
+
 		<entry id="hero_name_lsi"><![CDATA[Nameless]]></entry>
 
 	</language>
@@ -188,6 +196,14 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[诛仙剑]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[荡魔剑]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+
+		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[神念侦查]]></entry>
+		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[妙手回春]]></entry>
+		<entry id="camping_skill_name_lsi_secluded_cultivation"><![CDATA[闭关修练]]></entry>
+		<entry id="camping_skill_name_lsi_imparting_the_dao"><![CDATA[传道授业]]></entry>
+		<entry id="camping_skill_name_lsi_midas_touch"><![CDATA[点石成金]]></entry>
+
+		<entry id="camping_skill_effect_loot_LSI_G"><![CDATA[产生一颗随机的宝石]]></entry>
 
 		<entry id="hero_name_lsi"><![CDATA[无名]]></entry>
 
