@@ -160,7 +160,7 @@
       "id": "lsi_finale2_dmgL",
       "stat_type": "combat_stat_multiply",
       "stat_sub_type": "damage_low",
-      "amount": 0.10,
+      "amount": 0.1,
       "remove_if_not_active": false,
       "rule_type": "skill",
       "is_false_rule": false,
@@ -173,7 +173,7 @@
       "id": "lsi_finale2_dmgH",
       "stat_type": "combat_stat_multiply",
       "stat_sub_type": "damage_high",
-      "amount": 0.10,
+      "amount": 0.1,
       "remove_if_not_active": false,
       "rule_type": "skill",
       "is_false_rule": false,
@@ -381,6 +381,51 @@
       "stat_type": "stress_dmg_received_percent",
       "stat_sub_type": "",
       "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_campingHPBuff",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.1,
+      "duration_type": "quest_end",
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_campingBlightResistBuff",
+      "stat_type": "resistance",
+      "stat_sub_type": "poison",
+      "amount": 0.1,
+      "duration_type": "quest_end",
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_campingBleedResistBuff",
+      "stat_type": "resistance",
+      "stat_sub_type": "bleed",
+      "amount": 0.1,
+      "duration_type": "quest_end",
+      "duration": 1,
       "remove_if_not_active": false,
       "rule_type": "always",
       "is_false_rule": false,

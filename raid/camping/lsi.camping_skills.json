@@ -6,24 +6,24 @@
     {
       "id": "lsi_divine_sense_recon",
       "level": 0,
-      "cost": 6,
-      "use_limit": 4,
+      "cost": 3,
+      "use_limit": 1,
       "effects": [
         {
           "selection": "self",
           "requirements": [],
           "chance": { "code": "a", "amount": 1.0 },
-          "type": "stress_heal_amount",
+          "type": "reduce_ambush_chance",
           "sub_type": "",
-          "amount": 15
+          "amount": 1
         },
         {
           "selection": "self",
           "requirements": [],
           "chance": { "code": "b", "amount": 1.0 },
-          "type": "remove_deaths_door_recovery_buffs",
-          "sub_type": "",
-          "amount": 1
+          "type": "buff",
+          "sub_type": "campingScoutingBuff",
+          "amount": 0.2
         }
       ],
       "hero_classes": ["leper"],
@@ -38,40 +38,40 @@
     {
       "id": "lsi_miraculous_touch",
       "level": 0,
-      "cost": 2,
-      "use_limit": 1,
+      "cost": 3,
+      "use_limit": 2,
       "effects": [
         {
-          "selection": "self",
+          "selection": "individual",
           "requirements": [],
           "chance": { "code": "a", "amount": 1.0 },
-          "type": "buff",
-          "sub_type": "campingBleedResistBuff",
+          "type": "health_heal_max_health_percent",
+          "sub_type": "",
           "amount": 0.25
         },
         {
-          "selection": "self",
+          "selection": "individual",
           "requirements": [],
           "chance": { "code": "b", "amount": 1.0 },
-          "type": "buff",
-          "sub_type": "campingBlightResistBuff",
-          "amount": 0.25
+          "type": "remove_bleeding",
+          "sub_type": "",
+          "amount": 0
         },
         {
-          "selection": "self",
+          "selection": "individual",
           "requirements": [],
           "chance": { "code": "c", "amount": 1.0 },
-          "type": "buff",
-          "sub_type": "campingMoveResistBuff",
-          "amount": 0.25
+          "type": "remove_poison",
+          "sub_type": "",
+          "amount": 0
         },
         {
-          "selection": "self",
+          "selection": "individual",
           "requirements": [],
           "chance": { "code": "d", "amount": 1.0 },
-          "type": "buff",
-          "sub_type": "campingDebuffResistBuff",
-          "amount": 0.25
+          "type": "remove_disease",
+          "sub_type": "",
+          "amount": 0
         }
       ],
       "hero_classes": ["leper"],
@@ -86,9 +86,57 @@
     {
       "id": "lsi_secluded_cultivation",
       "level": 0,
-      "cost": 3,
+      "cost": 6,
       "use_limit": 1,
       "effects": [
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "a", "amount": 1.0 },
+          "type": "stress_heal_amount",
+          "sub_type": "",
+          "amount": 15
+        },
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "b", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "campingStressResistBuff",
+          "amount": -0.15
+        },
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "c", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "lsi_campingBleedResistBuff",
+          "amount": 0.1
+        },
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "d", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "lsi_campingBlightResistBuff",
+          "amount": 0.1
+        },
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "e", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "lsi_campingHPBuff",
+          "amount": 0.1
+        },
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "f", "amount": 1.0 },
+          "type": "remove_deaths_door_recovery_buffs",
+          "sub_type": "",
+          "amount": 0
+        }
       ],
       "hero_classes": ["leper"],
       "upgrade_requirements": [
@@ -105,6 +153,38 @@
       "cost": 3,
       "use_limit": 1,
       "effects": [
+        {
+          "selection": "party_other",
+          "requirements": [],
+          "chance": { "code": "a", "amount": 1.0 },
+          "type": "stress_heal_amount",
+          "sub_type": "",
+          "amount": 15
+        },
+        {
+          "selection": "party_other",
+          "requirements": [],
+          "chance": { "code": "b", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "campingACCBuff",
+          "amount": 0.1
+        },
+        {
+          "selection": "party_other",
+          "requirements": [],
+          "chance": { "code": "c", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "campingCRITBuff",
+          "amount": 0.05
+        },
+        {
+          "selection": "party_other",
+          "requirements": [],
+          "chance": { "code": "d", "amount": 1.0 },
+          "type": "buff",
+          "sub_type": "campingSPDBuff",
+          "amount": 2
+        }
       ],
       "hero_classes": ["leper"],
       "upgrade_requirements": [
@@ -118,9 +198,17 @@
     {
       "id": "lsi_midas_touch",
       "level": 0,
-      "cost": 3,
-      "use_limit": 1,
+      "cost": 1,
+      "use_limit": 14,
       "effects": [
+        {
+          "selection": "self",
+          "requirements": [],
+          "chance": { "code": "a", "amount": 1.0 },
+          "type": "loot",
+          "sub_type": "LSI_G",
+          "amount": 1
+        }
       ],
       "hero_classes": ["leper"],
       "upgrade_requirements": [

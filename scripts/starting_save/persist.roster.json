@@ -10,6 +10,46 @@
         "roster.missing_from": 0,
         "roster.building_name": "",
         "actor": {
+          "name_id": "hero_name_lsi",
+          "current_hp": 24,
+          "stunned": 0,
+          "ranks": 1,
+          "combat_ready": false,
+          "damage_source": "",
+          "damage_source_type": 0,
+          "damage_type": 0,
+          "colour_variation": 3,
+          "current_mode_id": 941855442,
+          "buff_group": {}
+        },
+        "heroClass": "leper",
+        "resolveXp": 0,
+        "stress": 10,
+        "weapon_rank": 0,
+        "armour_rank": 0,
+        "affliction_severity": 0,
+        "affliction_type_id": "",
+        "quirks": {},
+        "skills": {
+          "selected_combat_skills": {},
+          "selected_camping_skills": {
+            "encourage": 0,
+            "lsi_divine_sense_recon": 0,
+            "lsi_secluded_cultivation": 0
+          }
+        },
+        "trinkets": {
+          "system_config_type": "hero_equipped_trinkets",
+          "items": {}
+        }
+      },
+      "2": {
+        "roster.status": 1,
+        "roster.missing_duration": 0,
+        "roster.story_variation": 0,
+        "roster.missing_from": 0,
+        "roster.building_name": "",
+        "actor": {
           "name_id": "hero_name_reynauld",
           "current_hp": 33,
           "stunned": 0,
@@ -61,7 +101,7 @@
           "items": {}
         }
       },
-      "2": {
+      "3": {
         "roster.status": 1,
         "roster.missing_duration": 0,
         "roster.story_variation": 0,
@@ -118,68 +158,10 @@
           "system_config_type": "hero_equipped_trinkets",
           "items": {}
         }
-      },
-      "3": {
-        "roster.status": 1,
-        "roster.missing_duration": 0,
-        "roster.story_variation": 0,
-        "roster.missing_from": 0,
-        "roster.building_name": "",
-        "actor": {
-          "name_id": "hero_name_lsi",
-          "current_hp": 24,
-          "stunned": 0,
-          "ranks": 1,
-          "combat_ready": false,
-          "damage_source": "",
-          "damage_source_type": 0,
-          "damage_type": 0,
-          "current_mode_id": 941855442,
-          "buff_group": {}
-        },
-        "heroClass": "leper",
-        "resolveXp": 0,
-        "stress": 10,
-        "weapon_rank": 0,
-        "armour_rank": 0,
-        "affliction_severity": 0,
-        "affliction_type_id": "",
-        "quirks": {
-          "fear_of_man": {
-            "is_new": false,
-            "is_locked": false,
-            "mission_count": 0
-          },
-          "automatonophobia": {
-            "is_new": false,
-            "is_locked": false,
-            "mission_count": 0
-          }
-        },
-        "skills": {
-          "selected_combat_skills": {
-            "revenge": 0,
-            "solemnity": 0,
-            "withstand": 0,
-            "intimidate": 0,
-            "chop": 0,
-            "hew": 0,
-            "focus": 0
-          },
-          "selected_camping_skills": {
-            "encourage": 0,
-            "stand_tall": 0,
-            "zealous_speech": 0
-          }
-        },
-        "trinkets": {
-          "system_config_type": "hero_equipped_trinkets",
-          "items": {}
-        }
       }
     },
     "last_party": {
-      "last_party_guids": [-1, -1, -1, 3]
+      "last_party_guids": [-1, -1, -1, 1]
     }
   }
 }
