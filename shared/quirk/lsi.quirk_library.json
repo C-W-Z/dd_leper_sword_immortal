@@ -186,7 +186,7 @@
       "curio_tag": "",
       "curio_tag_chance": 0.0,
       "keep_loot": false,
-      "buffs": [],
+      "buffs": ["STRESSDMG20"],
       "tags": [],
       "can_modify_in_activity": false,
       "can_remove_with_camping_skill": false,

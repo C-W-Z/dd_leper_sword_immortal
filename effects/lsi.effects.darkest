@@ -93,11 +93,13 @@ effect: .name "lsi_finale_debuffs_lv5" .target "performer" .chance 100% .buff_id
 // ---------- 給予特質 ----------
 
 effect: .name "lsi_effect_lucid_sword_heart" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_lucid_sword_heart .apply_once true .has_description false
+effect: .name "lsi_effect_inner_demon_obsession" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_inner_demon_obsession .apply_once true .has_description false
+effect: .name "lsi_effect_clouded_dao_heart" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_clouded_dao_heart .apply_once true .has_description false
 
 // ---------- 美德 ----------
 
-effect: .name "lsi_enlightened_buff1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating 10% .on_hit true .on_miss true	.queue true
-effect: .name "lsi_enlightened_buff2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 10% .on_hit true .on_miss true .queue true
+effect: .name "lsi_enlightened_buff1" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .on_hit true .on_miss true .queue true
+effect: .name "lsi_enlightened_buff2" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 5% .on_hit true .on_miss true .queue true
 
 // ---------- tooltips ----------
 
