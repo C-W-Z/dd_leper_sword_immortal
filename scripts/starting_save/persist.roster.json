@@ -13,7 +13,6 @@
           "name_id": "hero_name_reynauld",
           "current_hp": 33,
           "stunned": 0,
-          "ranks": 1,
           "combat_ready": false,
           "damage_source": "",
           "damage_source_type": 0,
@@ -72,7 +71,6 @@
           "name_id": "hero_name_dismas",
           "current_hp": 23,
           "stunned": 0,
-          "ranks": 2,
           "combat_ready": false,
           "damage_source": "",
           "damage_source_type": 0,
@@ -146,7 +144,18 @@
         "armour_rank": 0,
         "affliction_severity": 0,
         "affliction_type_id": "",
-        "quirks": {},
+        "quirks": {
+          "fear_of_man": {
+            "is_new": false,
+            "is_locked": false,
+            "mission_count": 0
+          },
+          "automatonophobia": {
+            "is_new": false,
+            "is_locked": false,
+            "mission_count": 0
+          }
+        },
         "skills": {
           "selected_combat_skills": {
             "revenge": 0,
