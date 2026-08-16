@@ -18,7 +18,6 @@
       "keep_loot": false,
       "buffs": [
         "lsi_xp+100",
-        "lsi_virtue+25",
         "STUNRESIST20",
         "DEBUFFRESIST20"
       ],
@@ -138,8 +137,8 @@
       "buffs": [
         "TRINKET_MAXHP_B1",
         "lsi_DAMAGERECEIVED-10",
-        "TRINKET_fortifying_garlic_BLIGHTRESIST_B1",
-        "TRINKET_fortifying_garlic_BLEEDRESIST_B1"
+        "BLIGHTRESIST20",
+        "BLEEDRESIST20"
       ],
       "tags": [],
       "can_modify_in_activity": false,
