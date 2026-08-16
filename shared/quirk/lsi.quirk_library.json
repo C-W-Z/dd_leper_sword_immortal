@@ -19,8 +19,8 @@
       "buffs": [
         "lsi_xp+100",
         "lsi_virtue+25",
-        "STUNRESIST25",
-        "DEBUFFRESIST25"
+        "STUNRESIST20",
+        "DEBUFFRESIST20"
       ],
       "tags": [],
       "can_modify_in_activity": false,
@@ -163,12 +163,7 @@
       "curio_tag": "",
       "curio_tag_chance": 0.0,
       "keep_loot": false,
-      "buffs": [
-        "STRESSDMG-20",
-        "STRESSRECOVERY20",
-        "lsi_STRESSHEAL+10",
-        "lsi_SANITARIUMTREATMENTCHANC+100"
-      ],
+      "buffs": ["STRESSDMG-20", "STRESSRECOVERY20", "lsi_STRESSHEAL+10"],
       "tags": [],
       "can_modify_in_activity": false,
       "can_remove_with_camping_skill": false,

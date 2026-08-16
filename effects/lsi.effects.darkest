@@ -90,6 +90,15 @@ effect: .name "lsi_finale_debuffs_lv4" .target "performer" .chance 100% .buff_id
 // (萬劍歸宗)減益自身速度/受到的壓力傷害
 effect: .name "lsi_finale_debuffs_lv5" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+80" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
 
+// ---------- 給予特質 ----------
+
+effect: .name "lsi_effect_lucid_sword_heart" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_lucid_sword_heart .apply_once true .has_description false
+
+// ---------- 美德 ----------
+
+effect: .name "lsi_enlightened_buff1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating 10% .on_hit true .on_miss true	.queue true
+effect: .name "lsi_enlightened_buff2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 10% .on_hit true .on_miss true .queue true
+
 // ---------- tooltips ----------
 
 effect: .name "lsi_effect_revenge_tip_sheathed" .chance 100% .target "performer" .buff_ids "lsi_buff_revenge_tip_sheathed" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true

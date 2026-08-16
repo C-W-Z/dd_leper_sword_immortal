@@ -1,14 +1,20 @@
 {
   "traits": [
     {
-      "id": "lsi_epiphany",
+      "id": "lsi_enlightened",
       "is_generated": false,
       "overstress_type": "virtued",
       "curio_tag": "none",
       "curio_tag_chance": 0,
       "keep_loot": false,
       "generate_chance_modifier": 0.0,
-      "buff_ids": [],
+      "buff_ids": [
+        "DMGL10",
+        "DMGH10",
+        "CRIT10",
+        "STRESSDMG-25",
+        "lsi_virtued_lucid_sword_heart_STRESSDMG-25"
+      ],
       "combat_start_turn_act_outs": [
         {
           "id": "nothing",
@@ -17,8 +23,8 @@
         },
         {
           "id": "bark_stress",
-          "data": { "number_value": 0.0, "string_value": "Mesmer BarkStress" },
-          "chance": 0
+          "data": { "number_value": 0.0, "string_value": "lsi_enlightened_buff1" },
+          "chance": 15
         },
         {
           "id": "change_pos",
@@ -33,7 +39,7 @@
         {
           "id": "random_command",
           "data": { "number_value": 0.0, "string_value": "" },
-          "chance": 20
+          "chance": 0
         },
         {
           "id": "retreat_from_combat",
@@ -43,9 +49,9 @@
         },
         {
           "id": "attack_friendly",
-          "data": { "number_value": 0.05, "string_value": "Stun 3" },
+          "data": { "number_value": 0.33, "string_value": "" },
           "chance": 0,
-          "valid_hero_class_ids": ["Mesmer"]
+          "valid_hero_class_ids": ["leper"]
         },
         {
           "id": "attack_self",
@@ -56,42 +62,47 @@
           "id": "mark_self",
           "data": {
             "number_value": 0.0,
-            "string_value": "Mesmer Quirk Turn 1"
+            "string_value": "lsi_effect_lucid_sword_heart"
           },
-          "chance": 15
+          "chance": 10
         },
         {
           "id": "stress_heal_self",
           "data": {
             "number_value": 0.0,
-            "string_value": "Mesmer Quirk Hpdotheal 1"
+            "string_value": "HealStressVirtued"
           },
-          "chance": 30
+          "chance": 15
         },
         {
           "id": "stress_heal_party",
           "data": {
             "number_value": 0.0,
-            "string_value": "Mesmer Quirk PartyDEFBuff"
+            "string_value": "HealStressVirtuedParty"
           },
           "chance": 15
         },
         {
           "id": "buff_random_party_member",
-          "data": { "number_value": 1.0, "string_value": "BarkStress" },
+          "data": { "number_value": 1.0, "string_value": "FocusedAllyBuff" },
           "chance": 0
         },
         {
           "id": "buff_party",
           "data": {
             "number_value": 0.0,
-            "string_value": "Mesmer Quirk PartyRecBuff"
+            "string_value": "lsi_enlightened_buff2"
           },
           "chance": 15
         },
         {
           "id": "heal_self",
           "data": { "number_value": 0.1, "string_value": "" },
+          "chance": 0
+        },
+        {
+          "id": "consume_item",
+          "data": { "number_value": 0.0, "string_value": "" },
           "chance": 0
         }
       ],
