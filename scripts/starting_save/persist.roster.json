@@ -30,11 +30,6 @@
         "affliction_severity": 0,
         "affliction_type_id": "",
         "quirks": {
-          "lsi_lucid_sword_heart": {
-            "is_new": false,
-            "is_locked": false,
-            "mission_count": 0
-          },
           "lsi_traceless_step": {
             "is_new": false,
             "is_locked": false,

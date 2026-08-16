@@ -55,7 +55,7 @@
         },
         {
           "id": "attack_self",
-          "data": { "number_value": 0.1, "string_value": "" },
+          "data": { "number_value": 0.0, "string_value": "" },
           "chance": 0
         },
         {
@@ -64,7 +64,7 @@
             "number_value": 0.0,
             "string_value": "lsi_effect_lucid_sword_heart"
           },
-          "chance": 10
+          "chance": 5
         },
         {
           "id": "stress_heal_self",

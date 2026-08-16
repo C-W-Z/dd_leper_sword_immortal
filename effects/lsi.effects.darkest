@@ -23,11 +23,11 @@ effect: .name "lsi_finale_buffs_2" .target "performer" .curio_result_type "posit
 effect: .name "lsi_solemnity" .target "performer" .curio_result_type "positive" .chance 100% .untag 1 .dotHpHeal 5 .cure_bleed 1 .cure_poison 1 .clearDotStress 1 .cure_disease 1 .remove_vampire 1 .clear_debuff 1 .refreshes_skill_uses true .duration 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 // (養劍吐納)壓力治療
-effect: .name "lsi_heal_stress_lv1" .target "target" .curio_result_type "positive" .chance 100% .heal 1 .healstress 6 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv2" .target "target" .curio_result_type "positive" .chance 100% .heal 2 .healstress 7 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv3" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .healstress 8 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv4" .target "target" .curio_result_type "positive" .chance 100% .heal 4.healstress 9 .on_hit true .on_miss false .queue true .apply_once true .has_description true
-effect: .name "lsi_heal_stress_lv5" .target "target" .curio_result_type "positive" .chance 100% .heal 5 .healstress 10 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv1" .target "target" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv2" .target "target" .curio_result_type "positive" .chance 100% .healstress 7 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv3" .target "target" .curio_result_type "positive" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv4" .target "target" .curio_result_type "positive" .chance 100% .healstress 9 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+effect: .name "lsi_heal_stress_lv5" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true .apply_once true .has_description true
 
 // (反擊劍陣)啟動反擊+反擊暈眩目標
 effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .riposte_effect "Stun 1" .apply_once true .has_description false
