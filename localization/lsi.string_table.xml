@@ -207,6 +207,14 @@ Stance Switch]]></entry>
 
 		<entry id="hero_name_lsi"><![CDATA[无名]]></entry>
 
+		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[剑心通明]]></entry>
+		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[踏雪无痕]]></entry>
+		<entry id="str_quirk_name_lsi_inedia"><![CDATA[辟谷]]></entry>
+		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[天眼通]]></entry>
+		<entry id="str_quirk_name_lsi_flawless_immortal_physique"><![CDATA[无垢仙躯]]></entry>
+		<entry id="str_quirk_description_lsi_flawless_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[太上忘情]]></entry>
+
 	</language>
 
 </root>
