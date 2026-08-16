@@ -87,7 +87,7 @@ mode: .id sheathed .is_raid_default true
 mode: .id unsheathed .battle_complete_combat_skill_id revenge
 
 // 美德/折磨
-overstressed_modifier: .override_trait_type_ids lsi_enlightened .override_trait_type_chances 1
+overstressed_modifier: .override_trait_type_ids lsi_enlightened lsi_qi_deviated
 
 // 衝突特質 god_fearing 敬神 hagiomania 宗教狂熱
 quirk_modifier: .incompatible_class_ids god_fearing hagiomania

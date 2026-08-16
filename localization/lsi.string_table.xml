@@ -177,8 +177,10 @@ Stance Switch]]></entry>
 		<entry id="buff_rule_data_tooltip_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 
+		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[麻风剑仙]]></entry>
 
+		<!-- 技能名 -->
 		<entry id="combat_skill_name_leper_revenge"><![CDATA[每回合使用：1
 姿态转换]]></entry>
 		<entry id="combat_skill_name_leper_solemnity"><![CDATA[养剑吐纳]]></entry>
@@ -197,16 +199,20 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[荡魔剑]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 
+		<!-- 紮營技能名 -->
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[神念侦查]]></entry>
 		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[妙手回春]]></entry>
 		<entry id="camping_skill_name_lsi_secluded_cultivation"><![CDATA[闭关修练]]></entry>
 		<entry id="camping_skill_name_lsi_imparting_the_dao"><![CDATA[传道授业]]></entry>
 		<entry id="camping_skill_name_lsi_midas_touch"><![CDATA[点石成金]]></entry>
 
+		<!-- 紮營技能描述 -->
 		<entry id="camping_skill_effect_loot_LSI_G"><![CDATA[产生一颗随机的宝石]]></entry>
 
+		<!-- 第一個劍仙名字 -->
 		<entry id="hero_name_lsi"><![CDATA[无名]]></entry>
 
+		<!-- 正面特質 -->
 		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[剑心通明]]></entry>
 		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[踏雪无痕]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[辟谷]]></entry>
@@ -215,11 +221,20 @@ Stance Switch]]></entry>
 		<entry id="str_quirk_description_lsi_flawless_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[太上忘情]]></entry>
 
+		<!-- 負面特質 -->
+		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[心魔缠身]]></entry>
+		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[道心蒙尘]]></entry>
+		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[劫运当头]]></entry>
+
 		<!-- 折磨 -->
-		<entry id="str_affliction_name_"><![CDATA[]]></entry>
+		<entry id="str_affliction_name_lsi_qi_deviated"><![CDATA[走火入魔]]></entry>
+		<entry id="str_affliction_name_lsi_dao_heart_collapsed"><![CDATA[道心破碎]]></entry>
+		<entry id="str_affliction_name_lsi_heaven_stricken"><![CDATA[天劫反噬]]></entry>
 
 		<!-- 美德 -->
 		<entry id="str_virtue_name_lsi_enlightened"><![CDATA[顿悟]]></entry>
+		<entry id="str_virtue_name_lsi_heaven_attuned"><![CDATA[天人合一]]></entry>
+		<entry id="str_virtue_name_lsi_ascended"><![CDATA[羽化登仙]]></entry>
 
 	</language>
 

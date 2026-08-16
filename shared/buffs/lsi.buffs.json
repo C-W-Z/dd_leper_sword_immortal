@@ -451,7 +451,7 @@
       "id": "lsi_virtue+25",
       "stat_type": "resolve_check_percent",
       "stat_sub_type": "",
-      "amount": 0.25,
+      "amount": 1,
       "remove_if_not_active": false,
       "rule_type": "always",
       "is_false_rule": false,
@@ -562,6 +562,19 @@
       "rule_data": {
         "float": 0,
         "string": "lsi_lucid_sword_heart"
+      }
+    },
+    {
+      "id": "lsi_CRITRECEIVED+5",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.05,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
       }
     }
   ]

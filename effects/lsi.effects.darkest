@@ -95,6 +95,7 @@ effect: .name "lsi_finale_debuffs_lv5" .target "performer" .chance 100% .buff_id
 effect: .name "lsi_effect_lucid_sword_heart" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_lucid_sword_heart .apply_once true .has_description false
 effect: .name "lsi_effect_inner_demon_obsession" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_inner_demon_obsession .apply_once true .has_description false
 effect: .name "lsi_effect_clouded_dao_heart" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_clouded_dao_heart .apply_once true .has_description false
+effect: .name "lsi_effect_fated_tribulation" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .disease lsi_fated_tribulation .apply_once true .has_description false
 
 // ---------- 美德 ----------
 
