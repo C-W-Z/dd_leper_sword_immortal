@@ -59,7 +59,7 @@
         {
           "id": "attack_self",
           "data": { "number_value": 0.0, "string_value": "" },
-          "chance": 1
+          "chance": 0
         },
         {
           "id": "mark_self",
@@ -100,8 +100,8 @@
         },
         {
           "id": "heal_self",
-          "data": { "number_value": 0.1, "string_value": "" },
-          "chance": 0
+          "data": { "number_value": 0.0, "string_value": "lsi_effect_sword_god" },
+          "chance": 1
         },
         {
           "id": "consume_item",

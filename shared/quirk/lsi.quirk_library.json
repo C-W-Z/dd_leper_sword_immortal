@@ -12,15 +12,14 @@
       "is_positive": true,
       "is_disease": false,
       "classification": "mental",
-      "incompatible_quirks": [],
+      "incompatible_quirks": [
+        "lsi_inner_demon_obsession",
+        "lsi_clouded_dao_heart"
+      ],
       "curio_tag": "",
       "curio_tag_chance": 0.0,
       "keep_loot": false,
-      "buffs": [
-        "lsi_xp+100",
-        "STUNRESIST20",
-        "DEBUFFRESIST20"
-      ],
+      "buffs": ["lsi_xp+100", "STUNRESIST20", "DEBUFFRESIST20"],
       "tags": [],
       "can_modify_in_activity": false,
       "can_remove_with_camping_skill": false,
@@ -204,7 +203,7 @@
       "is_positive": false,
       "is_disease": false,
       "classification": "mental",
-      "incompatible_quirks": [],
+      "incompatible_quirks": ["lsi_lucid_sword_heart"],
       "curio_tag": "",
       "curio_tag_chance": 0.0,
       "keep_loot": false,
@@ -227,7 +226,7 @@
       "is_positive": false,
       "is_disease": false,
       "classification": "mental",
-      "incompatible_quirks": [],
+      "incompatible_quirks": ["lsi_lucid_sword_heart"],
       "curio_tag": "",
       "curio_tag_chance": 0.0,
       "keep_loot": false,
