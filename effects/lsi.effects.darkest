@@ -107,6 +107,8 @@ effect: .name "lsi_effect_fated_tribulation" .target "performer" .curio_result_t
 
 // ---------- 美德/折磨/特質 ----------
 
+effect: .name "lsi_stress_self" .target "self" .curio_result_type "negative" .chance 100% .stress 10 .on_hit true .on_miss false .queue true
+
 effect: .name "lsi_healstress_all" .target "performer_group" .curio_result_type "positive" .chance 100% .healstress 4 on_hit true .on_miss false .queue true
 effect: .name "lsi_heal_all" .target "performer_group" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true
 // 隊伍：清除腐蝕/流血/疾病/猩紅詛咒
