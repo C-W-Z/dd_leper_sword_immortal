@@ -199,6 +199,7 @@ Stance Switch]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
+		<entry id="str_ui_burn"><![CDATA[灼烧]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼烧：{colour_end}%d层]]></entry>
 
 		<!-- Class Name -->
