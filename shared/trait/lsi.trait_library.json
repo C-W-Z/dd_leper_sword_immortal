@@ -419,7 +419,7 @@
           "id": "mark_self",
           "data": {
             "number_value": 0.0,
-            "string_value": "lsi_effect_flawless_immortal_physique"
+            "string_value": "lsi_effect_immortal_physique"
           },
           "chance": 2
         },

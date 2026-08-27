@@ -29,11 +29,21 @@ Self:
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte{colour_end}: -40%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
 
-		<!-- <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}Heal{colour_end} 1]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}Heal{colour_end} 3]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}Heal{colour_end} 4]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}Heal{colour_end} 5]]></entry> -->
+		<!-- <entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}Heal{colour_end}
+		1]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}Heal{colour_end}
+		2]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}Heal{colour_end}
+		3]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}Heal{colour_end}
+		4]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}Heal{colour_end}
+		5]]></entry> -->
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 (next turn)
 Clear {colour_start|mark}Mark{colour_end} / {colour_start|stress}Horror{colour_end} / {colour_start|debuff}Debuff{colour_end}]]></entry>
@@ -102,6 +112,30 @@ Stance Switch]]></entry>
 
 		<entry id="hero_name_lsi"><![CDATA[Nameless]]></entry>
 
+		<!-- 正面特質 -->
+		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[Lucid Sword Heart]]></entry>
+		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[Traceless Step]]></entry>
+		<entry id="str_quirk_name_lsi_inedia"><![CDATA[Inedia]]></entry>
+		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[Heavenly Eye]]></entry>
+		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[Immortal Physique]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}The Crimson Curse{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[Daoist Detachment]]></entry>
+
+		<!-- 負面特質 -->
+		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[Inner Demon Obsession]]></entry>
+		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[Clouded Dao Heart"]]></entry>
+		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[Fated Tribulation]]></entry>
+
+		<!-- 折磨 -->
+		<entry id="str_affliction_name_lsi_qi_deviated"><![CDATA[Qi-Deviated]]></entry>
+		<entry id="str_affliction_name_lsi_dao_heart_collapsed"><![CDATA[Dao Heart Collapsed]]></entry>
+		<entry id="str_affliction_name_lsi_heaven_stricken"><![CDATA[Heaven Stricken]]></entry>
+
+		<!-- 美德 -->
+		<entry id="str_virtue_name_lsi_enlightened"><![CDATA[Enlightened]]></entry>
+		<entry id="str_virtue_name_lsi_heaven_attuned"><![CDATA[Heaven Attuned]]></entry>
+		<entry id="str_virtue_name_lsi_ascended"><![CDATA[Ascended]]></entry>
+
 	</language>
 
 	<language id="schinese">
@@ -119,52 +153,86 @@ Stance Switch]]></entry>
 {colour_start|stealth}潜行{colour_end}(2回合)]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴
-自身：
-2次格挡]]></entry>
+自身：2次格挡]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-60%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-55%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-50%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-45%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-40%%伤害 / {colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
+		<!-- <entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-60%%伤害 /
+		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
+		{colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-55%%伤害 /
+		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
+		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-50%%伤害 /
+		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
+		{colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-45%%伤害 /
+		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
+		{colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击{colour_end}：-40%%伤害 /
+		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
+		{colour_start|skill_unselectable}(140%%){colour_end}]]></entry> -->
 
-		<!-- <entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}治疗{colour_end}1]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}治疗{colour_end}2]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}治疗{colour_end}3]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}治疗{colour_end}4]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}治疗{colour_end}5]]></entry> -->
+		<!-- <entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}治疗{colour_end}1]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}治疗{colour_end}2]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}治疗{colour_end}3]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}治疗{colour_end}4]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}治疗{colour_end}5]]></entry> -->
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
-清除{colour_start|mark}标记{colour_end}/{colour_start|stress}恐惧{colour_end}/{colour_start|debuff}减益{colour_end}]]></entry>
+清除{colour_start|mark}标记{colour_end} / {colour_start|stress}恐惧{colour_end} / {colour_start|debuff}减益{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end}/{colour_start|bleed}流血{colour_end}/{colour_start|disease}疾病{colour_end}/{colour_start|bleed}猩红诅咒{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|disease}疾病{colour_end}
 刷新所有技能]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[队友：清除{colour_start|stress}恐惧{colour_end} / {colour_start|stress}压力{colour_end}+5]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[队友：清除{colour_start|stress}恐惧{colour_end} / {colour_start|stress}压力{colour_end}+6]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
+		<!-- <entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
 -1速度/-6闪避/-6精准/-6%%暴击 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
 -2速度/-7闪避/-7精准/-7%%暴击 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
 -3速度/-8闪避/-8精准/-8%%暴击 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
 -4速度/-9闪避/-9精准/-9%%暴击 {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--5速度/-10闪避/-10精准/-10%%暴击 {colour_start|skill_unselectable}(150%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
+-5速度/-10闪避/-10精准/-10%%暴击 {colour_start|skill_unselectable}(150%%){colour_end}]]></entry> -->
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蚀{colour_end}1/{colour_start|bleed}流血{colour_end}1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蚀{colour_end}2/{colour_start|bleed}流血{colour_end}2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}腐蚀{colour_end}3/{colour_start|bleed}流血{colour_end}3 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}腐蚀{colour_end}4/{colour_start|bleed}流血{colour_end}4 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}腐蚀{colour_end}5/{colour_start|bleed}流血{colour_end}5 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<!-- <entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蚀{colour_end}1/{colour_start|bleed}流血{colour_end}1
+		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蚀{colour_end}2/{colour_start|bleed}流血{colour_end}2
+		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}腐蚀{colour_end}3/{colour_start|bleed}流血{colour_end}3
+		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}腐蚀{colour_end}4/{colour_start|bleed}流血{colour_end}4
+		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry
+		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}腐蚀{colour_end}5/{colour_start|bleed}流血{colour_end}5
+		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry> -->
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
@@ -172,17 +240,20 @@ Stance Switch]]></entry>
 转变为藏锋姿态]]></entry>
 
 		<!-- 原为%d%%基础概率，为了省字数所以简短 -->
-		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+		<!-- <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry> -->
 
+		<!-- 補全藍字 -->
 		<entry id="buff_rule_data_tooltip_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
+		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
+		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
+		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼烧：{colour_end}%d层]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[麻风剑仙]]></entry>
 
 		<!-- 技能名 -->
-		<entry id="combat_skill_name_leper_revenge"><![CDATA[每回合使用：1
-姿态转换]]></entry>
+		<entry id="combat_skill_name_leper_revenge"><![CDATA[姿态转换]]></entry>
 		<entry id="combat_skill_name_leper_solemnity"><![CDATA[养剑吐纳]]></entry>
 		<entry id="combat_skill_name_leper_withstand"><![CDATA[反击剑阵]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[仙威压制]]></entry>
@@ -190,8 +261,7 @@ Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_hew"><![CDATA[荡魔剑]]></entry>
 		<entry id="combat_skill_name_leper_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[移动]]></entry>
-		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[每回合使用：1
-姿态转换]]></entry>
+		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[姿态转换]]></entry>
 		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[养剑吐纳]]></entry>
 		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[反击剑阵]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[仙威压制]]></entry>
@@ -217,8 +287,8 @@ Stance Switch]]></entry>
 		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[踏雪无痕]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[辟谷]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[天眼通]]></entry>
-		<entry id="str_quirk_name_lsi_flawless_immortal_physique"><![CDATA[无垢仙躯]]></entry>
-		<entry id="str_quirk_description_lsi_flawless_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[无垢仙躯]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[太上忘情]]></entry>
 
 		<!-- 負面特質 -->

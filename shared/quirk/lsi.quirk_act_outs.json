@@ -1,7 +1,7 @@
 {
   "quirk_act_outs": [
     {
-      "quirk_id": "lsi_flawless_immortal_physique",
+      "quirk_id": "lsi_immortal_physique",
       "combat_start_turn_act_outs": [
         {
           "id": "nothing",

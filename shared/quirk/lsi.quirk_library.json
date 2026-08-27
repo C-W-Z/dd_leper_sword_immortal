@@ -113,7 +113,7 @@
       "slot_size": 1
     },
     {
-      "id": "lsi_flawless_immortal_physique",
+      "id": "lsi_immortal_physique",
       "show_explicit_buff_description": true,
       "show_flavor_description": true,
       "show_explicit_curio_tag_description": false,
