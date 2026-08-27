@@ -69,27 +69,23 @@ combat_skill: .id "chop" .level 2 .effect lsi_effect_finale_buff1_tip
 combat_skill: .id "chop" .level 3 .effect lsi_effect_finale_buff1_tip
 combat_skill: .id "chop" .level 4 .effect lsi_effect_finale_buff1_tip
 
-// 斬劈 -> 盪魔劍
-combat_skill: .id "hew" .level 0 .type "melee" .atk 90% .dmg -50% .crit 1% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv1 clear_corpses lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "hew" .level 1 .type "melee" .atk 95% .dmg -50% .crit 2% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv2 clear_corpses lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "hew" .level 2 .type "melee" .atk 100% .dmg -50% .crit 3% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv3 clear_corpses lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "hew" .level 3 .type "melee" .atk 105% .dmg -50% .crit 4% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv4 clear_corpses lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "hew" .level 4 .type "melee" .atk 110% .dmg -50% .crit 5% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv5 clear_corpses lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "hew" .level 0 .effect lsi_effect_finale_buff1_tip
-combat_skill: .id "hew" .level 1 .effect lsi_effect_finale_buff1_tip
-combat_skill: .id "hew" .level 2 .effect lsi_effect_finale_buff1_tip
-combat_skill: .id "hew" .level 3 .effect lsi_effect_finale_buff1_tip
-combat_skill: .id "hew" .level 4 .effect lsi_effect_finale_buff1_tip
+// 淨化 -> 盪魔劍
+combat_skill: .id "focus" .level 0 .type "melee" .atk 90% .dmg -50% .crit 1% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv1 clear_corpses lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "focus" .level 1 .type "melee" .atk 95% .dmg -50% .crit 2% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv2 clear_corpses lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "focus" .level 2 .type "melee" .atk 100% .dmg -50% .crit 3% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv3 clear_corpses lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "focus" .level 3 .type "melee" .atk 105% .dmg -50% .crit 4% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv4 clear_corpses lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "focus" .level 4 .type "melee" .atk 110% .dmg -50% .crit 5% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv5 clear_corpses lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "focus" .level 0 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "focus" .level 1 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "focus" .level 2 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "focus" .level 3 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "focus" .level 4 .effect lsi_effect_finale_buff1_tip
 
-// 淨化 -> 萬劍歸宗
-combat_skill: .id "focus" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_focus_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs" .valid_modes unsheathed .per_battle_limit 1
-//combat_skill: .id "focus" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_focus_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs_lv2" .valid_modes unsheathed .per_battle_limit 1
-//combat_skill: .id "focus" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_focus_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs_lv3" .valid_modes unsheathed .per_battle_limit 1
-//combat_skill: .id "focus" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_focus_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs_lv4" .valid_modes unsheathed .per_battle_limit 1
-//combat_skill: .id "focus" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_focus_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs_lv5" .valid_modes unsheathed .per_battle_limit 1
+// 斬劈 -> 萬劍歸宗
+combat_skill: .id "hew" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_hew_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs" .valid_modes unsheathed .per_battle_limit 1
 
 // 移動
-combat_move_skill: .id "move" .level 0 .type "move" .move 3 3 .launch 4321 .is_continue_turn true .per_turn_limit 1
+combat_move_skill: .id "move" .level 0 .type "move" .move 3 3 .launch 4321
 
 // 反擊
 riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 100% .dmg -40% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .effect "Stun 1"

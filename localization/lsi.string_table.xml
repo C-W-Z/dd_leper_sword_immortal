@@ -66,20 +66,20 @@ Refresh skills]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 -5 SPD / -10 DODGE / -10 ACC / -10%% CRIT {colour_start|skill_unselectable}(150%%){colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}Blight{colour_end} 1 / {colour_start|bleed}Bleed{colour_end} 1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}Blight{colour_end} 2 / {colour_start|bleed}Bleed{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}Blight{colour_end} 3 / {colour_start|bleed}Bleed{colour_end} 3 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}Blight{colour_end} 4 / {colour_start|bleed}Bleed{colour_end} 4 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}Blight{colour_end} 5 / {colour_start|bleed}Bleed{colour_end} 5 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv1"><![CDATA[{colour_start|blight}Blight{colour_end} 1 / {colour_start|bleed}Bleed{colour_end} 1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv2"><![CDATA[{colour_start|blight}Blight{colour_end} 2 / {colour_start|bleed}Bleed{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv3"><![CDATA[{colour_start|blight}Blight{colour_end} 3 / {colour_start|bleed}Bleed{colour_end} 3 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv4"><![CDATA[{colour_start|blight}Blight{colour_end} 4 / {colour_start|bleed}Bleed{colour_end} 4 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv5"><![CDATA[{colour_start|blight}Blight{colour_end} 5 / {colour_start|bleed}Bleed{colour_end} 5 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[Cannot Miss
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[Cannot Miss
 Bypass {colour_start|riposte}Riposte{colour_end}
 Clear {colour_start|myriad_blades}Myriad Blades{colour_end} {colour_start|buff}Buffs{colour_end}
 Switch to Sheathed Stance]]></entry>
 
 		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
 
-		<entry id="buff_rule_data_tooltip_focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -90,8 +90,8 @@ Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_withstand"><![CDATA[Riposte Array]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Celestial Suppression]]></entry>
 		<entry id="combat_skill_name_leper_chop"><![CDATA[Immortal Slay]]></entry>
-		<entry id="combat_skill_name_leper_hew"><![CDATA[Demon Purge]]></entry>
-		<entry id="combat_skill_name_leper_focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+		<entry id="combat_skill_name_leper_focus"><![CDATA[Demon Purge]]></entry>
+		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[Move]]></entry>
 		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[Uses per Round: 1
 Stance Switch]]></entry>
@@ -99,8 +99,8 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[Riposte Array]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Celestial Suppression]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[Immortal Slay]]></entry>
-		<entry id="upgrade_tree_name_leper.hew"><![CDATA[Demon Purge]]></entry>
-		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Demon Purge]]></entry>
+		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
 
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[Divine Sense Recon]]></entry>
 		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[Miraculous Touch]]></entry>
@@ -178,7 +178,7 @@ Stance Switch]]></entry>
 		<entry
 			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10闪避 / -10%%暴击 {colour_start|skill_unselectable}(基礎150%%){colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[必中
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
 清除{colour_start|myriad_blades}万剑归宗{colour_end}{colour_start|buff}增益{colour_end}
 转变为藏锋姿态]]></entry>
@@ -194,7 +194,7 @@ Stance Switch]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿态时：]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏锋]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
-		<entry id="buff_rule_data_tooltip_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
@@ -210,16 +210,16 @@ Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_withstand"><![CDATA[反击剑阵]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[仙威压制]]></entry>
 		<entry id="combat_skill_name_leper_chop"><![CDATA[诛仙剑]]></entry>
-		<entry id="combat_skill_name_leper_hew"><![CDATA[荡魔剑]]></entry>
-		<entry id="combat_skill_name_leper_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+		<entry id="combat_skill_name_leper_focus"><![CDATA[荡魔剑]]></entry>
+		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[移动]]></entry>
 		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[姿态转换]]></entry>
 		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[养剑吐纳]]></entry>
 		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[反击剑阵]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[仙威压制]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[诛仙剑]]></entry>
-		<entry id="upgrade_tree_name_leper.hew"><![CDATA[荡魔剑]]></entry>
-		<entry id="upgrade_tree_name_leper.focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+		<entry id="upgrade_tree_name_leper.focus"><![CDATA[荡魔剑]]></entry>
+		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 
 		<!-- 紮營技能名 -->
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[神念侦查]]></entry>
