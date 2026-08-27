@@ -1,5 +1,5 @@
 // 抗性
-resistances: .stun 80% .poison 50% .bleed 10% .disease 95% .move 0% .debuff 20% .death_blow 67% .trap 110%
+resistances: .stun 80% .poison 50% .bleed 10% .disease 90% .move 0% .debuff 20% .death_blow 67% .trap 110%
 
 // 暴擊效果
 crit: .effects "lsi_on_crit_extra_round"
