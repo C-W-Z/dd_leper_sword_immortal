@@ -363,7 +363,7 @@
         },
         {
           "id": "heal_self",
-          "data": { "number_value": 0.0, "string_value": "lsi_withstand_lv5" },
+          "data": { "number_value": 0.0, "string_value": "lsi_riposte_lv1" },
           "chance": 20
         }
       ],

@@ -74,12 +74,12 @@ Refresh skills]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[Cannot Miss
 Bypass {colour_start|riposte}Riposte{colour_end}
-Clear {colour_start|myriad_blades}Myriad Blades{colour_end} {colour_start|buff}Buffs{colour_end}
+Clear {colour_start|lsi_myriad_blades}Myriad Blades{colour_end} {colour_start|buff}Buffs{colour_end}
 Switch to Sheathed Stance]]></entry>
 
 		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
 
-		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -91,7 +91,7 @@ Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Celestial Suppression]]></entry>
 		<entry id="combat_skill_name_leper_chop"><![CDATA[Immortal Slay]]></entry>
 		<entry id="combat_skill_name_leper_focus"><![CDATA[Demon Purge]]></entry>
-		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[Move]]></entry>
 		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[Uses per Round: 1
 Stance Switch]]></entry>
@@ -100,7 +100,7 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Celestial Suppression]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[Immortal Slay]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Demon Purge]]></entry>
-		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|myriad_blades}Myriad Blades{colour_end}]]></entry>
+		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[Divine Sense Recon]]></entry>
 		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[Miraculous Touch]]></entry>
@@ -160,7 +160,7 @@ Stance Switch]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
 清除{colour_start|mark}标记{colour_end} / {colour_start|stress}恐惧{colour_end} / {colour_start|debuff}减益{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|burn}灼燒{colour_end} / {colour_start|disease}疾病{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|lsi_burn}灼燒{colour_end} / {colour_start|disease}疾病{colour_end}
 刷新所有技能]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
@@ -180,11 +180,11 @@ Stance Switch]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
-清除{colour_start|myriad_blades}万剑归宗{colour_end}{colour_start|buff}增益{colour_end}
+清除{colour_start|lsi_myriad_blades}万剑归宗{colour_end}{colour_start|buff}增益{colour_end}
 转变为藏锋姿态]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff1_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|myriad_blades}万剑归宗{colour_end}：+20%%傷害 / +5%%暴擊]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff2_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|myriad_blades}万剑归宗{colour_end}：+60%%傷害 / +10%%暴擊 / +20%%穿甲]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff1_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|lsi_myriad_blades}万剑归宗{colour_end}：+20%%傷害 / +5%%暴擊]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff2_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|lsi_myriad_blades}万剑归宗{colour_end}：+60%%傷害 / +10%%暴擊 / +20%%穿甲]]></entry>
 
 		<!-- 原为%d%%基础概率，为了省字数所以简短 -->
 		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(基礎%d%%){colour_end}]]></entry>
@@ -194,13 +194,13 @@ Stance Switch]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿态时：]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏锋]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
-		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
-		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
+		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|lsi_burn}灼烧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[灼烧]]></entry>
-		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼烧：{colour_end}%d层]]></entry>
+		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|lsi_burn}灼烧：{colour_end}%d层]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[麻风剑仙]]></entry>
@@ -212,7 +212,7 @@ Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[仙威压制]]></entry>
 		<entry id="combat_skill_name_leper_chop"><![CDATA[诛仙剑]]></entry>
 		<entry id="combat_skill_name_leper_focus"><![CDATA[荡魔剑]]></entry>
-		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|lsi_myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[移动]]></entry>
 		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[姿态转换]]></entry>
 		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[养剑吐纳]]></entry>
@@ -220,7 +220,7 @@ Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[仙威压制]]></entry>
 		<entry id="upgrade_tree_name_leper.chop"><![CDATA[诛仙剑]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[荡魔剑]]></entry>
-		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
+		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|lsi_myriad_blades}万剑归宗{colour_end}]]></entry>
 
 		<!-- 紮營技能名 -->
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[神念侦查]]></entry>
@@ -236,18 +236,32 @@ Stance Switch]]></entry>
 		<entry id="hero_name_lsi"><![CDATA[无名]]></entry>
 
 		<!-- 正面特質 -->
-		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[剑心通明]]></entry>
-		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[踏雪无痕]]></entry>
-		<entry id="str_quirk_name_lsi_inedia"><![CDATA[辟谷]]></entry>
-		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[天眼通]]></entry>
-		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[无垢仙躯]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}]]></entry>
-		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[太上忘情]]></entry>
+		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_lucid_sword_heart"><![CDATA[無法獲得{colour_start|ancestral}心魔纏身{colour_end}
+無法獲得{colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[{colour_start|lsi_lucid}踏雪无痕{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}辟谷{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}天眼通{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}无垢仙躯{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}
+回合開始時10%機率治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}劍神{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[回合開始時隨機觸發以下效果之一
++5精準
++5%暴擊
++10%傷害
++2速度
+激活{colour_start|riposte}反击{colour_end}]]></entry>
 
 		<!-- 負面特質 -->
-		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[心魔缠身]]></entry>
-		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[道心蒙尘]]></entry>
-		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[劫运当头]]></entry>
+		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔纏身{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[回合開始時10%機率擅自行動
+無法獲得{colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙尘{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%機率拒絕移動/治療/紮營技能/被使用紮營技能
+無法獲得{colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}劫运当头{colour_end}]]></entry>
 
 		<!-- 折磨 -->
 		<entry id="str_affliction_name_lsi_qi_deviated"><![CDATA[走火入魔]]></entry>

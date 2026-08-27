@@ -122,13 +122,13 @@ effect: .name "lsi_heal_all" .target performer_group .curio_result_type positive
 // 隊伍：清除腐蝕/流血/疾病/猩紅詛咒
 effect: .name "lsi_cure_party" .target performer .curio_result_type positive .chance 100% .cure_bleed 1 .cure_poison 1 .cure_disease 1 .remove_vampire 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
-effect: .name "lsi_enlightened_buff1" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .on_hit true .on_miss true .queue true
-effect: .name "lsi_enlightened_buff2" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 5% .on_hit true .on_miss true .queue true
+effect: .name "lsi_enlightened_buff1" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .on_hit true .on_miss true .queue true .duration 2
+effect: .name "lsi_enlightened_buff2" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 5% .on_hit true .on_miss true .queue true .duration 2
 
-effect: .name "lsi_sword_god_buff_ACC" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .attack_rating_add 5% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_sword_god_buff_CRIT" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .crit_chance_add 5% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_sword_god_buff_DMG" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .on_hit true .on_miss false .apply_once true
-effect: .name "lsi_sword_god_buff_SPD" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .apply_once true
+effect: .name "lsi_sword_god_buff_ACC" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .attack_rating_add 5% .on_hit true .on_miss false .apply_once true .duration 2
+effect: .name "lsi_sword_god_buff_CRIT" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .crit_chance_add 5% .on_hit true .on_miss false .apply_once true .duration 2
+effect: .name "lsi_sword_god_buff_DMG" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .on_hit true .on_miss false .apply_once true .duration 2
+effect: .name "lsi_sword_god_buff_SPD" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .apply_once true .duration 2
 
 // ---------- tooltips ----------
 
