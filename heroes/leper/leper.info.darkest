@@ -103,8 +103,8 @@ id_index: .index 9
 skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
 
 // 模式 藏鋒/出鞘 TODO: 被動buffs
-mode: .id sheathed .is_raid_default true .battle_start_effect_ids
-mode: .id unsheathed .battle_start_effect_ids
+mode: .id sheathed .is_raid_default true .battle_start_effect_ids lsi_sheathed_start_buff
+mode: .id unsheathed .is_raid_default true .battle_start_effect_ids lsi_unsheathed_start_buff
 
 // 美德/折磨
 // 這裡設定機率不會受改變美德機率的buff影響，但不寫設定又會出現原版美德/折磨，超爛

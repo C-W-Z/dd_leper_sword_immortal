@@ -160,7 +160,7 @@ Stance Switch]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
 清除{colour_start|mark}标记{colour_end} / {colour_start|stress}恐惧{colour_end} / {colour_start|debuff}减益{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|disease}疾病{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|burn}灼燒{colour_end} / {colour_start|disease}疾病{colour_end}
 刷新所有技能]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
