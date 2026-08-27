@@ -21,7 +21,7 @@
       "keep_loot": false,
       "buffs": ["lsi_xp+100", "STUNRESIST20", "DEBUFFRESIST20"],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -50,7 +50,7 @@
         "lsi_stealth_dmgH+10"
       ],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -78,7 +78,7 @@
         "lsi_HEALDONE+10"
       ],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -107,7 +107,7 @@
         "ignore_stealth"
       ],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -140,7 +140,7 @@
         "BLEEDRESIST20"
       ],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -163,7 +163,7 @@
       "keep_loot": false,
       "buffs": ["STRESSDMG-20", "STRESSRECOVERY20", "lsi_STRESSHEAL+10"],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -186,7 +186,7 @@
       "keep_loot": false,
       "buffs": [],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -209,7 +209,7 @@
       "keep_loot": false,
       "buffs": ["STRESSDMG20"],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -232,7 +232,7 @@
       "keep_loot": false,
       "buffs": ["SPD-2", "CRIT-5", "STRESSRECOVERY-20"],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
@@ -255,7 +255,7 @@
       "keep_loot": false,
       "buffs": ["DEF-5", "lsi_CRITRECEIVED+5", "RESOLVECHECK-10"],
       "tags": [],
-      "can_modify_in_activity": false,
+      "can_modify_in_activity": true,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
