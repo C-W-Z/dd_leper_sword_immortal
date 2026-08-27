@@ -140,11 +140,6 @@ Stance Switch]]></entry>
 
 	<language id="schinese">
 
-		<entry id="str_skill_mode_info_sheathed"><![CDATA[藏锋姿态时：]]></entry>
-		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿态时：]]></entry>
-		<entry id="actor_mode_name_sheathed"><![CDATA[藏锋]]></entry>
-		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
-
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_sheathed"><![CDATA[自身：转变为出鞘姿态
 所有同伴：{colour_start|stress}压力{colour_end}+2
 ]]></entry>
@@ -154,42 +149,13 @@ Stance Switch]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴]]></entry>
 
-		<!-- <entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-60%%伤害 /
-		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
-		{colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-55%%伤害 /
-		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
-		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-50%%伤害 /
-		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
-		{colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-45%%伤害 /
-		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
-		{colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[激活{colour_start|riposte}反击{colour_end}
-{colour_start|riposte}反击{colour_end}：-40%%伤害 /
-		{colour_start|riposte}反击{colour_end}：{colour_start|stun}眩晕{colour_end}
-		{colour_start|skill_unselectable}(140%%){colour_end}]]></entry> -->
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2"><![CDATA[自身：2次格檔 / 激活{colour_start|riposte}反击{colour_end}]]></entry>
 
-		<!-- <entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}治疗{colour_end}1]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}治疗{colour_end}2]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}治疗{colour_end}3]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}治疗{colour_end}4]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}治疗{colour_end}5]]></entry> -->
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv1"><![CDATA[{colour_start|buff}增益自身：{colour_end}+7%%防禦 / -7%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv2"><![CDATA[{colour_start|buff}增益自身：{colour_end}+9%%防禦 / -9%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv3"><![CDATA[{colour_start|buff}增益自身：{colour_end}+11%%防禦 / -11%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv4"><![CDATA[{colour_start|buff}增益自身：{colour_end}+13%%防禦 / -13%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv5"><![CDATA[{colour_start|buff}增益自身：{colour_end}+15%%防禦 / -15%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
 清除{colour_start|mark}标记{colour_end} / {colour_start|stress}恐惧{colour_end} / {colour_start|debuff}减益{colour_end}]]></entry>
@@ -201,47 +167,33 @@ Stance Switch]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[所有同伴：{colour_start|stress}压力{colour_end}+6 / 清除{colour_start|stress}恐惧{colour_end}]]></entry>
 
-		<!-- <entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--1速度/-6闪避/-6精准/-6%%暴击 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
 		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--2速度/-7闪避/-7精准/-7%%暴击 {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-6闪避 / -6%%暴击 {colour_start|skill_unselectable}(基礎110%%){colour_end}]]></entry>
 		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--3速度/-8闪避/-8精准/-8%%暴击 {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-7闪避 / -7%%暴击 {colour_start|skill_unselectable}(基礎120%%){colour_end}]]></entry>
 		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--4速度/-9闪避/-9精准/-9%%暴击 {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-8闪避 / -8%%暴击 {colour_start|skill_unselectable}(基礎130%%){colour_end}]]></entry>
 		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
--5速度/-10闪避/-10精准/-10%%暴击 {colour_start|skill_unselectable}(150%%){colour_end}]]></entry> -->
-
-		<!-- <entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv1"><![CDATA[{colour_start|blight}腐蚀{colour_end}1/{colour_start|bleed}流血{colour_end}1
-		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-9闪避 / -9%%暴击 {colour_start|skill_unselectable}(基礎140%%){colour_end}]]></entry>
 		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv2"><![CDATA[{colour_start|blight}腐蚀{colour_end}2/{colour_start|bleed}流血{colour_end}2
-		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv3"><![CDATA[{colour_start|blight}腐蚀{colour_end}3/{colour_start|bleed}流血{colour_end}3
-		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv4"><![CDATA[{colour_start|blight}腐蚀{colour_end}4/{colour_start|bleed}流血{colour_end}4
-		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1_lv5"><![CDATA[{colour_start|blight}腐蚀{colour_end}5/{colour_start|bleed}流血{colour_end}5
-		{colour_start|skill_unselectable}(110%%){colour_end}]]></entry> -->
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10闪避 / -10%%暴击 {colour_start|skill_unselectable}(基礎150%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
 清除{colour_start|myriad_blades}万剑归宗{colour_end}{colour_start|buff}增益{colour_end}
 转变为藏锋姿态]]></entry>
 
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff1_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|myriad_blades}万剑归宗{colour_end}：+20%%傷害 / +5%%暴擊]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff2_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|myriad_blades}万剑归宗{colour_end}：+60%%傷害 / +10%%暴擊 / +20%%穿甲]]></entry>
+
 		<!-- 原为%d%%基础概率，为了省字数所以简短 -->
-		<!-- <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry> -->
+		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(基礎%d%%){colour_end}]]></entry>
 
 		<!-- 補全藍字 -->
+		<entry id="str_skill_mode_info_sheathed"><![CDATA[藏锋姿态时：]]></entry>
+		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿态时：]]></entry>
+		<entry id="actor_mode_name_sheathed"><![CDATA[藏锋]]></entry>
+		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
 		<entry id="buff_rule_data_tooltip_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>

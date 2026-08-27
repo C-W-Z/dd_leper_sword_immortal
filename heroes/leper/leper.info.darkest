@@ -27,13 +27,18 @@ combat_skill: .id "solemnity" .level 1 .heal 2 2 .launch 4321 .target .effect ls
 combat_skill: .id "solemnity" .level 2 .heal 3 3 .launch 4321 .target .effect lsi_heal_stress_lv3 lsi_effect_solemnity_tip2 lsi_effect_solemnity_tip3 lsi_solemnity lsi_finale_buffs_2 .is_stall_invalidating false .valid_modes sheathed
 combat_skill: .id "solemnity" .level 3 .heal 4 4 .launch 4321 .target .effect lsi_heal_stress_lv4 lsi_effect_solemnity_tip2 lsi_effect_solemnity_tip3 lsi_solemnity lsi_finale_buffs_2 .is_stall_invalidating false .valid_modes sheathed
 combat_skill: .id "solemnity" .level 4 .heal 5 5 .launch 4321 .target .effect lsi_heal_stress_lv5 lsi_effect_solemnity_tip2 lsi_effect_solemnity_tip3 lsi_solemnity lsi_finale_buffs_2 .is_stall_invalidating false .valid_modes sheathed
+combat_skill: .id "solemnity" .level 0 .effect lsi_effect_finale_buff2_tip
+combat_skill: .id "solemnity" .level 1 .effect lsi_effect_finale_buff2_tip
+combat_skill: .id "solemnity" .level 2 .effect lsi_effect_finale_buff2_tip
+combat_skill: .id "solemnity" .level 3 .effect lsi_effect_finale_buff2_tip
+combat_skill: .id "solemnity" .level 4 .effect lsi_effect_finale_buff2_tip
 
 // 抵擋 -> 反擊劍陣
-combat_skill: .id "withstand" .level 0 .effect lsi_effect_withstand_tip1
-combat_skill: .id "withstand" .level 1 .effect lsi_effect_withstand_tip1
-combat_skill: .id "withstand" .level 2 .effect lsi_effect_withstand_tip1
-combat_skill: .id "withstand" .level 3 .effect lsi_effect_withstand_tip1
-combat_skill: .id "withstand" .level 4 .effect lsi_effect_withstand_tip1
+combat_skill: .id "withstand" .level 0 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv1 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 1 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv2 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 2 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv3 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 3 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv4 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 4 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv5 lsi_effect_finale_buff1_tip
 combat_skill: .id "withstand" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all lsi_block2 lsi_withstand_lv1 lsi_riposte_lv1 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 combat_skill: .id "withstand" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all lsi_block2 lsi_withstand_lv2 lsi_riposte_lv1 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 combat_skill: .id "withstand" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all lsi_block2 lsi_withstand_lv3 lsi_riposte_lv1 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
@@ -41,21 +46,16 @@ combat_skill: .id "withstand" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .l
 combat_skill: .id "withstand" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all lsi_block2 lsi_withstand_lv5 lsi_riposte_lv2 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 
 // 威嚇 -> 仙威壓制
-combat_skill: .id "intimidate" .level 0 .effect lsi_effect_intimidate_tip1
-combat_skill: .id "intimidate" .level 1 .effect lsi_effect_intimidate_tip1
-combat_skill: .id "intimidate" .level 2 .effect lsi_effect_intimidate_tip1
-combat_skill: .id "intimidate" .level 3 .effect lsi_effect_intimidate_tip1
-combat_skill: .id "intimidate" .level 4 .effect lsi_effect_intimidate_tip1
 combat_skill: .id "intimidate" .level 0 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 4321 .target ~1234 .is_crit_valid False .ignore_stealth true .ignore_guard true .can_be_riposted false .effect lsi_intimidate lsi_debuff_target_lv1 "Stun 1" lsi_decrease_action_lv1 lsi_others_stress lsi_finale_buffs .valid_modes sheathed
 combat_skill: .id "intimidate" .level 1 .type "ranged" .atk 120% .dmg -100% .crit 0% .launch 4321 .target ~1234 .is_crit_valid False .ignore_stealth true .ignore_guard true .can_be_riposted false .effect lsi_intimidate lsi_debuff_target_lv2 "Stun 1" lsi_decrease_action_lv2 lsi_others_stress lsi_finale_buffs .valid_modes sheathed
 combat_skill: .id "intimidate" .level 2 .type "ranged" .atk 130% .dmg -100% .crit 0% .launch 4321 .target ~1234 .is_crit_valid False .ignore_stealth true .ignore_guard true .can_be_riposted false .effect lsi_intimidate lsi_debuff_target_lv3 "Stun 1" lsi_decrease_action_lv3 lsi_others_stress lsi_finale_buffs .valid_modes sheathed
 combat_skill: .id "intimidate" .level 3 .type "ranged" .atk 140% .dmg -100% .crit 0% .launch 4321 .target ~1234 .is_crit_valid False .ignore_stealth true .ignore_guard true .can_be_riposted false .effect lsi_intimidate lsi_debuff_target_lv4 "Stun 1" lsi_decrease_action_lv4 lsi_others_stress lsi_finale_buffs .valid_modes sheathed
 combat_skill: .id "intimidate" .level 4 .type "ranged" .atk 150% .dmg -100% .crit 0% .launch 4321 .target ~1234 .is_crit_valid False .ignore_stealth true .ignore_guard true .can_be_riposted false .effect lsi_intimidate lsi_debuff_target_lv5 "Stun 1" lsi_decrease_action_lv5 lsi_others_stress lsi_finale_buffs .valid_modes sheathed
-combat_skill: .id "intimidate" .level 0 .effect lsi_effect_intimidate_tip2
-combat_skill: .id "intimidate" .level 1 .effect lsi_effect_intimidate_tip2
-combat_skill: .id "intimidate" .level 2 .effect lsi_effect_intimidate_tip2
-combat_skill: .id "intimidate" .level 3 .effect lsi_effect_intimidate_tip2
-combat_skill: .id "intimidate" .level 4 .effect lsi_effect_intimidate_tip2
+combat_skill: .id "intimidate" .level 0 .effect lsi_effect_intimidate_tip1 lsi_effect_intimidate_tip2 lsi_effect_intimidate_tip3_lv1 lsi_effect_finale_buff1_tip
+combat_skill: .id "intimidate" .level 1 .effect lsi_effect_intimidate_tip1 lsi_effect_intimidate_tip2 lsi_effect_intimidate_tip3_lv2 lsi_effect_finale_buff1_tip
+combat_skill: .id "intimidate" .level 2 .effect lsi_effect_intimidate_tip1 lsi_effect_intimidate_tip2 lsi_effect_intimidate_tip3_lv3 lsi_effect_finale_buff1_tip
+combat_skill: .id "intimidate" .level 3 .effect lsi_effect_intimidate_tip1 lsi_effect_intimidate_tip2 lsi_effect_intimidate_tip3_lv4 lsi_effect_finale_buff1_tip
+combat_skill: .id "intimidate" .level 4 .effect lsi_effect_intimidate_tip1 lsi_effect_intimidate_tip2 lsi_effect_intimidate_tip3_lv5 lsi_effect_finale_buff1_tip
 
 // 揮砍 -> 誅仙劍
 combat_skill: .id "chop" .level 0 .type "melee" .atk 90% .dmg 5% .crit 2% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
@@ -63,6 +63,11 @@ combat_skill: .id "chop" .level 1 .type "melee" .atk 95% .dmg 10% .crit 4% .laun
 combat_skill: .id "chop" .level 2 .type "melee" .atk 100% .dmg 15% .crit 6% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
 combat_skill: .id "chop" .level 3 .type "melee" .atk 105% .dmg 20% .crit 8% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
 combat_skill: .id "chop" .level 4 .type "melee" .atk 110% .dmg 25% .crit 10% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "chop" .level 0 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "chop" .level 1 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "chop" .level 2 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "chop" .level 3 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "chop" .level 4 .effect lsi_effect_finale_buff1_tip
 
 // 斬劈 -> 盪魔劍
 combat_skill: .id "hew" .level 0 .type "melee" .atk 90% .dmg -50% .crit 1% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv1 clear_corpses lsi_finale_buffs .valid_modes unsheathed
@@ -70,6 +75,11 @@ combat_skill: .id "hew" .level 1 .type "melee" .atk 95% .dmg -50% .crit 2% .laun
 combat_skill: .id "hew" .level 2 .type "melee" .atk 100% .dmg -50% .crit 3% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv3 clear_corpses lsi_finale_buffs .valid_modes unsheathed
 combat_skill: .id "hew" .level 3 .type "melee" .atk 105% .dmg -50% .crit 4% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv4 clear_corpses lsi_finale_buffs .valid_modes unsheathed
 combat_skill: .id "hew" .level 4 .type "melee" .atk 110% .dmg -50% .crit 5% .launch 4321 .target ~1234 .is_crit_valid True .effect "Unholy Killer 3" "Eldritch Killer 3" "lsi_vampire_killer+25" lsi_burn_lv5 clear_corpses lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "hew" .level 0 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "hew" .level 1 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "hew" .level 2 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "hew" .level 3 .effect lsi_effect_finale_buff1_tip
+combat_skill: .id "hew" .level 4 .effect lsi_effect_finale_buff1_tip
 
 // 淨化 -> 萬劍歸宗
 combat_skill: .id "focus" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True .can_miss false .can_be_riposted false .effect lsi_effect_focus_tip1 "lsi_clear_finale_buffs" "lsi_switch_mode_sheathed_queue" "lsi_finale_debuffs" .valid_modes unsheathed .per_battle_limit 1
