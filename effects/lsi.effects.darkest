@@ -30,27 +30,31 @@ effect: .name "lsi_heal_stress_lv4" .target "target" .curio_result_type "positiv
 effect: .name "lsi_heal_stress_lv5" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true .apply_once true .has_description true
 
 // (反擊劍陣)啟動反擊+反擊暈眩目標
-effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -60% .damage_high_multiply -60% .riposte_effect "Stun 1" .apply_once true .has_description true
-effect: .name "lsi_riposte_lv2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -55% .damage_high_multiply -55% .riposte_effect "Stun 2" .apply_once true .has_description true
-effect: .name "lsi_riposte_lv3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -50% .damage_high_multiply -50% .riposte_effect "Stun 3" .apply_once true .has_description true
-effect: .name "lsi_riposte_lv4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -45% .damage_high_multiply -45% .riposte_effect "Stun 4" .apply_once true .has_description true
-effect: .name "lsi_riposte_lv5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 5 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .riposte_effect "Stun 5" .apply_once true .has_description true
+//effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -60% .damage_high_multiply -60% .riposte_effect "Stun 1" .apply_once true .has_description true
+//effect: .name "lsi_riposte_lv2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -55% .damage_high_multiply -55% .riposte_effect "Stun 2" .apply_once true .has_description true
+//effect: .name "lsi_riposte_lv3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -50% .damage_high_multiply -50% .riposte_effect "Stun 3" .apply_once true .has_description true
+//effect: .name "lsi_riposte_lv4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -45% .damage_high_multiply -45% .riposte_effect "Stun 4" .apply_once true .has_description true
+//effect: .name "lsi_riposte_lv5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 5 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .riposte_effect "Stun 5" .apply_once true .has_description true
 
 // (反擊劍陣)啟動反擊
-effect: .name "lsi_riposte" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "lsi_riposte_lv1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .apply_once true .has_description true
+effect: .name "lsi_riposte_lv2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .buff_duration_type after_round .on_hit true .on_miss true .apply_once true .has_description true
 
-// (反擊劍陣)重置自身守護/反擊狀態，2次格擋
-effect: .name "lsi_clear_guard_riposte_performer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .clear_riposte 1 .health_damage_blocks 2 .on_hit true .on_miss false .apply_once true .has_description false
+// (反擊劍陣)重置自身守護/反擊狀態
+effect: .name "lsi_clear_guard_riposte_performer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .clear_riposte 1 .on_hit true .on_miss false .apply_once true .has_description false
+
+// (反擊劍陣)2次格擋
+effect: .name "lsi_block2" .target "performer" .chance 100% .health_damage_blocks 2 .on_hit true .on_miss false .apply_once true .has_description true
 
 // (反擊劍陣)守護所有同伴(2大回合)
 effect: .name "lsi_guard_all" .target "target_group" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .buff_duration_type after_round .apply_once true .has_description false
 
 // (反擊劍陣)自身：+防禦/-受到的壓力傷害
-effect: .name "lsi_withstand_lv1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 3 .on_hit true .on_miss true .queue true .apply_once true .has_description true
-effect: .name "lsi_withstand_lv2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+9" "lsi_STRESSRECEIVED-9" .duration 3 .on_hit true .on_miss true .queue true .apply_once true .has_description true
-effect: .name "lsi_withstand_lv3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+11" "lsi_STRESSRECEIVED-11" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description true
-effect: .name "lsi_withstand_lv4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+13" "lsi_STRESSRECEIVED-13" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description true
-effect: .name "lsi_withstand_lv5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+15" "lsi_STRESSRECEIVED-15" .duration 5 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+9" "lsi_STRESSRECEIVED-9" .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+11" "lsi_STRESSRECEIVED-11" .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+13" "lsi_STRESSRECEIVED-13" .duration 3 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description true
+effect: .name "lsi_withstand_lv5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "lsi_PROT+15" "lsi_STRESSRECEIVED-15" .duration 3 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description true
 
 // (仙威壓制)破除潛行/移除守護/移除反擊
 effect: .name "lsi_intimidate" .target "target" .chance 100% .unstealth 1 .clearguarded 1 .clear_riposte 1 .duration 3 .on_hit true .on_miss false .has_description false
@@ -95,16 +99,12 @@ effect: .name "lsi_clear_finale_buffs" .target "performer" .chance 100% .steal_b
 // (萬劍歸宗)切換模式為：藏鋒
 effect: .name "lsi_switch_mode_sheathed_queue" .target "performer" .set_mode sheathed .chance 100% .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
-// (萬劍歸宗)減益自身速度/受到的壓力傷害
-effect: .name "lsi_finale_debuffs_lv1" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+100" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
-// (萬劍歸宗)減益自身速度/受到的壓力傷害
-effect: .name "lsi_finale_debuffs_lv2" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+95" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
-// (萬劍歸宗)減益自身速度/受到的壓力傷害
-effect: .name "lsi_finale_debuffs_lv3" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+90" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
-// (萬劍歸宗)減益自身速度/受到的壓力傷害
-effect: .name "lsi_finale_debuffs_lv4" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+85" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
-// (萬劍歸宗)減益自身速度/受到的壓力傷害
-effect: .name "lsi_finale_debuffs_lv5" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+80" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+// (萬劍歸宗)減益自身速度/受到的壓力傷害/-100%暴擊
+effect: .name "lsi_finale_debuffs" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+100" "lsi_finale_crit-100" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "lsi_finale_debuffs_lv2" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+95" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "lsi_finale_debuffs_lv3" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+90" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "lsi_finale_debuffs_lv4" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+85" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "lsi_finale_debuffs_lv5" .target "performer" .chance 100% .buff_ids "lsi_finale_spd-5" "lsi_finale_stress_received+80" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .apply_once true .has_description true
 
 // ---------- 給予特質 ----------
 

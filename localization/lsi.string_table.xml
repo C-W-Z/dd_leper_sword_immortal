@@ -146,14 +146,13 @@ Stance Switch]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_sheathed"><![CDATA[自身：转变为出鞘姿态
-队友：{colour_start|stress}压力{colour_end}+2
+所有同伴：{colour_start|stress}压力{colour_end}+2
 ]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_unsheathed"><![CDATA[自身：
 转变为藏锋姿态
 {colour_start|stealth}潜行{colour_end}(2回合)]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴
-自身：2次格挡]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴]]></entry>
 
 		<!-- <entry
 		id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[激活{colour_start|riposte}反击{colour_end}
@@ -200,7 +199,7 @@ Stance Switch]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[队友：清除{colour_start|stress}恐惧{colour_end} / {colour_start|stress}压力{colour_end}+6]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[所有同伴：{colour_start|stress}压力{colour_end}+6 / 清除{colour_start|stress}恐惧{colour_end}]]></entry>
 
 		<!-- <entry
 		id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}
@@ -245,6 +244,7 @@ Stance Switch]]></entry>
 		<!-- 補全藍字 -->
 		<entry id="buff_rule_data_tooltip_focus"><![CDATA[{colour_start|myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
+		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼烧：{colour_end}%d层]]></entry>
