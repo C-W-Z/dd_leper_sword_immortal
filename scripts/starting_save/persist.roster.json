@@ -29,13 +29,7 @@
         "armour_rank": 0,
         "affliction_severity": 0,
         "affliction_type_id": "",
-        "quirks": {
-          "lsi_lucid_sword_heart": {
-            "is_new": false,
-            "is_locked": false,
-            "mission_count": 0
-          }
-        },
+        "quirks": {},
         "skills": {
           "selected_combat_skills": {},
           "selected_camping_skills": {

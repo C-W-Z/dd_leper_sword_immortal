@@ -3,20 +3,18 @@
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
 	<ModDataPath>D:/SteamLibrary/steamapps/common/DarkestDungeon/mods/leper_sword_immortal/</ModDataPath>
-	<Title>Leper Sword Immortal 麻风剑仙</Title>
+	<Title>Leper Sword Immortal on Old Road 老路队伍改麻风剑仙</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>1</VersionMinor>
+	<VersionMinor>2</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
-		<Tags>Overhauls</Tags>
-		<Tags>Class Tweaks</Tags>
+		<Tags>Gameplay Tweaks</Tags>
 		<Tags>Leper</Tags>
 	</Tags>
 	<ItemDescription/>
 	<PublishedFileId>3785019927</PublishedFileId>
 </project>
-
