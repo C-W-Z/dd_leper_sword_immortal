@@ -47,11 +47,12 @@ effect: .name "lsi_clear_guard_party" .target performer_group .chance 100% .clea
 effect: .name "lsi_block2" .target performer .chance 100% .health_damage_blocks 2 .on_hit true .on_miss false .apply_once true .has_description false
 
 // (反擊劍陣)守護所有同伴
-effect: .name "lsi_guard_all_lv1" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv2" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 4 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv3" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 5 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv4" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv5" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
+// 註：好像一定要技能寫target self，這裡寫target target_group才可以守護所有人，實測其他都會沒有守護狀態
+effect: .name "lsi_guard_all_lv1" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv2" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 4 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv3" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 5 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv4" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv5" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
 
 // (反擊劍陣)自身：+防禦/-受到的壓力傷害
 effect: .name "lsi_withstand_lv1" .target performer .curio_result_type positive .chance 100% .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description false
