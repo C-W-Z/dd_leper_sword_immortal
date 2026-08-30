@@ -13,6 +13,8 @@
 [/list]
 [u][b]本模组无需DLC也能游玩，开启DLC体验更佳[/b][/u]
 
+中文介绍：TBD
+
 [img]https://images.steamusercontent.com/ugc/18175190714307544972/2556A1181E46CFFC5CDE9DBC83D8E79143D37C89/[/img]
 [h3]满级属性 原版麻风vs麻风剑仙[/h3]
 生命：63 > 40       剑客脱下了重装，成为剑仙
@@ -44,7 +46,7 @@
 武器/护甲/技能升级花费变为2倍 仙剑维护很贵，合理吧
 
 [img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
-注：萬劍歸宗的自身減益效果無法被養劍吐納清除。姿態轉換與萬劍歸宗無法在升級也無須升級
+注：万剑归宗的自身减益效果无法被养剑吐纳清除。姿态转换与万剑归宗无法在升级也无须升级
 
 [img]https://images.steamusercontent.com/ugc/13267594674564227805/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
 注：我没改原版的扎营技能(为了兼容其他修改原版扎营技能的模组)，而是在原有的7个扎营技能之上再新增了5个扎营技能，因此麻风剑仙有12个扎营技能。如果介意UI太丑的话建议订阅相关UI模组，虽然不用UI模组也能玩。我自己是用这个：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
@@ -57,7 +59,7 @@
 
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]
 未来可能加入专属饰品、专属事件和专属夜袭(例如面对心魔！)
-技能沒有音效的問題將在未來的更新中修復(大概)
+技能没有音效的问题将在未来的更新中修复(大概)
 
 [img]https://images.steamusercontent.com/ugc/10165321372344925738/7D066D8D8E304EA3853819088B44255C6F3C13D8/[/img]
 与修改麻风剑客数值技能/美德折磨的模组不兼容，但兼容修改扎营技能的模组
@@ -66,11 +68,11 @@
 未来我会为部分麻风皮肤制作让其能够兼容本模组的补丁模组
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]Leper Sword Immortal on Old Road 老路隊伍改痲瘋劍仙[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路队伍改麻风剑仙 Leper Sword Immortal on Old Road[/url]
 
 [img]https://images.steamusercontent.com/ugc/14696852832589617856/84D513C3CF3A0272CC79873C06BAA4B06B9398EB/[/img]
 目前只支援：English / 简体中文
-使用其他語言會顯示英文文本
+使用其他语言会显示英文文本
 
 [img]https://images.steamusercontent.com/ugc/15785299668783149053/C6745BFF1EBF8DEA09B033B984C5ED6FF1BCB639/[/img]
 如果有人愿意为本模组制作专属的皮肤，我将会推出独立角色版本
