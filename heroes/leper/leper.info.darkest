@@ -34,16 +34,16 @@ combat_skill: .id "solemnity" .level 3 .effect lsi_effect_finale_buff2_tip
 combat_skill: .id "solemnity" .level 4 .effect lsi_effect_finale_buff2_tip
 
 // 抵擋 -> 反擊劍陣
-combat_skill: .id "withstand" .level 0 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv1 lsi_effect_finale_buff1_tip
-combat_skill: .id "withstand" .level 1 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv2 lsi_effect_finale_buff1_tip
-combat_skill: .id "withstand" .level 2 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv3 lsi_effect_finale_buff1_tip
-combat_skill: .id "withstand" .level 3 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv4 lsi_effect_finale_buff1_tip
-combat_skill: .id "withstand" .level 4 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv5 lsi_effect_finale_buff1_tip
 combat_skill: .id "withstand" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all_lv1 lsi_block2 lsi_withstand_lv1 lsi_riposte_lv1 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 combat_skill: .id "withstand" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all_lv2 lsi_block2 lsi_withstand_lv2 lsi_riposte_lv1 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 combat_skill: .id "withstand" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all_lv3 lsi_block2 lsi_withstand_lv3 lsi_riposte_lv1 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 combat_skill: .id "withstand" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all_lv4 lsi_block2 lsi_withstand_lv4 lsi_riposte_lv2 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
 combat_skill: .id "withstand" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid False .effect lsi_clear_guard_riposte_performer "Clear Guard Target" lsi_guard_all_lv5 lsi_block2 lsi_withstand_lv5 lsi_riposte_lv2 lsi_finale_buffs .is_stall_invalidating false .valid_modes sheathed .per_battle_limit 2
+combat_skill: .id "withstand" .level 0 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv1 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 1 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv2 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 2 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv3 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 3 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv4 lsi_effect_finale_buff1_tip
+combat_skill: .id "withstand" .level 4 .effect lsi_effect_withstand_tip1 lsi_effect_withstand_tip2 lsi_effect_withstand_tip3_lv5 lsi_effect_finale_buff1_tip
 
 // 威嚇 -> 仙威壓制
 combat_skill: .id "intimidate" .level 0 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 4321 .target ~1234 .is_crit_valid False .ignore_stealth true .ignore_guard true .can_be_riposted false .effect lsi_intimidate lsi_debuff_target_lv1 "Stun 1" lsi_decrease_action_lv1 lsi_others_stress lsi_finale_buffs .valid_modes sheathed
