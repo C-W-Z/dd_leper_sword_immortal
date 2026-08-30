@@ -39,6 +39,7 @@ Exclusive accessories, events, and nighttime ambush may be added in the future (
 The issue of no sound effects for skills will (likely) be fixed in a future update.
 
 [img]https://images.steamusercontent.com/ugc/10165321372344925738/7D066D8D8E304EA3853819088B44255C6F3C13D8/[/img]
+[u]Please place this mod above translation mods (such as 汉化, 日本語化, etc.), otherwise some text will be overridden by translation mods.[/u]
 Incompatible with mods that modify Leper's Stats/Combat Skills/Virtues/Afflictions, but compatible with mods that modify Camping Skills.
 Compatible with all trinket mods.
 Incompatible with some Leper skins that modify leper.art.darkest (these mods usually lack riposte animations, causing riposte to fail).
