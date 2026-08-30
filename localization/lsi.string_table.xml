@@ -65,6 +65,10 @@ Switch to Sheathed Stance]]></entry>
 
 		<!-- Guild Description -->
 		<entry id="action_verbose_body_guild_leper"><![CDATA[A fallen king, a solitary swordsman, and a seeker amidst suffering. The Leper Sword Immortal seamlessly alternates between Sheathed and Unsheathed stances. In Sheathed stance, he bides his time and gathers formidable Sword Intent, before unleashing it in Unsheathed stance with an earth-shattering strike. Though his flesh is wracked with disease, his Dao Heart remains imperishable—drawing upon celestial Qi to mend his wounds, form protective arrays for allies, or rain heavenly tribulations upon his foes.]]></entry>
+		<!-- Blacksmith -->
+		<entry id="action_verbose_body_blacksmith_leper"><![CDATA[Woven with spiritual resonance, the Sword Immortal's Daoist robe can absorb all manner of punishing blows. His flying sword bides its strength while sheathed, only to deliver crushing destruction to any evil caught in its unstoppable arc upon unsheathe.]]></entry>
+		<!-- Survivalist -->
+		<entry id="action_verbose_body_camping_trainer_leper"><![CDATA[By the campfire, the Leper Sword Immortal is both a solitary ascetic and a master of profound celestial arts. During camp, he can enter secluded cultivation, sweep the surroundings with divine sense, heal companions with a miraculous touch, or even impart the Dao and transmute stone into gold. Turning his physical suffering into spiritual mastery, he shields and guides his party through the endless dark.]]></entry>
 
 		<!-- Weapon -->
 		<entry id="leper_weapon_0"><![CDATA[Pitted Iron Sword]]></entry>
@@ -217,6 +221,10 @@ Never acquire{colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 
 		<!-- 公會描述 -->
 		<entry id="action_verbose_body_guild_leper"><![CDATA[落魄的王者、孤傲的劍客，與苦難中的求道者。麻风剑仙能在【藏锋】与【出鞘】姿态间自由切换。他在藏锋时静心养剑、积聚浩然剑意，并在出鞘之际出其不意，挥出荡尽乾坤的毁灭打击。纵使肉身受到苦难折磨，他的道心依然坚不可摧，能引天地灵气自我疗愈、设阵庇护同伴，或向敌人宣泄天劫般的无情怒火。]]></entry>
+		<!-- 铁匠描述 -->
+		<entry id="action_verbose_body_blacksmith_leper"><![CDATA[麻风剑仙的道袍蕴含灵威，能化解世间一切强力的打击。他的飞剑在藏锋时蓄势敛锋，一旦出鞘，便能以不可阻挡之势斩尽弧光中的一切邪煞。]]></entry>
+		<!-- 生存大师描述 -->
+		<entry id="action_verbose_body_camping_trainer_leper"><![CDATA[营火旁的麻风剑仙既是孤独的苦修者，亦是高深莫测的求道前辈。在扎营休息时，他既能闭关修练、以神念预知周遭险境，亦能施展妙手回春之术治疗同伴，甚至传道授业、点石成金。他将肉身的苦难铸为道行，在漫漫长夜中以仙家手段为队伍庇护引路。]]></entry>
 
 		<!-- 武器 -->
 		<entry id="leper_weapon_0"><![CDATA[斑驳铁剑]]></entry>
