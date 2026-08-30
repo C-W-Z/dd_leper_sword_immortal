@@ -120,18 +120,18 @@ Switch to Sheathed Stance]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}守护{colour_end}所有同伴]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2"><![CDATA[自身：2次格檔 / 激活{colour_start|riposte}反击{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2"><![CDATA[自身：2次格档 / 激活{colour_start|riposte}反击{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv1"><![CDATA[{colour_start|buff}增益自身：{colour_end}+7%%防禦 / -7%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv2"><![CDATA[{colour_start|buff}增益自身：{colour_end}+9%%防禦 / -9%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv3"><![CDATA[{colour_start|buff}增益自身：{colour_end}+11%%防禦 / -11%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv4"><![CDATA[{colour_start|buff}增益自身：{colour_end}+13%%防禦 / -13%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv5"><![CDATA[{colour_start|buff}增益自身：{colour_end}+15%%防禦 / -15%%所受{colour_start|stress}壓力{colour_end}傷害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv1"><![CDATA[{colour_start|buff}增益自身：{colour_end}+7%%防御 / -7%%所受{colour_start|stress}压力{colour_end}伤害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv2"><![CDATA[{colour_start|buff}增益自身：{colour_end}+9%%防御 / -9%%所受{colour_start|stress}压力{colour_end}伤害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv3"><![CDATA[{colour_start|buff}增益自身：{colour_end}+11%%防御 / -11%%所受{colour_start|stress}压力{colour_end}伤害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv4"><![CDATA[{colour_start|buff}增益自身：{colour_end}+13%%防御 / -13%%所受{colour_start|stress}压力{colour_end}伤害]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv5"><![CDATA[{colour_start|buff}增益自身：{colour_end}+15%%防御 / -15%%所受{colour_start|stress}压力{colour_end}伤害]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
 清除{colour_start|mark}标记{colour_end} / {colour_start|stress}恐惧{colour_end} / {colour_start|debuff}减益{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|burn}灼燒{colour_end} / {colour_start|disease}疾病{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|burn}灼烧{colour_end} / {colour_start|disease}疾病{colour_end}
 刷新所有技能]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
@@ -139,28 +139,28 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[所有同伴：{colour_start|stress}压力{colour_end}+6 / 清除{colour_start|stress}恐惧{colour_end}]]></entry>
 
 		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-6闪避 / -6%%暴击 {colour_start|skill_unselectable}(基礎110%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-6闪避 / -6%%暴击 {colour_start|skill_unselectable}(基础110%%){colour_end}]]></entry>
 		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-7闪避 / -7%%暴击 {colour_start|skill_unselectable}(基礎120%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-7闪避 / -7%%暴击 {colour_start|skill_unselectable}(基础120%%){colour_end}]]></entry>
 		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-8闪避 / -8%%暴击 {colour_start|skill_unselectable}(基礎130%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-8闪避 / -8%%暴击 {colour_start|skill_unselectable}(基础130%%){colour_end}]]></entry>
 		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-9闪避 / -9%%暴击 {colour_start|skill_unselectable}(基礎140%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-9闪避 / -9%%暴击 {colour_start|skill_unselectable}(基础140%%){colour_end}]]></entry>
 		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10闪避 / -10%%暴击 {colour_start|skill_unselectable}(基礎150%%){colour_end}]]></entry>
+			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10闪避 / -10%%暴击 {colour_start|skill_unselectable}(基础150%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
 清除{colour_start|lsi_myriad_blades}万剑归宗{colour_end}{colour_start|buff}增益{colour_end}
 转变为藏锋姿态]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff1_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|lsi_myriad_blades}万剑归宗{colour_end}：+20%%傷害 / +5%%暴擊]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff2_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|lsi_myriad_blades}万剑归宗{colour_end}：+60%%傷害 / +10%%暴擊 / +20%%穿甲]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff1_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|lsi_myriad_blades}万剑归宗{colour_end}：+20%%伤害 / +5%%暴击]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff2_tip"><![CDATA[{colour_start|buff}增益自身：{colour_end}{colour_start|lsi_myriad_blades}万剑归宗{colour_end}：+60%%伤害 / +10%%暴击 / +20%%穿甲]]></entry>
 
 		<!-- 原为%d%%基础概率，为了省字数所以简短 -->
-		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(基礎%d%%){colour_end}]]></entry>
+		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>
 
-		<!-- 補全藍字 -->
+		<!-- 补全蓝字 -->
 		<entry id="str_skill_mode_info_sheathed"><![CDATA[藏锋姿态时：]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿态时：]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏锋]]></entry>
@@ -193,45 +193,45 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[荡魔剑]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|lsi_myriad_blades}万剑归宗{colour_end}]]></entry>
 
-		<!-- 紮營技能名 -->
+		<!-- 扎营技能名 -->
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[神念侦查]]></entry>
 		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[妙手回春]]></entry>
 		<entry id="camping_skill_name_lsi_secluded_cultivation"><![CDATA[闭关修练]]></entry>
 		<entry id="camping_skill_name_lsi_imparting_the_dao"><![CDATA[传道授业]]></entry>
 		<entry id="camping_skill_name_lsi_midas_touch"><![CDATA[点石成金]]></entry>
 
-		<!-- 紮營技能描述 -->
+		<!-- 扎营技能描述 -->
 		<entry id="camping_skill_effect_loot_LSI_G"><![CDATA[产生一颗随机的宝石]]></entry>
 
-		<!-- 第一個劍仙名字 -->
+		<!-- 第一个剑仙名字 -->
 		<entry id="hero_name_lsi"><![CDATA[无名]]></entry>
 
-		<!-- 正面特質 -->
+		<!-- 正面特质 -->
 		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_lucid_sword_heart"><![CDATA[無法獲得{colour_start|ancestral}心魔纏身{colour_end}
-無法獲得{colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_lucid_sword_heart"><![CDATA[无法获得{colour_start|ancestral}心魔缠身{colour_end}
+无法获得{colour_start|ancestral}道心蒙尘{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[{colour_start|lsi_lucid}踏雪无痕{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}辟谷{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}天眼通{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}无垢仙躯{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}
-回合開始時10%機率治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end}]]></entry>
+回合开始时10%机率治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
-		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}劍神{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[回合開始時隨機觸發以下效果之一
-+5精準
-+5%暴擊
-+10%傷害
+		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}剑神{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[回合开始时随机触发以下效果之一
++5精准
++5%暴击
++10%伤害
 +2速度
 激活{colour_start|riposte}反击{colour_end}]]></entry>
 
-		<!-- 負面特質 -->
-		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔纏身{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[回合開始時10%機率擅自行動
-無法獲得{colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
+		<!-- 负面特质 -->
+		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔缠身{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[回合开始时10%机率擅自行动
+无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙尘{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%機率拒絕移動/治療/紮營技能/被使用紮營技能
-無法獲得{colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%机率拒绝移动/治疗/扎营技能/被使用扎营技能
+无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}劫运当头{colour_end}]]></entry>
 
 		<!-- 折磨 -->
