@@ -49,7 +49,8 @@ In the future, I will create patch mods to make some Leper skins compatible with
 
 [img]https://images.steamusercontent.com/ugc/14696852832589617856/84D513C3CF3A0272CC79873C06BAA4B06B9398EB/[/img]
 Currently only supports: English / 简体中文
-Using other languages ​​will display English text.
+Using other languages will display English text.
+In 日本語 and 한국어, some proper nouns will display as 繁體中文 texts.
 
 [img]https://images.steamusercontent.com/ugc/15785299668783149053/C6745BFF1EBF8DEA09B033B984C5ED6FF1BCB639/[/img]
 If anyone is willing to create a custom skin for this mod, I will release a standalone character version.

@@ -73,6 +73,7 @@
 [img]https://images.steamusercontent.com/ugc/14696852832589617856/84D513C3CF3A0272CC79873C06BAA4B06B9398EB/[/img]
 目前只支援：English / 简体中文
 使用其他语言会显示英文文本
+在日本語和한국어中，一些专有名词会显示繁體中文文本
 
 [img]https://images.steamusercontent.com/ugc/15785299668783149053/C6745BFF1EBF8DEA09B033B984C5ED6FF1BCB639/[/img]
 如果有人愿意为本模组制作专属的皮肤，我将会推出独立角色版本
