@@ -65,7 +65,19 @@
 與修改痲瘋劍客數值技能/美德折磨的模組不兼容，但兼容修改紮營技能的模組
 兼容所有飾品模組
 與部分修改了leper.art.darkest的痲瘋皮膚不兼容(這些模組通常沒有寫反擊動畫，會導致無法反擊)
+將本模組置於皮膚模組上方通常可以解決此問題
 未來我會為部分痲瘋皮膚製作讓其能夠兼容本模組的補丁模組
+
+已知無論模組排序如何都完全兼容的皮膚：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906192365]Leper Conductor skin[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3679338685]麻风 列车长皮肤NSFW[/url]
+[/list]
+
+已知不完全兼容的皮膚（需要將這些皮膚置於本模組下方，但仍會有某些動畫露出原版痲瘋的影子）：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3346337984]灰鹰改麻风剑客皮肤[/url]
+[/list]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路隊伍改痲瘋劍仙 Leper Sword Immortal on Old Road[/url]

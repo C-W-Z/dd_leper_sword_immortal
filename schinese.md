@@ -65,7 +65,19 @@
 与修改麻风剑客数值技能/美德折磨的模组不兼容，但兼容修改扎营技能的模组
 兼容所有饰品模组
 与部分修改了leper.art.darkest的麻风皮肤不兼容(这些模组通常没有写反击动画，会导致无法反击)
+将本模组置于皮肤模组上方通常可以解决此问题
 未来我会为部分麻风皮肤制作让其能够兼容本模组的补丁模组
+
+已知无论模组排序如何都完全兼容的皮肤：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906192365]Leper Conductor skin[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3679338685]麻风 列车长皮肤NSFW[/url]
+[/list]
+
+已知不完全兼容的皮肤（需要将这些皮肤置于本模组下方，但依然会有某些动画露出原版麻风的影子）：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3346337984]灰鹰改麻风剑客皮肤[/url]
+[/list]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路队伍改麻风剑仙 Leper Sword Immortal on Old Road[/url]

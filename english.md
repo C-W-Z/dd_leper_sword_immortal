@@ -42,7 +42,19 @@ The issue of no sound effects for skills will (likely) be fixed in a future upda
 Incompatible with mods that modify Leper's Stats/Combat Skills/Virtues/Afflictions, but compatible with mods that modify Camping Skills.
 Compatible with all trinket mods.
 Incompatible with some Leper skins that modify leper.art.darkest (these mods usually lack riposte animations, causing riposte to fail).
+Placing this mod above the skin mod usually solves this problem.
 In the future, I will create patch mods to make some Leper skins compatible with this mod.
+
+Known skins that are fully compatible regardless of mod order:
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906192365]Leper Conductor skin[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3679338685]麻风 列车长皮肤NSFW[/url]
+[/list]
+
+Known incompletely compatible skins (these skins need to be placed below this mod, but some animations will still show the original Leper skin):
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3346337984]灰鹰改麻风剑客皮肤[/url]
+[/list]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]Leper Sword Immortal on Old Road 老路队伍改麻风剑仙[/url]
