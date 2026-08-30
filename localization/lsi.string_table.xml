@@ -2,61 +2,68 @@
 <root>
 	<language id="english">
 
-		<entry id="str_skill_mode_info_sheathed"><![CDATA[Sheathed Stance:]]></entry>
-		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
-		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
-		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
-
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_sheathed"><![CDATA[Self: Switch to Unsheathed Stance
 Allies: {colour_start|stress}Stress{colour_end} +2
 ]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_unsheathed"><![CDATA[Self:
 Switch to Sheathed Stance
-{colour_start|stealth}Stealth{colour_end} (2 turns)]]></entry>
+{colour_start|stealth}Stealth{colour_end}(2 rds)]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}Guard{colour_end} All Allies
-Self:
-2 Blocks]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}Guard{colour_end} All Allies]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2"><![CDATA[Self: 2 Blocks / Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv1"><![CDATA[{colour_start|buff}Buff Self:{colour_end} +7%% PROT / -7%% {colour_start|stress}Stress{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv2"><![CDATA[{colour_start|buff}Buff Self:{colour_end} +9%% PROT / -9%% {colour_start|stress}Stress{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv3"><![CDATA[{colour_start|buff}Buff Self:{colour_end} +11%% PROT / -11%% {colour_start|stress}Stress{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv4"><![CDATA[{colour_start|buff}Buff Self:{colour_end} +13%% PROT / -13%% {colour_start|stress}Stress{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip3_lv5"><![CDATA[{colour_start|buff}Buff Self:{colour_end} +15%% PROT / -15%% {colour_start|stress}Stress{colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 (next turn)
 Clear {colour_start|mark}Mark{colour_end} / {colour_start|stress}Horror{colour_end} / {colour_start|debuff}Debuff{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[Cure {colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} / {colour_start|disease}Disease{colour_end} / {colour_start|bleed}Crimson Curse{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[Cure {colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} / {colour_start|burn}Burn{colour_end} / {colour_start|disease}Disease{colour_end}
 Refresh skills]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[Breaks {colour_start|guard}Guard{colour_end} / {colour_start|stealth}De-stealth{colour_end} / Remove {colour_start|riposte}Riposte{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[Allies: Clear {colour_start|stress}Horror{colour_end} / {colour_start|stress}Stress{colour_end} +5]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[Allies: {colour_start|stress}Stress{colour_end} +6 / Clear {colour_start|stress}Horror{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--1 SPD / -6 DODGE / -6 ACC / -6%% CRIT {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--2 SPD / -7 DODGE / -7 ACC / -7%% CRIT {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--3 SPD / -8 DODGE / -8 ACC / -8%% CRIT {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--4 SPD / -9 DODGE / -9 ACC / -9%% CRIT {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
--5 SPD / -10 DODGE / -10 ACC / -10%% CRIT {colour_start|skill_unselectable}(150%%){colour_end}]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv1"><![CDATA[{colour_start|blight}Blight{colour_end} 1 / {colour_start|bleed}Bleed{colour_end} 1 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv2"><![CDATA[{colour_start|blight}Blight{colour_end} 2 / {colour_start|bleed}Bleed{colour_end} 2 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv3"><![CDATA[{colour_start|blight}Blight{colour_end} 3 / {colour_start|bleed}Bleed{colour_end} 3 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv4"><![CDATA[{colour_start|blight}Blight{colour_end} 4 / {colour_start|bleed}Bleed{colour_end} 4 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_focus_tip1_lv5"><![CDATA[{colour_start|blight}Blight{colour_end} 5 / {colour_start|bleed}Bleed{colour_end} 5 {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} -6 DODGE / -6%% CRIT {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} -7 DODGE / -7%% CRIT {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} -8 DODGE / -8%% CRIT {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} -9 DODGE / -9%% CRIT {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} -10 DODGE / -10%% CRIT {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[Cannot Miss
 Bypass {colour_start|riposte}Riposte{colour_end}
 Clear {colour_start|lsi_myriad_blades}Myriad Blades{colour_end} {colour_start|buff}Buffs{colour_end}
 Switch to Sheathed Stance]]></entry>
 
-		<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff1_tip"><![CDATA[{colour_start|buff}Buff Self:{colour_end} {colour_start|lsi_myriad_blades}Myriad Blades{colour_end}: +20%% DMG / +5%% CRIT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_finale_buff2_tip"><![CDATA[{colour_start|buff}Buff Self:{colour_end} {colour_start|lsi_myriad_blades}Myriad Blades{colour_end}: +60%% DMG / +10%% CRIT / +20%% Armor Piercing]]></entry>
 
+		<!-- This is same as original format in game, so there is no need to add this line -->
+		<!-- <entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%
+		base){colour_end}]]></entry> -->
+
+		<!-- 補全藍字 -->
+		<entry id="str_skill_mode_info_sheathed"><![CDATA[Sheathed Stance:]]></entry>
+		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
+		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
+		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
+		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
+		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
+		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
+		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
 
+		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
 
+		<!-- Combat Skill Names -->
 		<entry id="combat_skill_name_leper_revenge"><![CDATA[Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_solemnity"><![CDATA[Blade Respiration]]></entry>
 		<entry id="combat_skill_name_leper_withstand"><![CDATA[Riposte Array]]></entry>
@@ -73,41 +80,59 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="upgrade_tree_name_leper.focus"><![CDATA[Demon Purge]]></entry>
 		<entry id="upgrade_tree_name_leper.hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 
+		<!-- Camping Skill Names -->
 		<entry id="camping_skill_name_lsi_divine_sense_recon"><![CDATA[Divine Sense Recon]]></entry>
 		<entry id="camping_skill_name_lsi_miraculous_touch"><![CDATA[Miraculous Touch]]></entry>
 		<entry id="camping_skill_name_lsi_secluded_cultivation"><![CDATA[Secluded Cultivation]]></entry>
 		<entry id="camping_skill_name_lsi_imparting_the_dao"><![CDATA[Imparting the Dao]]></entry>
 		<entry id="camping_skill_name_lsi_midas_touch"><![CDATA[Midas Touch]]></entry>
 
+		<!-- Combat Skill Description -->
 		<entry id="camping_skill_effect_loot_LSI_G"><![CDATA[Produces a random gem]]></entry>
 
+		<!-- First Leper Sword Immortal's Name -->
 		<entry id="hero_name_lsi"><![CDATA[Nameless]]></entry>
 
-		<!-- 正面特質 -->
-		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[Lucid Sword Heart]]></entry>
-		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[Traceless Step]]></entry>
-		<entry id="str_quirk_name_lsi_inedia"><![CDATA[Inedia]]></entry>
-		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[Heavenly Eye]]></entry>
-		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[Immortal Physique]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}The Crimson Curse{colour_end}]]></entry>
-		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[Daoist Detachment]]></entry>
+		<!-- Positive Quirks -->
+		<entry id="str_quirk_name_lsi_lucid_sword_heart"><![CDATA[{colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_lucid_sword_heart"><![CDATA[Never acquire {colour_start|ancestral}Inner Demon Obsession{colour_end}
+Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_traceless_step"><![CDATA[{colour_start|lsi_lucid}Traceless Step{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
+10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
++5 ACC
++5% CRIT
++10% DMG
++2 SPD
+Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
 
-		<!-- 負面特質 -->
-		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[Inner Demon Obsession]]></entry>
-		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[Clouded Dao Heart"]]></entry>
-		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[Fated Tribulation]]></entry>
+		<!-- Negative Quirks -->
+		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
+Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+Never acquire{colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
-		<!-- 折磨 -->
+		<!-- Afflictions -->
 		<entry id="str_affliction_name_lsi_qi_deviated"><![CDATA[Qi-Deviated]]></entry>
-		<entry id="str_affliction_name_lsi_dao_heart_collapsed"><![CDATA[Dao Heart Collapsed]]></entry>
-		<entry id="str_affliction_name_lsi_heaven_stricken"><![CDATA[Heaven Stricken]]></entry>
+		<entry id="str_affliction_name_lsi_dao_heart_collapsed"><![CDATA[Dao-Shattered]]></entry>
+		<entry id="str_affliction_name_lsi_heaven_stricken"><![CDATA[Tribulation-Struck]]></entry>
 
-		<!-- 美德 -->
+		<!-- Virtues -->
 		<entry id="str_virtue_name_lsi_enlightened"><![CDATA[Enlightened]]></entry>
-		<entry id="str_virtue_name_lsi_heaven_attuned"><![CDATA[Heaven Attuned]]></entry>
+		<entry id="str_virtue_name_lsi_heaven_attuned"><![CDATA[Heaven-Attuned]]></entry>
 		<entry id="str_virtue_name_lsi_ascended"><![CDATA[Ascended]]></entry>
 
 	</language>
+
 
 	<language id="schinese">
 
@@ -138,16 +163,11 @@ Switch to Sheathed Stance]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip2"><![CDATA[所有同伴：{colour_start|stress}压力{colour_end}+6 / 清除{colour_start|stress}恐惧{colour_end}]]></entry>
 
-		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-6闪避 / -6%%暴击 {colour_start|skill_unselectable}(基础110%%){colour_end}]]></entry>
-		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-7闪避 / -7%%暴击 {colour_start|skill_unselectable}(基础120%%){colour_end}]]></entry>
-		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-8闪避 / -8%%暴击 {colour_start|skill_unselectable}(基础130%%){colour_end}]]></entry>
-		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-9闪避 / -9%%暴击 {colour_start|skill_unselectable}(基础140%%){colour_end}]]></entry>
-		<entry
-			id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10闪避 / -10%%暴击 {colour_start|skill_unselectable}(基础150%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv1"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-6闪避 / -6%%暴击 {colour_start|skill_unselectable}(基础110%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv2"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-7闪避 / -7%%暴击 {colour_start|skill_unselectable}(基础120%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv3"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-8闪避 / -8%%暴击 {colour_start|skill_unselectable}(基础130%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv4"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-9闪避 / -9%%暴击 {colour_start|skill_unselectable}(基础140%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip3_lv5"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10闪避 / -10%%暴击 {colour_start|skill_unselectable}(基础150%%){colour_end}]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_hew_tip1"><![CDATA[必中
 无法被{colour_start|riposte}反击{colour_end}
@@ -230,7 +250,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[回合开始时10%机率擅自行动
 无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙尘{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%机率拒绝移动/治疗/扎营技能/被使用扎营技能
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%机率拒绝换位 / 被治疗 / 使用扎营技能 / 被使用扎营技能
 无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}劫运当头{colour_end}]]></entry>
 
