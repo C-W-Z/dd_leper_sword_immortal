@@ -13,7 +13,7 @@ This is a mod that completely changes how you play Leper, including:
 [/list]
 [u][b]This mod can be played without DLC, but the experience is better with DLC enabled.[/b][/u]
 
-中文介紹：TBD
+中文介紹：https://www.bilibili.com/opus/1242393352794537986
 
 [img]https://images.steamusercontent.com/ugc/18175190714307544972/2556A1181E46CFFC5CDE9DBC83D8E79143D37C89/[/img]
 

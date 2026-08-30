@@ -13,7 +13,7 @@
 [/list]
 [u][b]本模組無需DLC也能遊玩，開啟DLC體驗更佳[/b][/u]
 
-中文介紹：TBD
+中文介紹：https://www.bilibili.com/opus/1242393352794537986
 
 [img]https://images.steamusercontent.com/ugc/18175190714307544972/2556A1181E46CFFC5CDE9DBC83D8E79143D37C89/[/img]
 [h3]滿級屬性 原版痲瘋vs痲瘋劍仙[/h3]

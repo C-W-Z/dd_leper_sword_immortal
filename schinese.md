@@ -13,7 +13,7 @@
 [/list]
 [u][b]本模组无需DLC也能游玩，开启DLC体验更佳[/b][/u]
 
-中文介绍：TBD
+中文介绍：https://www.bilibili.com/opus/1242393352794537986
 
 [img]https://images.steamusercontent.com/ugc/18175190714307544972/2556A1181E46CFFC5CDE9DBC83D8E79143D37C89/[/img]
 [h3]满级属性 原版麻风vs麻风剑仙[/h3]
