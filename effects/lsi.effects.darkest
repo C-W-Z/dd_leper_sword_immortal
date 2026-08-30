@@ -156,11 +156,6 @@ effect: .name "lsi_effect_withstand_tip3_lv3" .chance 100% .target performer .bu
 effect: .name "lsi_effect_withstand_tip3_lv4" .chance 100% .target performer .buff_ids "lsi_buff_withstand_tip3_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_withstand_tip3_lv5" .chance 100% .target performer .buff_ids "lsi_buff_withstand_tip3_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 
-effect: .name "lsi_effect_solemnity_tip1_lv1" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip1_lv1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_solemnity_tip1_lv2" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip1_lv2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_solemnity_tip1_lv3" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip1_lv3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_solemnity_tip1_lv4" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip1_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_solemnity_tip1_lv5" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip1_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_solemnity_tip2" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_solemnity_tip3" .chance 100% .target performer .buff_ids "lsi_buff_solemnity_tip3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 
@@ -171,12 +166,6 @@ effect: .name "lsi_effect_intimidate_tip3_lv2" .chance 100% .target performer .b
 effect: .name "lsi_effect_intimidate_tip3_lv3" .chance 100% .target performer .buff_ids "lsi_buff_intimidate_tip3_lv3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_intimidate_tip3_lv4" .chance 100% .target performer .buff_ids "lsi_buff_intimidate_tip3_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 effect: .name "lsi_effect_intimidate_tip3_lv5" .chance 100% .target performer .buff_ids "lsi_buff_intimidate_tip3_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-
-effect: .name "lsi_effect_focus_tip1_lv1" .chance 100% .target performer .buff_ids "lsi_buff_focus_tip1_lv1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_focus_tip1_lv2" .chance 100% .target performer .buff_ids "lsi_buff_focus_tip1_lv2" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_focus_tip1_lv3" .chance 100% .target performer .buff_ids "lsi_buff_focus_tip1_lv3" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_focus_tip1_lv4" .chance 100% .target performer .buff_ids "lsi_buff_focus_tip1_lv4" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
-effect: .name "lsi_effect_focus_tip1_lv5" .chance 100% .target performer .buff_ids "lsi_buff_focus_tip1_lv5" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 
 effect: .name "lsi_effect_hew_tip1" .chance 100% .target performer .buff_ids "lsi_buff_hew_tip1" .on_hit true .on_miss true .skill_instant true .apply_once true .has_description true
 
