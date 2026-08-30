@@ -40,18 +40,18 @@ effect: .name "lsi_heal_stress_lv5" .target target .curio_result_type positive .
 effect: .name "lsi_riposte_lv1" .target performer .curio_result_type positive .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "lsi_riposte_lv2" .target performer .curio_result_type positive .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .buff_duration_type after_round .on_hit true .on_miss true .apply_once true .has_description false
 
-// (反擊劍陣)重置自身守護/反擊狀態
-effect: .name "lsi_clear_guard_riposte_performer" .target performer .chance 100% .clearguarding 1 .clearguarded 1 .clear_riposte 1 .on_hit true .on_miss false .apply_once true .has_description false
+// // (反擊劍陣)重置隊伍守護狀態
+effect: .name "lsi_clear_guard_party" .target performer_group .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .has_description false
 
 // (反擊劍陣)2次格擋
 effect: .name "lsi_block2" .target performer .chance 100% .health_damage_blocks 2 .on_hit true .on_miss false .apply_once true .has_description false
 
 // (反擊劍陣)守護所有同伴
-effect: .name "lsi_guard_all_lv1" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv2" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 4 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv3" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 5 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv4" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv5" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv1" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv2" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 4 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv3" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 5 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv4" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
+effect: .name "lsi_guard_all_lv5" .target performer_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
 
 // (反擊劍陣)自身：+防禦/-受到的壓力傷害
 effect: .name "lsi_withstand_lv1" .target performer .curio_result_type positive .chance 100% .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description false

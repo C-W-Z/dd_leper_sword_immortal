@@ -63,6 +63,25 @@ Switch to Sheathed Stance]]></entry>
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
 
+		<!-- Guild Description -->
+		<entry id="action_verbose_body_guild_leper"><![CDATA[A fallen king, a solitary swordsman, and a seeker amidst suffering. The Leper Sword Immortal seamlessly alternates between Sheathed and Unsheathed stances. In Sheathed stance, he bides his time and gathers formidable Sword Intent, before unleashing it in Unsheathed stance with an earth-shattering strike. Though his flesh is wracked with disease, his Dao Heart remains imperishable—drawing upon celestial Qi to mend his wounds, form protective arrays for allies, or rain heavenly tribulations upon his foes.]]></entry>
+
+		<!-- Weapon -->
+		<entry id="leper_weapon_0"><![CDATA[Pitted Iron Sword]]></entry>
+		<entry id="leper_weapon_1"><![CDATA[Cold Iron Longsword]]></entry>
+		<entry id="leper_weapon_2"><![CDATA[Tempered Azure Blade]]></entry>
+		<entry id="leper_weapon_3"><![CDATA[Spirit-Quenched Sword]]></entry>
+		<entry id="leper_weapon_4"><![CDATA["Severer of Mortal Bonds"]]></entry>
+		<entry id="upgrade_tree_name_leper.weapon"><![CDATA[Flying Sword]]></entry>
+
+		<!-- Armour -->
+		<entry id="leper_armour_0"><![CDATA[Tattered Robe]]></entry>
+		<entry id="leper_armour_1"><![CDATA[Simple Long Robe]]></entry>
+		<entry id="leper_armour_2"><![CDATA[Evil-Warding Robe]]></entry>
+		<entry id="leper_armour_3"><![CDATA[Spirit-Infused Garb]]></entry>
+		<entry id="leper_armour_4"><![CDATA["Imperishable Dao Heart"]]></entry>
+		<entry id="upgrade_tree_name_leper.armour"><![CDATA[Daoist Robe]]></entry>
+
 		<!-- Combat Skill Names -->
 		<entry id="combat_skill_name_leper_revenge"><![CDATA[Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_solemnity"><![CDATA[Blade Respiration]]></entry>
@@ -195,6 +214,25 @@ Never acquire{colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[麻风剑仙]]></entry>
+
+		<!-- 公會描述 -->
+		<entry id="action_verbose_body_guild_leper"><![CDATA[落魄的王者、孤傲的劍客，與苦難中的求道者。麻风剑仙能在【藏锋】与【出鞘】姿态间自由切换。他在藏锋时静心养剑、积聚浩然剑意，并在出鞘之际出其不意，挥出荡尽乾坤的毁灭打击。纵使肉身受到苦难折磨，他的道心依然坚不可摧，能引天地灵气自我疗愈、设阵庇护同伴，或向敌人宣泄天劫般的无情怒火。]]></entry>
+
+		<!-- 武器 -->
+		<entry id="leper_weapon_0"><![CDATA[斑驳铁剑]]></entry>
+		<entry id="leper_weapon_1"><![CDATA[寒铁长剑]]></entry>
+		<entry id="leper_weapon_2"><![CDATA[百炼青锋]]></entry>
+		<entry id="leper_weapon_3"><![CDATA[淬灵宝剑]]></entry>
+		<entry id="leper_weapon_4"><![CDATA[“斩尽尘缘”]]></entry>
+		<entry id="upgrade_tree_name_leper.weapon"><![CDATA[飞剑]]></entry>
+
+		<!-- 裝備 -->
+		<entry id="leper_armour_0"><![CDATA[破损残袍]]></entry>
+		<entry id="leper_armour_1"><![CDATA[素雅长袍]]></entry>
+		<entry id="leper_armour_2"><![CDATA[辟邪法袍]]></entry>
+		<entry id="leper_armour_3"><![CDATA[蕴灵法衣]]></entry>
+		<entry id="leper_armour_4"><![CDATA[“不灭道心”]]></entry>
+		<entry id="upgrade_tree_name_leper.armour"><![CDATA[道袍]]></entry>
 
 		<!-- 技能名 -->
 		<entry id="combat_skill_name_leper_revenge"><![CDATA[姿态转换]]></entry>
