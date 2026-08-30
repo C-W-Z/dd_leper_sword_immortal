@@ -58,11 +58,11 @@ combat_skill: .id "intimidate" .level 3 .effect lsi_effect_intimidate_tip1 lsi_e
 combat_skill: .id "intimidate" .level 4 .effect lsi_effect_intimidate_tip1 lsi_effect_intimidate_tip2 lsi_effect_intimidate_tip3_lv5 lsi_effect_finale_buff1_tip
 
 // 揮砍 -> 誅仙劍
-combat_skill: .id "chop" .level 0 .type "melee" .atk 90% .dmg 5% .crit 2% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "chop" .level 1 .type "melee" .atk 95% .dmg 10% .crit 4% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "chop" .level 2 .type "melee" .atk 100% .dmg 15% .crit 6% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "chop" .level 3 .type "melee" .atk 105% .dmg 20% .crit 8% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
-combat_skill: .id "chop" .level 4 .type "melee" .atk 110% .dmg 25% .crit 10% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "chop" .level 0 .type "melee" .atk 90% .dmg 5% .crit 2% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect "lsi_disable_heal_lv1" lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "chop" .level 1 .type "melee" .atk 95% .dmg 10% .crit 4% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect "lsi_disable_heal_lv2" lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "chop" .level 2 .type "melee" .atk 100% .dmg 15% .crit 6% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect "lsi_disable_heal_lv3" lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "chop" .level 3 .type "melee" .atk 105% .dmg 20% .crit 8% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect "lsi_disable_heal_lv4" lsi_finale_buffs .valid_modes unsheathed
+combat_skill: .id "chop" .level 4 .type "melee" .atk 110% .dmg 25% .crit 10% .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .effect "lsi_disable_heal_lv5" lsi_finale_buffs .valid_modes unsheathed
 combat_skill: .id "chop" .level 0 .effect lsi_effect_finale_buff1_tip
 combat_skill: .id "chop" .level 1 .effect lsi_effect_finale_buff1_tip
 combat_skill: .id "chop" .level 2 .effect lsi_effect_finale_buff1_tip
@@ -95,7 +95,7 @@ tag: .id "non-religious"
 tag: .id "outsiders_bonfire"
 
 // 死門時和重創時效果
-deaths_door: .buffs lsi_deathsdoor_dot_heal lsi_deathsdoor_DEF lsi_deathsdoor_CRIT lsi_deathsdoor_SRD .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+deaths_door: .buffs lsi_deathsdoor_dot_heal lsi_deathsdoor_DEF lsi_deathsdoor_SRD .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 
 controlled: .target_rank 1
 id_index: .index 9

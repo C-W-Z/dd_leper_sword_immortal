@@ -256,7 +256,7 @@
           "id": "stress_heal_party",
           "data": {
             "number_value": 0.0,
-            "string_value": "lsi_on_crit_extra_round"
+            "string_value": "lsi_extra_round"
           },
           "chance": 15
         },
@@ -448,7 +448,7 @@
           "id": "buff_party",
           "data": {
             "number_value": 0.0,
-            "string_value": "lsi_healstress_all"
+            "string_value": "lsi_heal_all"
           },
           "chance": 20
         },
@@ -711,7 +711,7 @@
         {
           "id": "nothing",
           "data": { "number_value": 0.0, "string_value": "" },
-          "chance": 90
+          "chance": 80
         },
         {
           "id": "bark_stress",
@@ -726,7 +726,7 @@
         {
           "id": "ignore_command",
           "data": { "number_value": 0.0, "string_value": "" },
-          "chance": 0
+          "chance": 10
         },
         {
           "id": "random_command",
@@ -849,9 +849,9 @@
         {
           "id": "block_effect",
           "data": { "effect": "BarkStressHeal" },
-          "chance": 0.25
+          "chance": 0
         },
-        { "id": "block_camping_meal", "data": { "effect": "" }, "chance": 0.25 },
+        { "id": "block_camping_meal", "data": { "effect": "" }, "chance": 0 },
         {
           "id": "block_camping_skill_performer",
           "data": { "effect": "" },
@@ -877,7 +877,7 @@
         {
           "id": "nothing",
           "data": { "number_value": 0.0, "string_value": "" },
-          "chance": 25
+          "chance": 40
         },
         {
           "id": "bark_stress",
@@ -922,7 +922,7 @@
             "number_value": 0.0,
             "string_value": "lsi_effect_fated_tribulation"
           },
-          "chance": 25
+          "chance": 10
         },
         {
           "id": "stress_heal_self",

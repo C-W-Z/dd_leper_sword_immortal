@@ -1,7 +1,8 @@
 // (暴擊時)額外回合(反擊暴擊也會)
 // 這裡沒寫.buff_source_type bsrc_crit，因為bsrc_crit要用於讓萬劍歸宗增益可以被指定清除
 // .bonus_action_next_turn true會讓獲得的行動立即生效而不是透過速度決定
-effect: .name "lsi_on_crit_extra_round" .target performer .chance 100% .initiative_change 1 .bonus_action_next_turn true .on_hit true .on_miss true .apply_once true .queue true .crit_doesnt_apply_to_roll true .has_description false
+// 有.queue true所以回合數不用多寫1，因為會在回合結束後才apply
+effect: .name "lsi_on_crit_extra_round" .target performer .chance 100% .initiative_change 1 .bonus_action_next_turn true .combat_stat_buff 1 .crit_chance_add -10% .duration 1 .on_hit true .on_miss true .apply_once true .queue true .crit_doesnt_apply_to_roll true .has_description false
 
 // 以藏鋒姿態進入戰鬥
 effect: .name "lsi_sheathed_start_buff" .target performer .chance 100% .buff_ids STUNSKILL50 .duration 1 .buff_duration_type combat_end .curio_result_type positive .on_hit true .on_miss true
@@ -80,9 +81,18 @@ effect: .name "lsi_decrease_action_lv3" .target target .chance 35% .initiative_c
 effect: .name "lsi_decrease_action_lv4" .target target .chance 40% .initiative_change -1 .on_hit true .on_miss false .queue true .crit_doesnt_apply_to_roll true .has_description true
 effect: .name "lsi_decrease_action_lv5" .target target .chance 45% .initiative_change -1 .on_hit true .on_miss false .queue true .crit_doesnt_apply_to_roll true .has_description true
 
+// (仙威壓制)目標-受到的生命治療
+// 注意不能有.apply_once true，不然只有第一個敵人會被減益
+effect: .name "lsi_disable_heal_lv1" .target target .curio_result_type negative .chance 110% .buff_ids "lsi_heal_received-40" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .has_description true
+effect: .name "lsi_disable_heal_lv2" .target target .curio_result_type negative .chance 120% .buff_ids "lsi_heal_received-55" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .has_description true
+effect: .name "lsi_disable_heal_lv3" .target target .curio_result_type negative .chance 130% .buff_ids "lsi_heal_received-70" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .has_description true
+effect: .name "lsi_disable_heal_lv4" .target target .curio_result_type negative .chance 140% .buff_ids "lsi_heal_received-85" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .has_description true
+effect: .name "lsi_disable_heal_lv5" .target target .curio_result_type negative .chance 150% .buff_ids "lsi_heal_received-100" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .has_description true
+
 // (盪魔劍)對血族+25%傷害
 effect: .name "lsi_vampire_killer+25" .target performer .chance 100% .curio_result_type positive .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss false .has_description true
 
+// (盪魔劍)灼燒
 effect: .name "lsi_burn_lv1" .target target .curio_result_type negative .chance 100% .dotBurn 2 .dot_irresistible true .on_hit true .on_miss false .can_apply_on_death true .has_description true
 effect: .name "lsi_burn_lv2" .target target .curio_result_type negative .chance 100% .dotBurn 3 .dot_irresistible true .on_hit true .on_miss false .can_apply_on_death true .has_description true
 effect: .name "lsi_burn_lv3" .target target .curio_result_type negative .chance 100% .dotBurn 4 .dot_irresistible true .on_hit true .on_miss false .can_apply_on_death true .has_description true
@@ -119,8 +129,10 @@ effect: .name "lsi_stress_self" .target performer .curio_result_type negative .c
 
 effect: .name "lsi_healstress_all" .target performer_group .curio_result_type positive .chance 100% .healstress 4 on_hit true .on_miss false .queue true
 effect: .name "lsi_heal_all" .target performer_group .curio_result_type positive .chance 100% .heal 4 .on_hit true .on_miss false .queue true
-// 隊伍：清除腐蝕/流血/疾病/猩紅詛咒
-effect: .name "lsi_cure_party" .target performer .curio_result_type positive .chance 100% .cure_bleed 1 .cure_poison 1 .cure_disease 1 .remove_vampire 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+// 隊伍：清除腐蝕/流血/灼燒/疾病/猩紅詛咒
+effect: .name "lsi_cure_party" .target performer .curio_result_type positive .chance 100% .cure_bleed 1 .cure_poison 1 .cure_burn 1 .cure_disease 1 .remove_vampire 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+
+effect: .name "lsi_extra_round" .target performer .chance 100% .initiative_change 1 .bonus_action_next_turn true .on_hit true .on_miss true .apply_once true .queue true .crit_doesnt_apply_to_roll true .has_description false
 
 effect: .name "lsi_enlightened_buff1" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .on_hit true .on_miss true .queue true .duration 2
 effect: .name "lsi_enlightened_buff2" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 5% .on_hit true .on_miss true .queue true .duration 2

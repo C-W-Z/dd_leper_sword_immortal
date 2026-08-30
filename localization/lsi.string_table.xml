@@ -12,38 +12,11 @@ Allies: {colour_start|stress}Stress{colour_end} +2
 ]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_revenge_tip_unsheathed"><![CDATA[Self:
 Switch to Sheathed Stance
-{colour_start|stealth}Stealth{colour_end} (2 rds)]]></entry>
+{colour_start|stealth}Stealth{colour_end} (2 turns)]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip1"><![CDATA[{colour_start|guard}Guard{colour_end} All Allies
 Self:
 2 Blocks]]></entry>
-
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: -60%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(100%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: -55%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(110%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: -50%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(120%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: -45%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_withstand_tip2_lv5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-{colour_start|riposte}Riposte{colour_end}: -40%% DMG / {colour_start|riposte}Riposte{colour_end}: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(140%%){colour_end}]]></entry>
-
-		<!-- <entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv1"><![CDATA[{colour_start|healhp}Heal{colour_end}
-		1]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv2"><![CDATA[{colour_start|healhp}Heal{colour_end}
-		2]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv3"><![CDATA[{colour_start|healhp}Heal{colour_end}
-		3]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv4"><![CDATA[{colour_start|healhp}Heal{colour_end}
-		4]]></entry>
-		<entry
-		id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip1_lv5"><![CDATA[{colour_start|healhp}Heal{colour_end}
-		5]]></entry> -->
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 (next turn)
 Clear {colour_start|mark}Mark{colour_end} / {colour_start|stress}Horror{colour_end} / {colour_start|debuff}Debuff{colour_end}]]></entry>
@@ -84,8 +57,7 @@ Switch to Sheathed Stance]]></entry>
 
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
 
-		<entry id="combat_skill_name_leper_revenge"><![CDATA[Uses per Round: 1
-Stance Switch]]></entry>
+		<entry id="combat_skill_name_leper_revenge"><![CDATA[Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_solemnity"><![CDATA[Blade Respiration]]></entry>
 		<entry id="combat_skill_name_leper_withstand"><![CDATA[Riposte Array]]></entry>
 		<entry id="combat_skill_name_leper_intimidate"><![CDATA[Celestial Suppression]]></entry>
@@ -93,8 +65,7 @@ Stance Switch]]></entry>
 		<entry id="combat_skill_name_leper_focus"><![CDATA[Demon Purge]]></entry>
 		<entry id="combat_skill_name_leper_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="combat_skill_name_leper_move"><![CDATA[Move]]></entry>
-		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[Uses per Round: 1
-Stance Switch]]></entry>
+		<entry id="upgrade_tree_name_leper.revenge"><![CDATA[Stance Switch]]></entry>
 		<entry id="upgrade_tree_name_leper.solemnity"><![CDATA[Blade Respiration]]></entry>
 		<entry id="upgrade_tree_name_leper.withstand"><![CDATA[Riposte Array]]></entry>
 		<entry id="upgrade_tree_name_leper.intimidate"><![CDATA[Celestial Suppression]]></entry>
@@ -160,7 +131,7 @@ Stance Switch]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip2"><![CDATA[{colour_start|healhp}治疗{colour_end}5 (下回合)
 清除{colour_start|mark}标记{colour_end} / {colour_start|stress}恐惧{colour_end} / {colour_start|debuff}减益{colour_end}]]></entry>
 
-		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|lsi_burn}灼燒{colour_end} / {colour_start|disease}疾病{colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_solemnity_tip3"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end} / {colour_start|burn}灼燒{colour_end} / {colour_start|disease}疾病{colour_end}
 刷新所有技能]]></entry>
 
 		<entry id="buff_stat_tooltip_upgrade_discount_lsi_buff_intimidate_tip1"><![CDATA[移除{colour_start|guard}守护{colour_end} / {colour_start|stealth}显踪{colour_end} / 移除{colour_start|riposte}反击{colour_end}]]></entry>
@@ -197,10 +168,10 @@ Stance Switch]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
-		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|lsi_burn}灼烧{colour_end}]]></entry>
+		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[灼烧]]></entry>
-		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|lsi_burn}灼烧：{colour_end}%d层]]></entry>
+		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼烧：{colour_end}%d层]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[麻风剑仙]]></entry>
