@@ -47,7 +47,7 @@
 [img]https://images.steamusercontent.com/ugc/11464524470101546937/F102BFD25702DECA41A807F4B61F18C43C2AAC2E/[/img]
 
 [img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
-注：万剑归宗的自身减益效果无法被养剑吐纳清除。姿态转换与万剑归宗无法在升级也无须升级
+注：万剑归宗(Myriad Blades)的自身减益效果无法被养剑吐纳(Blade Respiration)清除。姿态转换(Stance Switch)与万剑归宗无法在升级也无须升级
 
 [img]https://images.steamusercontent.com/ugc/13267594674564227805/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
 注：我没改原版的扎营技能(为了兼容其他修改原版扎营技能的模组)，而是在原有的7个扎营技能之上再新增了5个扎营技能，因此麻风剑仙有12个扎营技能。如果介意UI太丑的话建议订阅相关UI模组，虽然不用UI模组也能玩。我自己是用这个：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
@@ -56,7 +56,7 @@
 注：麻风剑仙只会触发专属美德/折磨，机率固定，不受任何方式影响
 
 [img]https://images.steamusercontent.com/ugc/9915384160121317052/9BA19F7A74BC72380642EFFB4B65B3A41D17493C/[/img]
-注：专属特质只能透过专属美德/折磨获得，这些特质自带锁定不会被替换，但可以在疗养院移除(除了劫数缠身，只能透过奇物互动或事件移除)
+注：专属特质只能透过专属美德/折磨获得，这些特质自带锁定不会被替换，但可以在疗养院移除，除了劫数缠身(Fated Tribulation)只能透过奇物互动或事件移除
 
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]
 未来可能加入专属饰品、专属事件和专属夜袭(例如面对心魔！)
@@ -66,20 +66,10 @@
 [u]请将本模组置于翻译类模组(如汉化、日本語化等)上方，否则部分文本会被翻译类模组覆盖[/u]
 与修改麻风剑客数值/技能/美德/折磨的模组不兼容，但兼容修改或新增扎营技能的模组
 兼容所有饰品模组
-与部分修改了leper.art.darkest的麻风皮肤不兼容(这些模组通常没有写反击动画，会导致无法反击)
+与部分修改了leper.art.darkest的麻风皮肤不兼容(这些模组通常没有写反击动画)
 [u]将本模组置于皮肤模组上方通常可以解决此问题[/u]
 未来我会为部分麻风皮肤制作让其能够兼容本模组的补丁模组
-
-已知无论模组排序如何都完全兼容的皮肤：
-[list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906192365]Leper Conductor skin[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3679338685]麻风 列车长皮肤NSFW[/url]
-[/list]
-
-已知不完全兼容的皮肤（需要将这些皮肤置于本模组下方，但依然会有某些动画露出原版麻风的影子）：
-[list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3346337984]灰鹰改麻风剑客皮肤[/url]
-[/list]
+具体哪些皮肤兼容或不兼容请详见[url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]讨论区[/url]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路队伍改麻风剑仙 Leper Sword Immortal on Old Road[/url]

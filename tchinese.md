@@ -47,16 +47,16 @@
 [img]https://images.steamusercontent.com/ugc/11464524470101546937/F102BFD25702DECA41A807F4B61F18C43C2AAC2E/[/img]
 
 [img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
-注：萬劍歸宗的自身減益效果無法被養劍吐納清除。姿態轉換與萬劍歸宗無法在升級也無須升級
+註：萬劍歸宗(Myriad Blades)的自身減益效果無法被養劍吐納(Blade Respiration)清除。姿態轉換(Stance Switch)與萬劍歸宗無法在升級也無須升級
 
 [img]https://images.steamusercontent.com/ugc/13267594674564227805/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
-注：我沒改原版的紮營技能(為了兼容其他修改原版紮營技能的模組)，而是在原有的7個紮營技能之上再新增了5個紮營技能，因此痲瘋劍仙有12個紮營技能。如果介意UI太醜的話建議訂閱相關UI模組，雖然不用UI模組也能玩。我自己是用這個：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
+註：我沒改原版的紮營技能(為了兼容其他修改原版紮營技能的模組)，而是在原有的7個紮營技能之上再新增了5個紮營技能，因此痲瘋劍仙有12個紮營技能。如果介意UI太醜的話建議訂閱相關UI模組，雖然不用UI模組也能玩。我自己是用這個：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
 
 [img]https://images.steamusercontent.com/ugc/12671825122847593422/E9A5776E201F510E004B27BC33444C6047C5A032/[/img]
-注：痲瘋劍仙只會觸發專屬美德/折磨，機率固定，不受任何方式影響
+註：痲瘋劍仙只會觸發專屬美德/折磨，機率固定，不受任何方式影響
 
 [img]https://images.steamusercontent.com/ugc/9915384160121317052/9BA19F7A74BC72380642EFFB4B65B3A41D17493C/[/img]
-注：專屬特質只能透過專屬美德/折磨獲得，這些特質自帶鎖定不會被替換，但可以在療養院移除(除了劫數纏身，只能透過奇物互動或事件移除)
+註：專屬特質只能透過專屬美德/折磨獲得，這些特質自帶鎖定不會被替換，但可以在療養院移除，除了劫數纏身(Fated Tribulation)只能透過奇物互動或事件移除
 
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]
 未來可能加入專屬飾品、專屬事件和專屬夜襲(例如面對心魔！)
@@ -66,20 +66,10 @@
 [u]請將本模組置於翻譯類模組(如漢化、日本語化等)上方，否則部分文本會被翻譯類模組覆蓋[/u]
 與修改痲瘋劍客數值/技能/美德/折磨的模組不兼容，但兼容修改或新增紮營技能的模組
 兼容所有飾品模組
-與部分修改了leper.art.darkest的痲瘋皮膚不兼容(這些模組通常沒有寫反擊動畫，會導致無法反擊)
+與部分修改了leper.art.darkest的痲瘋皮膚不兼容(這些模組通常沒有寫反擊動畫)
 [u]將本模組置於皮膚模組上方通常可以解決此問題[/u]
 未來我會為部分痲瘋皮膚製作讓其能夠兼容本模組的補丁模組
-
-已知無論模組排序如何都完全兼容的皮膚：
-[list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906192365]Leper Conductor skin[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3679338685]麻风 列车长皮肤NSFW[/url]
-[/list]
-
-已知不完全兼容的皮膚（需要將這些皮膚置於本模組下方，但仍會有某些動畫露出原版痲瘋的影子）：
-[list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3346337984]灰鹰改麻风剑客皮肤[/url]
-[/list]
+具體哪些皮膚兼容或不兼容請詳見[url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]討論區[/url]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路隊伍改痲瘋劍仙 Leper Sword Immortal on Old Road[/url]
