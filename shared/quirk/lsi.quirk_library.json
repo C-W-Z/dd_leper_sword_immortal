@@ -255,7 +255,7 @@
       "keep_loot": false,
       "buffs": ["DEF-5", "lsi_CRITRECEIVED+5", "RESOLVECHECK-10"],
       "tags": [],
-      "can_modify_in_activity": true,
+      "can_modify_in_activity": false,
       "can_remove_with_camping_skill": false,
       "can_be_replaced_by_new_quirk": false,
       "slot_size": 1
