@@ -26,10 +26,10 @@ call "localization.bat"
 popd
 
 :: 4. 將產生的 .loc2 檔案複製回原目錄並加上 lsi_ 前綴
-echo [4/4] 正在複製 .loc2 檔案並加上 3785019927_ 前綴...
+echo [4/4] 正在複製 .loc2 檔案並加上 3792884366_ 前綴...
 for %%F in ("..\localization\localization\*.loc2") do (
-    echo 複製: %%~nxF -^> 3785019927_%%~nxF
-    copy "%%F" ".\localization\3785019927_%%~nxF" /Y
+    echo 複製: %%~nxF -^> 3792884366_%%~nxF
+    copy "%%F" ".\localization\3792884366_%%~nxF" /Y
 )
 
 echo =========================================

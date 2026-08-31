@@ -1465,6 +1465,8 @@ Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿态时：]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏锋]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[藏锋]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[出鞘]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}万剑归宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
@@ -1537,23 +1539,19 @@ Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}辟谷{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}天眼通{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}无垢仙躯{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}
-回合开始时10%机率治愈{colour_start|blight}腐蚀{colour_end} / {colour_start|bleed}流血{colour_end}]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[免疫{colour_start|bleed}猩红诅咒{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}剑神{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[回合开始时随机触发以下效果之一
-+5精准
-+5%暴击
-+10%伤害
-+2速度
-激活{colour_start|riposte}反击{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[攻击：{colour_start|debuff}减益目标：{colour_end}+1%被暴击机率]]></entry>
 
 		<!-- 负面特质 -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔缠身{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[回合开始时10%机率擅自行动
-无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%%最小伤害
+攻击：{colour_start|debuff}减益自身：{colour_end}-5精准]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙尘{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%机率拒绝换位 / 被治疗 / 使用扎营技能 / 被使用扎营技能
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10%机率拒绝{colour_start|move}换位{colour_end} / 被{colour_start|healhp}治疗{colour_end} / 使用扎营技能 / 被使用扎营技能
 无法获得{colour_start|lsi_lucid}剑心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}劫运当头{colour_end}]]></entry>
 

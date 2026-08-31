@@ -267,19 +267,6 @@
       }
     },
     {
-      "id": "lsi_block_guard",
-      "stat_type": "guard_blocked",
-      "stat_sub_type": "",
-      "amount": 1,
-      "remove_if_not_active": false,
-      "rule_type": "always",
-      "is_false_rule": false,
-      "rule_data": {
-        "float": 0,
-        "string": ""
-      }
-    },
-    {
       "id": "lsi_heal_received-40",
       "stat_type": "hp_heal_received_percent",
       "stat_sub_type": "",
@@ -624,7 +611,20 @@
       }
     },
     {
-      "id": "lis_CritReceived_10",
+      "id": "lsi_CritReceived+1",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.01,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_CritReceived+10",
       "stat_type": "crit_received_chance",
       "stat_sub_type": "",
       "amount": 0.1,
@@ -635,6 +635,88 @@
         "float": 0,
         "string": ""
       }
+    },
+    {
+      "id": "lsi_DMGL-50_ATTACK-5ACC",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": -0.5,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      },
+      "attack_additional_effect_ids": ["lsi_debuff_self_acc"],
+      "description_tooltip_id": "buff_tooltip_lsi_inner_demon_obsession"
+    },
+    {
+      "id": "lsi_unsheathed_ACC+5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.05,
+      "remove_if_not_active": false,
+      "rule_type": "in_mode",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "unsheathed"
+      }
+    },
+    {
+      "id": "lsi_unsheathed_DODGE+5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "defense_rating",
+      "amount": 0.05,
+      "remove_if_not_active": false,
+      "rule_type": "in_mode",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "unsheathed"
+      }
+    },
+    {
+      "id": "lsi_riposte_DMGL+25",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "riposte",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_riposte_DMGH+25",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "riposte",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "lsi_ATTACK_debuff_target_crit_received",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "defense_rating",
+      "amount": 0,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      },
+      "attack_additional_effect_ids": ["lsi_debuff_target_crit_received"],
+      "description_tooltip_id": "buff_tooltip_lsi_sword_god"
     }
   ]
 }

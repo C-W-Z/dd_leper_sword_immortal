@@ -72,6 +72,14 @@
           "type": "remove_disease",
           "sub_type": "",
           "amount": 0
+        },
+        {
+          "selection": "individual",
+          "requirements": [],
+          "chance": { "code": "f", "amount": 1.0 },
+          "type": "remove_deaths_door_recovery_buffs",
+          "sub_type": "",
+          "amount": 0
         }
       ],
       "hero_classes": ["leper"],

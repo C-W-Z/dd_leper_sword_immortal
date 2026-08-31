@@ -136,10 +136,11 @@ effect: .name "lsi_extra_round" .target performer .chance 100% .initiative_chang
 effect: .name "lsi_enlightened_buff1" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .defense_rating_add 10% .on_hit true .on_miss true .queue true .duration 2
 effect: .name "lsi_enlightened_buff2" .target performer_group .curio_result_type positive .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 5% .on_hit true .on_miss true .queue true .duration 2
 
-effect: .name "lsi_sword_god_buff_ACC" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .attack_rating_add 5% .on_hit true .on_miss false .apply_once true .duration 2
-effect: .name "lsi_sword_god_buff_CRIT" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .crit_chance_add 5% .on_hit true .on_miss false .apply_once true .duration 2
-effect: .name "lsi_sword_god_buff_DMG" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .on_hit true .on_miss false .apply_once true .duration 2
-effect: .name "lsi_sword_god_buff_SPD" .target performer .chance 100% .curio_result_type positive .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .apply_once true .duration 2
+// (心魔纏身)攻擊後-5精準/2回合(反擊因為不會進行回合所以反擊後減益會是3回合)
+effect: .name "lsi_debuff_self_acc" .target performer .curio_result_type negative .chance 100% .on_hit true .on_miss true .combat_stat_buff 1 .attack_rating_add -5% .duration 3 .queue true
+
+// (劍神)攻擊減益目標：+1%被暴擊率
+effect: .name "lsi_debuff_target_crit_received" .target target .curio_result_type negative .chance 100% .on_hit true .on_miss true .buff_ids "lsi_CritReceived+1" .duration 5 .queue true
 
 // ---------- tooltips ----------
 

@@ -872,7 +872,7 @@
       "curio_tag_chance": 0,
       "keep_loot": false,
       "generate_chance_modifier": 0.0,
-      "buff_ids": ["lsi_DEATHBLOWRESIST-20", "DEF-10", "lis_CritReceived_10"],
+      "buff_ids": ["lsi_DEATHBLOWRESIST-20", "DEF-10", "lsi_CritReceived+10"],
       "combat_start_turn_act_outs": [
         {
           "id": "nothing",
