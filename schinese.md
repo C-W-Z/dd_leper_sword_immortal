@@ -55,7 +55,7 @@
 [img]https://images.steamusercontent.com/ugc/12671825122847593422/E9A5776E201F510E004B27BC33444C6047C5A032/[/img]
 注：麻风剑仙只会触发专属美德/折磨，机率固定，不受任何方式影响
 
-[img]https://images.steamusercontent.com/ugc/9915384160121317052/9BA19F7A74BC72380642EFFB4B65B3A41D17493C/[/img]
+[img]https://images.steamusercontent.com/ugc/13860299416927270573/9D7E21750BCDEDD9B24BBC1E3DB3C4A16EF43769/[/img]
 注：专属特质只能透过专属美德/折磨获得，这些特质自带锁定不会被替换，但可以在疗养院移除，除了劫数缠身(Fated Tribulation)只能透过奇物互动或事件移除
 
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]

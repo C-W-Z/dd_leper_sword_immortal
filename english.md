@@ -31,7 +31,7 @@ If you mind the ugly UI, I suggest subscribing to a relevant UI mod, although yo
 [img]https://images.steamusercontent.com/ugc/12671825122847593422/E9A5776E201F510E004B27BC33444C6047C5A032/[/img]
 Note: The Leper Sword Immortal will only trigger exclusive virtues/afflictions, with a fixed probability that is unaffected by any other means.
 
-[img]https://images.steamusercontent.com/ugc/9915384160121317052/9BA19F7A74BC72380642EFFB4B65B3A41D17493C/[/img]
+[img]https://images.steamusercontent.com/ugc/13860299416927270573/9D7E21750BCDEDD9B24BBC1E3DB3C4A16EF43769/[/img]
 Note: Exclusive quirks can only be acquired through exclusive virtues/afflictions. These quirks are locked and cannot be replaced, but they can be removed in the sanitarium (except for the "Fated Tribulation," which can only be removed through Curio interactions or events).
 
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]

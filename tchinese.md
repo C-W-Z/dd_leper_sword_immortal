@@ -55,7 +55,7 @@
 [img]https://images.steamusercontent.com/ugc/12671825122847593422/E9A5776E201F510E004B27BC33444C6047C5A032/[/img]
 註：痲瘋劍仙只會觸發專屬美德/折磨，機率固定，不受任何方式影響
 
-[img]https://images.steamusercontent.com/ugc/9915384160121317052/9BA19F7A74BC72380642EFFB4B65B3A41D17493C/[/img]
+[img]https://images.steamusercontent.com/ugc/13860299416927270573/9D7E21750BCDEDD9B24BBC1E3DB3C4A16EF43769/[/img]
 註：專屬特質只能透過專屬美德/折磨獲得，這些特質自帶鎖定不會被替換，但可以在療養院移除，除了劫數纏身(Fated Tribulation)只能透過奇物互動或事件移除
 
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]

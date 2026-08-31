@@ -131,12 +131,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -287,12 +287,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -442,12 +442,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -597,12 +597,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -752,12 +752,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -907,12 +907,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -1062,12 +1062,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -1217,12 +1217,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -1372,12 +1372,12 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -1681,12 +1681,12 @@ Never acquire {colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}劍神{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- 負面特質 -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔纏身{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
@@ -1836,12 +1836,12 @@ Never acquire {colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}劍神{colour_end}]]></entry>
 		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
-		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[On Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- 負面特質 -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔纏身{colour_end}]]></entry>
 		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
-Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+On Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
 		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
 		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
