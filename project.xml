@@ -3,17 +3,16 @@
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
 	<ModDataPath>D:/SteamLibrary/steamapps/common/DarkestDungeon/mods/leper_sword_immortal/</ModDataPath>
-	<Title>Leper Sword Immortal 麻风剑仙</Title>
+	<Title>WenchLeper_Replacer Patch for Leper Enhance Mods</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>3</VersionMinor>
+	<VersionMinor>0</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
-		<Tags>Overhauls</Tags>
-		<Tags>Class Tweaks</Tags>
+		<Tags>Skins</Tags>
 		<Tags>Leper</Tags>
 	</Tags>
 	<ItemDescription/>
