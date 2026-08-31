@@ -52,6 +52,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -125,23 +127,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -209,6 +207,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -283,23 +283,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -367,6 +363,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -440,23 +438,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -524,6 +518,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -597,23 +593,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -681,6 +673,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -754,23 +748,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -838,6 +828,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -911,23 +903,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -995,6 +983,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -1068,23 +1058,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -1152,6 +1138,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -1225,23 +1213,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -1309,6 +1293,8 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[Unsheathed Stance:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[Sheathed]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[Unsheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[Sheathed]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[Unsheathed]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -1382,23 +1368,19 @@ Never acquire {colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}Inedia{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}Heavenly Eye{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}Immortal Physique{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}Daoist Detachment{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}Sword God{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- Negative Quirks -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}Inner Demon Obsession{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}Clouded Dao Heart{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}Lucid Sword Heart{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}Fated Tribulation{colour_end}]]></entry>
 
@@ -1619,6 +1601,8 @@ Switch to 藏鋒姿態]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿態:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏鋒]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[藏锋]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[出鞘]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}萬劍歸宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -1693,23 +1677,19 @@ Never acquire {colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}辟穀{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}天眼通{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}無垢仙軀{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}劍神{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- 負面特質 -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔纏身{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}劫運當頭{colour_end}]]></entry>
 
@@ -1777,6 +1757,8 @@ Switch to 藏鋒姿態]]></entry>
 		<entry id="str_skill_mode_info_unsheathed"><![CDATA[出鞘姿態:]]></entry>
 		<entry id="actor_mode_name_sheathed"><![CDATA[藏鋒]]></entry>
 		<entry id="actor_mode_name_unsheathed"><![CDATA[出鞘]]></entry>
+		<entry id="buff_rule_data_tooltip_sheathed"><![CDATA[藏锋]]></entry>
+		<entry id="buff_rule_data_tooltip_unsheathed"><![CDATA[出鞘]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}萬劍歸宗{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
@@ -1850,23 +1832,19 @@ Never acquire {colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_inedia"><![CDATA[{colour_start|lsi_lucid}辟穀{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_heavenly_eye"><![CDATA[{colour_start|lsi_lucid}天眼通{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_immortal_physique"><![CDATA[{colour_start|lsi_lucid}無垢仙軀{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}
-10% chance to cure{colour_start|blight}Blight{colour_end} / {colour_start|bleed}Bleed{colour_end} at turn start]]></entry>
+		<entry id="str_quirk_description_lsi_immortal_physique"><![CDATA[Immune to {colour_start|bleed}Crimson Curse{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_daoist_detachment"><![CDATA[{colour_start|lsi_lucid}太上忘情{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_sword_god"><![CDATA[{colour_start|lsi_lucid}劍神{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_sword_god"><![CDATA[Trigger one of the following effects at turn start:
-+5 ACC
-+5% CRIT
-+10% DMG
-+2 SPD
-Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<!-- NOTE: 不明白为什么实测发现下面buff_tooltip_lsi_inner_demon_obsession要用两个%，这里却只要一个%而且不会导致游戏crash -->
+		<entry id="buff_tooltip_lsi_sword_god"><![CDATA[Attack: {colour_start|debuff}Debuff Target:{colour_end} +1% CRIT Received]]></entry>
 
 		<!-- 負面特質 -->
 		<entry id="str_quirk_name_lsi_inner_demon_obsession"><![CDATA[{colour_start|ancestral}心魔纏身{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[10%% chance to act randomly at turn start
-Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
+		<entry id="buff_tooltip_lsi_inner_demon_obsession"><![CDATA[%d%% MIN DMG
+Attack: {colour_start|debuff}Debuff Target:{colour_end} -5 ACC]]></entry>
+		<entry id="str_quirk_description_lsi_inner_demon_obsession"><![CDATA[Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_clouded_dao_heart"><![CDATA[{colour_start|ancestral}道心蒙塵{colour_end}]]></entry>
-		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: Move / Healed / Use Camping Skill / Be used Camping Skill
+		<entry id="str_quirk_description_lsi_clouded_dao_heart"><![CDATA[10% chance to refuse: {colour_start|move}Move{colour_end} / {colour_start|healhp}Healed{colour_end} / Use Camping Skill / Be used Camping Skill
 Never acquire {colour_start|lsi_lucid}劍心通明{colour_end}]]></entry>
 		<entry id="str_quirk_name_lsi_fated_tribulation"><![CDATA[{colour_start|ancestral}劫運當頭{colour_end}]]></entry>
 
