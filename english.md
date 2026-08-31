@@ -40,11 +40,11 @@ The issue of no sound effects for skills will (likely) be fixed in a future upda
 A weakened version might be made (probably).
 
 [img]https://images.steamusercontent.com/ugc/10165321372344925738/7D066D8D8E304EA3853819088B44255C6F3C13D8/[/img]
-[u]Please place this mod above translation mods (such as 汉化, 日本語化, etc.), otherwise some text will be overwritten by translation mods.[/u]
+[u][b]Please place this mod above translation mods (such as 汉化, 日本語化, etc.), otherwise some text will be overwritten by translation mods.[/b][/u]
 Incompatible with mods that modify Leper's Stats/Combat Skills/Virtues/Afflictions, but compatible with mods that modify or add Camping Skills.
 Compatible with all trinket mods.
 Incompatible with some Leper skins that modify leper.art.darkest (these mods usually lack riposte animations).
-Placing this mod above the skin mod usually solves this problem.
+[u][b]Placing this mod above the skin mod[/b] usually solves this problem.[/u]
 In the future, I will create patch mods to make some Leper skins compatible with this mod.
 For details on which skins are compatible or incompatible, and the patch mods I have already created, please see [url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]the discussion[/url].
 
