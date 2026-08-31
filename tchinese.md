@@ -46,10 +46,10 @@
 武器/護甲/技能升級花費變為2倍 仙劍維護很貴，合理吧
 [img]https://images.steamusercontent.com/ugc/11464524470101546937/F102BFD25702DECA41A807F4B61F18C43C2AAC2E/[/img]
 
-[img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
+[img]https://images.steamusercontent.com/ugc/16077820575434500271/CC0AF42EE6FCDE2B7D4A1534828B1B4FE22A2E4B/[/img]
 註：萬劍歸宗(Myriad Blades)的自身減益效果無法被養劍吐納(Blade Respiration)清除。姿態轉換(Stance Switch)與萬劍歸宗無法在升級也無須升級
 
-[img]https://images.steamusercontent.com/ugc/13267594674564227805/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
+[img]https://images.steamusercontent.com/ugc/13204567458958719359/767C5544F3956B5D2FCE5194082B0F0330A5FFA8/[/img]
 註：我沒改原版的紮營技能(為了兼容其他修改原版紮營技能的模組)，而是在原有的7個紮營技能之上再新增了5個紮營技能，因此痲瘋劍仙有12個紮營技能。如果介意UI太醜的話建議訂閱相關UI模組，雖然不用UI模組也能玩。我自己是用這個：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
 
 [img]https://images.steamusercontent.com/ugc/12671825122847593422/E9A5776E201F510E004B27BC33444C6047C5A032/[/img]

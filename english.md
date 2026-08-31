@@ -20,11 +20,11 @@ This is a mod that completely changes how you play Leper, including:
 [img]https://images.steamusercontent.com/ugc/11464524470101546937/F102BFD25702DECA41A807F4B61F18C43C2AAC2E/[/img]
 Note: Weapon/Armor/Skill upgrade costs are doubled. A riposte critical hit will also grant +1 action.
 
-[img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
+[img]https://images.steamusercontent.com/ugc/16077820575434500271/CC0AF42EE6FCDE2B7D4A1534828B1B4FE22A2E4B/[/img]
 Note: Debuffs from Myriad Blades cannot be cleared by Blade Respiration
 Stance Switch & Myriad Blades cannot be upgraded and no need to be upgraded.
 
-[img]https://images.steamusercontent.com/ugc/13267594674564227805/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
+[img]https://images.steamusercontent.com/ugc/13204567458958719359/767C5544F3956B5D2FCE5194082B0F0330A5FFA8/[/img]
 Note: I didn't modify the original camping skills (to ensure compatibility with other mods that modify the original camping skills). Instead, I added 5 new camping skills on top of the original 7, giving Leper a total of 12 camping skills.
 If you mind the ugly UI, I suggest subscribing to a relevant UI mod, although you can play without one. I personally use this one: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
 
