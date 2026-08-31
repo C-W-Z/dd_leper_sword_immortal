@@ -1618,6 +1618,7 @@ Switch to 藏鋒姿態]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[刷新技能]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>

@@ -69,7 +69,7 @@
 與部分修改了leper.art.darkest的痲瘋皮膚不兼容(這些模組通常沒有寫反擊動畫)
 [u]將本模組置於皮膚模組上方通常可以解決此問題[/u]
 未來我會為部分痲瘋皮膚製作讓其能夠兼容本模組的補丁模組
-具體哪些皮膚兼容或不兼容請詳見[url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]討論區[/url]
+關於哪些皮膚相容或不相容，以及我已經製作的補丁模組，請詳見[url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]討論區[/url]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路隊伍改痲瘋劍仙 Leper Sword Immortal on Old Road[/url]

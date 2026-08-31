@@ -45,7 +45,7 @@ Compatible with all trinket mods.
 Incompatible with some Leper skins that modify leper.art.darkest (these mods usually lack riposte animations).
 Placing this mod above the skin mod usually solves this problem.
 In the future, I will create patch mods to make some Leper skins compatible with this mod.
-Please see the [url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]discussion[/url] for details on which skins are compatible or incompatible.
+For details on which skins are compatible or incompatible, and the patch mods I have already created, please see [url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]the discussion[/url].
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]Leper Sword Immortal on Old Road 老路队伍改麻风剑仙[/url]

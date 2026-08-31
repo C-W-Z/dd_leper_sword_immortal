@@ -68,8 +68,8 @@
 兼容所有饰品模组
 与部分修改了leper.art.darkest的麻风皮肤不兼容(这些模组通常没有写反击动画)
 [u]将本模组置于皮肤模组上方通常可以解决此问题[/u]
-未来我会为部分麻风皮肤制作让其能够兼容本模组的补丁模组
-具体哪些皮肤兼容或不兼容请详见[url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]讨论区[/url]
+我会为部分麻风皮肤制作让其能够兼容本模组的补丁模组
+关于哪些皮肤兼容或不兼容，以及我已经制作的补丁模组，请详见[url=https://steamcommunity.com/workshop/filedetails/discussion/3792884366/580555047785705308/]讨论区[/url]
 
 [img]https://images.steamusercontent.com/ugc/11838551435565345724/D93F29FECE6CB44195D8A5BA5F3214265BD1A2B6/[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3790993760]老路队伍改麻风剑仙 Leper Sword Immortal on Old Road[/url]
