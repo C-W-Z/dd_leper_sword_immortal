@@ -150,7 +150,7 @@
     {
       "id": "lsi_imparting_the_dao",
       "level": 0,
-      "cost": 3,
+      "cost": 4,
       "use_limit": 1,
       "effects": [
         {

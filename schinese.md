@@ -46,10 +46,10 @@
 武器/护甲/技能升级花费变为2倍 仙剑维护很贵，合理吧
 [img]https://images.steamusercontent.com/ugc/11464524470101546937/F102BFD25702DECA41A807F4B61F18C43C2AAC2E/[/img]
 
-[img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
+[img]https://images.steamusercontent.com/ugc/16077820575434500271/CC0AF42EE6FCDE2B7D4A1534828B1B4FE22A2E4B/[/img]
 注：万剑归宗(Myriad Blades)的自身减益效果无法被养剑吐纳(Blade Respiration)清除。姿态转换(Stance Switch)与万剑归宗无法在升级也无须升级
 
-[img]https://images.steamusercontent.com/ugc/13267594674564227805/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
+[img]https://images.steamusercontent.com/ugc/14049041958252665359/822EFFD9565E0C64051DA653735D05C8458BB88D/[/img]
 注：我没改原版的扎营技能(为了兼容其他修改原版扎营技能的模组)，而是在原有的7个扎营技能之上再新增了5个扎营技能，因此麻风剑仙有12个扎营技能。如果介意UI太丑的话建议订阅相关UI模组，虽然不用UI模组也能玩。我自己是用这个：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560032671]Wblx's Expansion UI[/url]
 
 [img]https://images.steamusercontent.com/ugc/12671825122847593422/E9A5776E201F510E004B27BC33444C6047C5A032/[/img]
