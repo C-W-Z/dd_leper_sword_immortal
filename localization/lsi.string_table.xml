@@ -59,6 +59,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -211,10 +212,12 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="buff_rule_data_tooltip_hew"><![CDATA[{colour_start|lsi_myriad_blades}Myriad Blades{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsucker]]></entry>
 		<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
+		<!-- TODO: 將burn相關的換成對應語言 -->
 		<entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -371,6 +374,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -527,6 +531,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -683,6 +688,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -839,6 +845,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -995,6 +1002,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -1151,6 +1159,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -1307,6 +1316,7 @@ Switch to Sheathed Stance]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
@@ -1618,6 +1628,7 @@ Switch to 藏鋒姿態]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 		<entry id="str_ui_refresh_skills"><![CDATA[刷新技能]]></entry>
 
 		<!-- Class Name -->
@@ -1775,6 +1786,7 @@ Switch to 藏鋒姿態]]></entry>
 		<entry id="effect_tooltip_dot_burn_format"><![CDATA[[%d]]]></entry>
 		<entry id="str_ui_burn"><![CDATA[Burn]]></entry>
 		<entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn:{colour_end} %d]]></entry>
+		<entry id="str_ui_refresh_skills"><![CDATA[Refresh Skills]]></entry>
 
 		<!-- Class Name -->
 		<entry id="hero_class_name_leper"><![CDATA[Leper Sword Immortal]]></entry>
