@@ -18,7 +18,7 @@ This is a mod that completely changes how you play Leper, including:
 [img]https://images.steamusercontent.com/ugc/18175190714307544972/2556A1181E46CFFC5CDE9DBC83D8E79143D37C89/[/img]
 
 [img]https://images.steamusercontent.com/ugc/11464524470101546937/F102BFD25702DECA41A807F4B61F18C43C2AAC2E/[/img]
-Note: Weapon/Armor/Skill upgrade costs are doubled.
+Note: Weapon/Armor/Skill upgrade costs are doubled. A riposte critical hit will also grant +1 action.
 
 [img]https://images.steamusercontent.com/ugc/10957500779885939274/D34A0F978845232E38AC28CDEBDF3CA0B92F5EEC/[/img]
 Note: Debuffs from Myriad Blades cannot be cleared by Blade Respiration
@@ -40,7 +40,7 @@ The issue of no sound effects for skills will (likely) be fixed in a future upda
 
 [img]https://images.steamusercontent.com/ugc/10165321372344925738/7D066D8D8E304EA3853819088B44255C6F3C13D8/[/img]
 [u]Please place this mod above translation mods (such as 汉化, 日本語化, etc.), otherwise some text will be overridden by translation mods.[/u]
-Incompatible with mods that modify Leper's Stats/Combat Skills/Virtues/Afflictions, but compatible with mods that modify Camping Skills.
+Incompatible with mods that modify Leper's Stats/Combat Skills/Virtues/Afflictions, but compatible with mods that modify or add Camping Skills.
 Compatible with all trinket mods.
 Incompatible with some Leper skins that modify leper.art.darkest (these mods usually lack riposte animations, causing riposte to fail).
 Placing this mod above the skin mod usually solves this problem.
