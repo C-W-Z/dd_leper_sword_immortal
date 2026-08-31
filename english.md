@@ -37,6 +37,7 @@ Note: Exclusive quirks can only be acquired through exclusive virtues/affliction
 [img]https://images.steamusercontent.com/ugc/12392509731411555386/7E1D3DD8981FBFB2F177B1F62260381288BDA297/[/img]
 Exclusive accessories, events, and nighttime ambush may be added in the future (e.g., facing the inner demons!).
 The issue of no sound effects for skills will (likely) be fixed in a future update.
+A weakened version might be made (probably).
 
 [img]https://images.steamusercontent.com/ugc/10165321372344925738/7D066D8D8E304EA3853819088B44255C6F3C13D8/[/img]
 [u]Please place this mod above translation mods (such as 汉化, 日本語化, etc.), otherwise some text will be overwritten by translation mods.[/u]

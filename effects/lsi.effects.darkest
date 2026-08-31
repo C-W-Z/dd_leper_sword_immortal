@@ -51,8 +51,6 @@ effect: .name "lsi_block2" .target performer .chance 100% .health_damage_blocks 
 effect: .name "lsi_guard_all_lv1" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 3 .apply_once true .has_description false
 effect: .name "lsi_guard_all_lv2" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 4 .apply_once true .has_description false
 effect: .name "lsi_guard_all_lv3" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 5 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv4" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
-effect: .name "lsi_guard_all_lv5" .target target_group .curio_result_type positive .guard 1 .on_hit true .on_miss true .duration 6 .apply_once true .has_description false
 
 // (反擊劍陣)自身：+防禦/-受到的壓力傷害
 effect: .name "lsi_withstand_lv1" .target performer .curio_result_type positive .chance 100% .buff_ids "lsi_PROT+7" "lsi_STRESSRECEIVED-7" .duration 2 .buff_duration_type after_round .on_hit true .on_miss true .queue true .apply_once true .has_description false
